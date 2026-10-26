@@ -3,7 +3,10 @@ The chart is backed by <script type="application/json" data-info="react-data-tes
 Writes ext/tesla_safety_weeks.json (list of {id, t_name, weeks:[{date,totalMiles}]}) and the raw blob."""
 import json, re, sys, os
 src = sys.argv[1] if len(sys.argv) > 1 else "ext/tesla_safety_chrome.html"
+if not os.path.isfile(src):
+    sys.exit(f"{src} is not present. ext/ is not in the repo; save the Tesla safety page there first (tools/fetch_tesla_safety.sh), or pass a path.")
 html = open(src, encoding="utf-8").read()
+os.makedirs("ext", exist_ok=True)
 blobs = re.findall(r'<script type="application/json" data-info="(react-data-[^"]+)">(.*?)</script>', html, re.S)
 if not blobs:
     sys.exit("No react-data blobs found: page blocked or layout changed. Do NOT guess values; inspect the HTML.")

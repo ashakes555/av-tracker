@@ -3,6 +3,7 @@
 Run: .venv/bin/python tools/build_data.py
 Inputs: data/curated/{markets,points,events}.json, ext/av-map-data, ext/robotaxi-service-areas (git),
         ext/waymo_hub/csv1_*.csv, ext/tesla_safety_weeks.json (+ react-data json), txapi_*.json
+ext/ is local-only and gitignored. Each missing snapshot is skipped with a warning; curated inputs still build.
 """
 import json, csv, os, re, subprocess, datetime as dt, shutil, collections, hashlib
 from shapely.geometry import shape, mapping
@@ -95,8 +96,14 @@ def mseries(sid, op, metric, scope, market=None, state=None, country="US", label
 
 # ------------------------------------------------------------------ 1. av-map-data events (+ geometries)
 AVMAP = D("ext/av-map-data")
-avmap_rows = list(csv.DictReader(open(os.path.join(AVMAP, "events.csv"), encoding="utf-8")))
-avmap_commit = subprocess.run(["git","-C",AVMAP,"log","-1","--format=%h %cs"],capture_output=True,text=True).stdout.strip()
+avmap_csv = os.path.join(AVMAP, "events.csv")
+avmap_commit = ""
+if os.path.isfile(avmap_csv):
+    avmap_rows = list(csv.DictReader(open(avmap_csv, encoding="utf-8")))
+    avmap_commit = subprocess.run(["git","-C",AVMAP,"log","-1","--format=%h %cs"],capture_output=True,text=True).stdout.strip()
+else:
+    avmap_rows = []
+    warnings.append("av-map-data skipped: ext/av-map-data/events.csv is not present")
 EVTYPE = {"service_created":"launch","service_announced":"announcement","service_testing":"testing","geometry_updated":"area-expansion",
           "supervision_updated":"supervision-change","access_policy_changed":"access-change","fares_policy_changed":"fares",
           "service_ended":"ended","vehicle_types_updated":"vehicles","platform_updated":"platform","fleet_partner_changed":"partnership",
@@ -180,27 +187,31 @@ RTT_MAP = {"tesla/austin":"tesla-austin","tesla/bay_area":"tesla-bay-area","tesl
  "waymo/denver":"waymo-denver","waymo/houston":"waymo-houston","waymo/los-angeles":"waymo-los-angeles","waymo/miami":"waymo-miami",
  "waymo/nashville":"waymo-nashville","waymo/orlando":"waymo-orlando","waymo/phoenix":"waymo-phoenix","waymo/san-antonio":"waymo-san-antonio",
  "waymo/san-diego":"waymo-san-diego","waymo/tampa":"waymo-tampa","zoox/bay-area-zoox":"zoox-san-francisco","zoox/las-vegas-zoox":"zoox-las-vegas"}
-def git(*a): return subprocess.run(["git","-C",RTT,*a],capture_output=True,text=True,check=True).stdout
-rtt_head = git("log","-1","--format=%h %cs").strip()
-for key, mid in RTT_MAP.items():
-    path = f"areas/{key}/boundary.geojson"
-    try: meta = json.loads(git("show", f"HEAD:areas/{key}/meta.json"))
-    except Exception: meta = {}
-    if meta.get("isTestRegion"): warnings.append(f"RTT {key} is a test region; skipped"); continue
-    commits = [l.split() for l in git("log","--reverse","--format=%h %cs","--",path).splitlines() if l.strip()]
-    per_day = collections.OrderedDict()
-    for h, day in commits: per_day[day] = h   # keep last commit of each day
-    prev = None
-    for day, h in per_day.items():
-        try: g = geom_of(json.loads(git("show", f"{h}:{path}")))
-        except Exception as ex: warnings.append(f"RTT {key}@{h}: {ex}"); continue
-        a = sqmi(g)
-        if prev is not None and abs(a - prev) / prev < 0.005: continue  # unchanged (formatting-only commit)
-        prev = a
-        first = (day == "2026-04-20")
-        note = ("RTT initial import — polygon as of import date, not an expansion date" if first
-                else "RTT git commit date = date change first observed (actual expansion may be earlier)")
-        save_area(mid, day, "rtt", g, f"{RTT_REPO}/commit/{h}", note, {"commit": h, "rtt_slug": key})
+rtt_head = ""
+if os.path.isdir(RTT):
+    def git(*a): return subprocess.run(["git","-C",RTT,*a],capture_output=True,text=True,check=True).stdout
+    rtt_head = git("log","-1","--format=%h %cs").strip()
+    for key, mid in RTT_MAP.items():
+        path = f"areas/{key}/boundary.geojson"
+        try: meta = json.loads(git("show", f"HEAD:areas/{key}/meta.json"))
+        except Exception: meta = {}
+        if meta.get("isTestRegion"): warnings.append(f"RTT {key} is a test region; skipped"); continue
+        commits = [l.split() for l in git("log","--reverse","--format=%h %cs","--",path).splitlines() if l.strip()]
+        per_day = collections.OrderedDict()
+        for h, day in commits: per_day[day] = h   # keep last commit of each day
+        prev = None
+        for day, h in per_day.items():
+            try: g = geom_of(json.loads(git("show", f"{h}:{path}")))
+            except Exception as ex: warnings.append(f"RTT {key}@{h}: {ex}"); continue
+            a = sqmi(g)
+            if prev is not None and abs(a - prev) / prev < 0.005: continue  # unchanged (formatting-only commit)
+            prev = a
+            first = (day == "2026-04-20")
+            note = ("RTT initial import — polygon as of import date, not an expansion date" if first
+                    else "RTT git commit date = date change first observed (actual expansion may be earlier)")
+            save_area(mid, day, "rtt", g, f"{RTT_REPO}/commit/{h}", note, {"commit": h, "rtt_slug": key})
+else:
+    warnings.append("Robotaxi Tracker polygons skipped: ext/robotaxi-service-areas is not present")
 
 dump(sorted(area_index, key=lambda x: (x["market"], x["date"])), D("data/areas/index.json"))
 
@@ -218,7 +229,11 @@ for mid, pts in area_points.items():
 # ------------------------------------------------------------------ 3. Texas DMV registry (via texasavtracker.com)
 TX_SRC = "https://texasavtracker.com/"
 for op in ["tesla", "waymo", "zoox", "avride"]:
-    d = load(D(f"ext/texasavtracker/txapi_{op}.json"))
+    tx_path = D(f"ext/texasavtracker/txapi_{op}.json")
+    if not os.path.isfile(tx_path):
+        warnings.append(f"Texas registry skipped for {op}: ext/texasavtracker/txapi_{op}.json is not present")
+        continue
+    d = load(tx_path)
     sid = f"{op}-tx-vehicles"
     mseries(sid, op, "vehicles", "state", state="TX", label=f"{op.title()} vehicles on Texas AV registry",
             description="Count of VINs listed under the operator's authorization in the Texas DMV AV registry (Senate Bill 2807 framework, effective 2026), as compiled daily by texasavtracker.com. Statewide; not split by city.",
@@ -234,9 +249,15 @@ COUNTY = {"Maricopa":"waymo-phoenix","San Francisco Bay Area":"waymo-sf-bay-area
 def month_end(v):
     y, m = int(v[:4]), int(v[4:]); n = dt.date(y + (m == 12), m % 12 + 1, 1)
     return (n - dt.timedelta(days=1)).isoformat()
-for f in sorted(os.listdir(D("ext/waymo_hub"))):
+waymo_hub = D("ext/waymo_hub")
+if os.path.isdir(waymo_hub):
+    waymo_hub_files = sorted(os.listdir(waymo_hub))
+else:
+    waymo_hub_files = []
+    warnings.append("Waymo CSV1 skipped: ext/waymo_hub is not present")
+for f in waymo_hub_files:
     v = re.search(r"(\d{6})", f).group(1); url = WURL.format(v=v); date = month_end(v)
-    rows = list(csv.reader(open(D("ext/waymo_hub", f))))
+    rows = list(csv.reader(open(os.path.join(waymo_hub, f))))
     hdr, rows = rows[0], rows[1:]
     by_depot = hdr[0].startswith("Ops Depot")
     acc = collections.defaultdict(list)
@@ -265,9 +286,14 @@ for f in sorted(os.listdir(D("ext/waymo_hub"))):
     else: P(sid, date, sum(p[1] for ps in acc.values() for p in ps), url, "derived", "official", vintage=v, note="Sum of depot rows")
 
 # ------------------------------------------------------------------ 5. Tesla Robotaxi Safety Report: cumulative driverless miles per city
-TS = load(D("ext/tesla_safety_weeks.json"))
 TSURL = "https://www.tesla.com/robotaxi/safety"
-cities = TS["cities"] if isinstance(TS, dict) and "cities" in TS else TS
+ts_path = D("ext/tesla_safety_weeks.json")
+if os.path.isfile(ts_path):
+    TS = load(ts_path)
+    cities = TS["cities"] if isinstance(TS, dict) and "cities" in TS else TS
+else:
+    cities = []
+    warnings.append("Tesla safety series skipped: ext/tesla_safety_weeks.json is not present")
 TCITY = {"austin":"tesla-austin","dallas":"tesla-dallas","houston":"tesla-houston","miami":"tesla-miami","orlando":"tesla-orlando","tampa":"tesla-tampa"}
 weekly_by_date = collections.defaultdict(int)
 for c in cities:
