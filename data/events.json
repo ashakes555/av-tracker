@@ -1,0 +1,2196 @@
+[
+ {
+  "date": "2017-04-25",
+  "type": "launch",
+  "operator": "waymo",
+  "markets": [
+   "waymo-phoenix"
+  ],
+  "summary": "Phoenix: launch (Safety Driver, Waitlist, via Waymo) —  Waymo Phoenix service",
+  "source_url": "https://www.technologyreview.com/2017/04/25/152152/waymo-has-invited-the-public-to-hop-into-its-self-driving-cars/",
+  "origin": "av-map-data",
+  "id": "8eb5074167"
+ },
+ {
+  "date": "2017-10-26",
+  "type": "testing",
+  "operator": "waymo",
+  "markets": [
+   "waymo-detroit"
+  ],
+  "summary": "Detroit: testing (Safety Driver, Testing)",
+  "source_url": "https://waymo.com/blog/2017/10/michigan-is-waymos-winter-wonderland",
+  "origin": "av-map-data",
+  "id": "f6e6d4eabe"
+ },
+ {
+  "date": "2017-11-07",
+  "type": "supervision-change",
+  "operator": "waymo",
+  "markets": [
+   "waymo-phoenix"
+  ],
+  "summary": "Phoenix: supervision change (supervision → Autonomous) — Supervision level update",
+  "source_url": "https://waymo.com/blog/2017/11/waymos-fully-self-driving-vehicles-are-here",
+  "origin": "av-map-data",
+  "id": "99a823ab84"
+ },
+ {
+  "date": "2017-11-30",
+  "type": "testing",
+  "operator": "zoox",
+  "markets": [
+   "zoox-san-francisco"
+  ],
+  "summary": "San Francisco: testing (Safety Driver, Testing)",
+  "source_url": "https://www.claimsjournal.com/news/west/2017/11/30/281801.htm",
+  "origin": "av-map-data",
+  "id": "5030e23814"
+ },
+ {
+  "date": "2019-07-25",
+  "type": "launch",
+  "operator": "may-mobility",
+  "markets": [
+   "may-mobility-grand-rapids-mi"
+  ],
+  "summary": "Grand Rapids: launch (Safety Driver, Public) — Downtown Grand Rapids autonomous shuttle service",
+  "source_url": "https://www.michiganbusiness.org/press-releases/2019/07/public-private-partners-launch-grand-rapids-autonomous-vehicle-initiative-avgr/",
+  "origin": "av-map-data",
+  "id": "261f8374f8"
+ },
+ {
+  "date": "2019-10-03",
+  "type": "testing",
+  "operator": "zoox",
+  "markets": [
+   "zoox-las-vegas"
+  ],
+  "summary": "Las Vegas: testing (Safety Driver, Testing)",
+  "source_url": "https://techcrunch.com/2019/10/03/self-driving-vehicle-startup-zoox-has-expanded-to-las-vegas/",
+  "origin": "av-map-data",
+  "id": "cfdc0d0221"
+ },
+ {
+  "date": "2020-10-08",
+  "type": "access-change",
+  "operator": "waymo",
+  "markets": [
+   "waymo-phoenix"
+  ],
+  "summary": "Phoenix: access change (access → Public) — Access policy update",
+  "source_url": "https://waymo.com/blog/2020/10/waymo-is-opening-its-fully-driverless-service-in-phoenix",
+  "origin": "av-map-data",
+  "id": "ea7c909f28"
+ },
+ {
+  "date": "2020-10-08",
+  "type": "fares",
+  "operator": "waymo",
+  "markets": [
+   "waymo-phoenix"
+  ],
+  "summary": "Phoenix: fares (fares → Yes) — Fares policy update",
+  "source_url": "https://waymo.com/blog/2020/10/waymo-is-opening-its-fully-driverless-service-in-phoenix",
+  "origin": "av-map-data",
+  "id": "64b34af35a"
+ },
+ {
+  "date": "2020-10-08",
+  "type": "area-expansion",
+  "operator": "waymo",
+  "markets": [
+   "waymo-phoenix"
+  ],
+  "summary": "Phoenix: area expansion — Service area boundary update",
+  "source_url": "https://waymo.com/blog/2020/10/waymo-is-opening-its-fully-driverless-service-in-phoenix",
+  "origin": "av-map-data",
+  "id": "8bd3a900b1"
+ },
+ {
+  "date": "2020-10-08",
+  "type": "vehicles",
+  "operator": "waymo",
+  "markets": [
+   "waymo-phoenix"
+  ],
+  "summary": "Phoenix: vehicles (vehicles → Jaguar I-Pace;Chrysler Pacifica Hybrid) — Vehicle fleet expansion - adding Jaguar I-Pace",
+  "source_url": "https://techcrunch.com/2019/06/17/waymos-self-driving-jaguar-i-pace-vehicles-are-now-testing-on-public-roads/",
+  "origin": "av-map-data",
+  "id": "8fcf26add1"
+ },
+ {
+  "date": "2021-03-23",
+  "type": "launch",
+  "operator": "may-mobility",
+  "markets": [
+   "may-mobility-arlington-tx"
+  ],
+  "summary": "Arlington: launch (Safety Driver, Public, via Via) — Arlington RAPID service over 1 square mile area around UTA campus and downtown Arlington",
+  "source_url": "https://maymobility.com/locations/arlington-tx/",
+  "origin": "av-map-data",
+  "id": "e80d1148bd"
+ },
+ {
+  "date": "2021-07-26",
+  "type": "area-expansion",
+  "operator": "may-mobility",
+  "markets": [
+   "may-mobility-grand-rapids-mi"
+  ],
+  "summary": "Grand Rapids: area expansion",
+  "source_url": "https://www.prnewswire.com/news-releases/may-mobility-announces-on-demand-autonomous-service-in-grand-rapids-michigan-301351595.html",
+  "origin": "av-map-data",
+  "id": "1ad9d235d4"
+ },
+ {
+  "date": "2021-07-26",
+  "type": "platform",
+  "operator": "may-mobility",
+  "markets": [
+   "may-mobility-grand-rapids-mi"
+  ],
+  "summary": "Grand Rapids: platform (platform → May Mobility)",
+  "source_url": "https://www.prnewswire.com/news-releases/may-mobility-announces-on-demand-autonomous-service-in-grand-rapids-michigan-301351595.html",
+  "origin": "av-map-data",
+  "id": "21ed442208"
+ },
+ {
+  "date": "2021-07-26",
+  "type": "vehicles",
+  "operator": "may-mobility",
+  "markets": [
+   "may-mobility-grand-rapids-mi"
+  ],
+  "summary": "Grand Rapids: vehicles (vehicles → Polaris GEM;Lexus RX 450h)",
+  "source_url": "https://www.prnewswire.com/news-releases/may-mobility-announces-on-demand-autonomous-service-in-grand-rapids-michigan-301351595.html",
+  "origin": "av-map-data",
+  "id": "2ac9de11db"
+ },
+ {
+  "date": "2021-10-11",
+  "type": "launch",
+  "operator": "may-mobility",
+  "markets": [
+   "may-mobility-ann-arbor-mi"
+  ],
+  "summary": "Ann Arbor: launch (Safety Driver, Public, via May Mobility) — A2Go autonomous shuttle service in 2.64 square-mile area connecting Kerrytown with Downtown and University of Michigan campuses",
+  "source_url": "https://maymobility.com/posts/a2go-autonomous-shuttle-service-launches-in-ann-arbor-on-october-11/",
+  "origin": "av-map-data",
+  "id": "e663561e7e"
+ },
+ {
+  "date": "2021-10-19",
+  "type": "testing",
+  "operator": "zoox",
+  "markets": [
+   "zoox-seattle"
+  ],
+  "summary": "Seattle: testing (Safety Driver, Testing)",
+  "source_url": "https://www.engadget.com/amazon-zoox-autonomous-vehicle-test-seattle-103516733.html",
+  "origin": "av-map-data",
+  "id": "328807ac14"
+ },
+ {
+  "date": "2022-02-02",
+  "type": "launch",
+  "operator": "cruise",
+  "markets": [
+   "cruise-san-francisco"
+  ],
+  "summary": "San Francisco: launch (Autonomous, Waitlist, via Cruise) — Cruise San Francisco commercial service launch",
+  "source_url": "https://fortune.com/2022/02/01/cruise-robotaxi-self-driving-car-san-francisco/",
+  "origin": "av-map-data",
+  "id": "0873d9f2cc"
+ },
+ {
+  "date": "2022-04-29",
+  "type": "ended",
+  "operator": "may-mobility",
+  "markets": [
+   "may-mobility-grand-rapids-mi"
+  ],
+  "summary": "Grand Rapids: ended",
+  "source_url": "https://www.grandrapidsmi.gov/Government/Departments/Mobile-GR/Grand-Rapids-Autonomous-Vehicle-Initiative",
+  "origin": "av-map-data",
+  "id": "28e85a4c68"
+ },
+ {
+  "date": "2022-09-28",
+  "type": "launch",
+  "operator": "may-mobility",
+  "markets": [
+   "may-mobility-grand-rapids-mn"
+  ],
+  "summary": "Grand Rapids: launch (Safety Driver, Public, via May Mobility)",
+  "source_url": "https://maymobility.com/posts/may-mobility-and-via-launch-first-rural-transit-program-to-use-wheelchair-accessible-ada-compliant-autonomous-vehicless/",
+  "origin": "av-map-data",
+  "id": "b5e3d816b8"
+ },
+ {
+  "date": "2022-11-01",
+  "type": "area-expansion",
+  "operator": "cruise",
+  "markets": [
+   "cruise-san-francisco"
+  ],
+  "summary": "San Francisco: area expansion — CPUC approved public expansion and 24/7 operations",
+  "source_url": "https://sfstandard.com/2022/11/01/self-driving-cruise-cars-are-expanding-to-most-of-sf-says-ceo/",
+  "origin": "av-map-data",
+  "id": "a8daa323cd"
+ },
+ {
+  "date": "2022-11-01",
+  "type": "area-expansion",
+  "operator": "waymo",
+  "markets": [
+   "waymo-phoenix"
+  ],
+  "summary": "Phoenix: area expansion — Service area boundary update",
+  "source_url": "https://techcrunch.com/2022/11/01/waymo-launches-autonomous-rides-to-phoenix-airport/",
+  "origin": "av-map-data",
+  "id": "7ea84805af"
+ },
+ {
+  "date": "2022-12-16",
+  "type": "launch",
+  "operator": "waymo",
+  "markets": [
+   "waymo-sf-bay-area"
+  ],
+  "summary": "San Francisco Bay Area: launch (Autonomous, Waitlist, via Waymo) — Waymo San Francisco service",
+  "source_url": "https://waymo.com/blog/2022/12/wheels-up-for-waymo-as-we-expand",
+  "origin": "av-map-data",
+  "id": "27d19700a9"
+ },
+ {
+  "date": "2023-03-30",
+  "type": "vehicles",
+  "operator": "waymo",
+  "markets": [
+   "waymo-phoenix"
+  ],
+  "summary": "Phoenix: vehicles (vehicles → Jaguar I-Pace) — Vehicle fleet change: retiring Chrysler Pacifica Hybrid",
+  "source_url": "https://techcrunch.com/2023/03/30/waymo-retires-its-self-driving-chrysler-pacifica-minivan/",
+  "origin": "av-map-data",
+  "id": "73c58cfb1c"
+ },
+ {
+  "date": "2023-04-25",
+  "type": "launch",
+  "operator": "may-mobility",
+  "markets": [
+   "may-mobility-sun-city-az"
+  ],
+  "summary": "Sun City: launch (Autonomous, Public, via May Mobility) — 11 stops including recreation centers and medical facilities",
+  "source_url": "https://www.azcentral.com/story/news/local/surprise/2023/05/07/sun-city-self-driving-taxi-service-may-mobility-launches/70171913007/",
+  "origin": "av-map-data",
+  "id": "769cd106b3"
+ },
+ {
+  "date": "2023-05-04",
+  "type": "area-expansion",
+  "operator": "waymo",
+  "markets": [
+   "waymo-phoenix"
+  ],
+  "summary": "Phoenix: area expansion — Service area boundary update",
+  "source_url": "https://waymo.com/blog/2023/05/waymo-one-doubles-service-area-in",
+  "origin": "av-map-data",
+  "id": "c8208265b6"
+ },
+ {
+  "date": "2023-06-16",
+  "type": "vehicles",
+  "operator": "zoox",
+  "markets": [
+   "zoox-las-vegas"
+  ],
+  "summary": "Las Vegas: vehicles (vehicles → Zoox Robotaxi)",
+  "source_url": "https://techcrunch.com/2023/06/27/zoox-begins-testing-robotaxis-on-public-roads-in-las-vegas/",
+  "origin": "av-map-data",
+  "id": "69859aa4bc"
+ },
+ {
+  "date": "2023-06-16",
+  "type": "supervision-change",
+  "operator": "zoox",
+  "markets": [
+   "zoox-las-vegas"
+  ],
+  "summary": "Las Vegas: supervision change (supervision → Autonomous)",
+  "source_url": "https://techcrunch.com/2023/06/27/zoox-begins-testing-robotaxis-on-public-roads-in-las-vegas/",
+  "origin": "av-map-data",
+  "id": "9c3aa793c1"
+ },
+ {
+  "date": "2023-07-11",
+  "type": "testing",
+  "operator": "moia",
+  "markets": [
+   "moia-austin"
+  ],
+  "summary": "Austin: testing (Safety Driver, Testing)",
+  "source_url": "https://techcrunch.com/2023/07/06/volkswagen-to-start-testing-self-driving-id-buzz-vans-in-austin/",
+  "origin": "av-map-data",
+  "id": "53a102fc13"
+ },
+ {
+  "date": "2023-08-21",
+  "type": "fares",
+  "operator": "waymo",
+  "markets": [
+   "waymo-sf-bay-area"
+  ],
+  "summary": "San Francisco Bay Area: fares (fares → Yes) — Fares policy update",
+  "source_url": "https://waymo.com/blog/2023/08/waymos-next-chapter-in-san-francisco",
+  "origin": "av-map-data",
+  "id": "953d291d75"
+ },
+ {
+  "date": "2023-08-21",
+  "type": "area-expansion",
+  "operator": "waymo",
+  "markets": [
+   "waymo-sf-bay-area"
+  ],
+  "summary": "San Francisco Bay Area: area expansion — Service area boundary update",
+  "source_url": "https://waymo.com/blog/2023/08/waymos-next-chapter-in-san-francisco",
+  "origin": "av-map-data",
+  "id": "b2c80d325b"
+ },
+ {
+  "date": "2023-09-29",
+  "type": "testing",
+  "operator": "waymo",
+  "markets": [
+   "waymo-miami"
+  ],
+  "summary": "Miami: testing (Safety Driver, Testing) — Adding Miami testing before the announcement",
+  "source_url": "https://www.cbsnews.com/miami/news/waymos-self-driving-cars-on-miami-streets-as-company-tests-its-technology/",
+  "origin": "av-map-data",
+  "id": "dc6e3befea"
+ },
+ {
+  "date": "2023-10-24",
+  "type": "ended",
+  "operator": "cruise",
+  "markets": [
+   "cruise-san-francisco"
+  ],
+  "summary": "San Francisco: ended — California DMV suspended operations due to pedestrian dragging incident",
+  "source_url": "https://www.wired.com/story/cruise-robotaxi-self-driving-permit-revoked-california/",
+  "origin": "av-map-data",
+  "id": "41cacf1c6a"
+ },
+ {
+  "date": "2023-10-26",
+  "type": "platform",
+  "operator": "waymo",
+  "markets": [
+   "waymo-phoenix"
+  ],
+  "summary": "Phoenix: platform (platform → Waymo;Uber) — Booking platform update",
+  "source_url": "https://waymo.com/blog/2023/10/the-waymo-driver-now-available-on-uber-in-phoenix",
+  "origin": "av-map-data",
+  "id": "2995f963f4"
+ },
+ {
+  "date": "2024-02-01",
+  "type": "testing",
+  "operator": "waymo",
+  "markets": [
+   "waymo-buffalo"
+  ],
+  "summary": "Buffalo: testing (Safety Driver, Testing)",
+  "source_url": "https://www.wkbw.com/news/local-news/inside-the-self-driving-cars-youve-been-seeing-around-buffalo",
+  "origin": "av-map-data",
+  "id": "044a177348"
+ },
+ {
+  "date": "2024-03-13",
+  "type": "launch",
+  "operator": "waymo",
+  "markets": [
+   "waymo-los-angeles"
+  ],
+  "summary": "Los Angeles: launch (Autonomous, Waitlist, via Waymo) — Waymo Los Angeles service",
+  "source_url": "https://waymo.com/blog/2024/03/scaling-waymo-one-safely-across-four-cities-this-year",
+  "origin": "av-map-data",
+  "id": "dd07597445"
+ },
+ {
+  "date": "2024-04-10",
+  "type": "fares",
+  "operator": "waymo",
+  "markets": [
+   "waymo-los-angeles"
+  ],
+  "summary": "Los Angeles: fares (fares → Yes) — Fares policy update",
+  "source_url": "https://www.nbcnews.com/tech/innovation/waymo-will-launch-paid-robotaxi-service-los-angeles-wednesday-rcna147101",
+  "origin": "av-map-data",
+  "id": "43908685cd"
+ },
+ {
+  "date": "2024-06-04",
+  "type": "testing",
+  "operator": "zoox",
+  "markets": [
+   "zoox-austin"
+  ],
+  "summary": "Austin: testing (Safety Driver, Testing)",
+  "source_url": "https://techcrunch.com/2024/06/05/zoox-to-test-self-driving-cars-in-austin-and-miami/",
+  "origin": "av-map-data",
+  "id": "25d9a5d59d"
+ },
+ {
+  "date": "2024-06-04",
+  "type": "testing",
+  "operator": "zoox",
+  "markets": [
+   "zoox-miami"
+  ],
+  "summary": "Miami: testing (Safety Driver, Testing)",
+  "source_url": "https://techcrunch.com/2024/06/05/zoox-to-test-self-driving-cars-in-austin-and-miami/",
+  "origin": "av-map-data",
+  "id": "995f61ff02"
+ },
+ {
+  "date": "2024-06-05",
+  "type": "area-expansion",
+  "operator": "waymo",
+  "markets": [
+   "waymo-phoenix"
+  ],
+  "summary": "Phoenix: area expansion — Service area boundary update",
+  "source_url": "https://waymo.com/blog/2024/06/largest-autonomous-ride-hail-territory-in-us-now-even-larger",
+  "origin": "av-map-data",
+  "id": "c5b340c6f6"
+ },
+ {
+  "date": "2024-06-25",
+  "type": "access-change",
+  "operator": "waymo",
+  "markets": [
+   "waymo-sf-bay-area"
+  ],
+  "summary": "San Francisco Bay Area: access change (access → Public) — Access policy update",
+  "source_url": "https://waymo.com/blog/2024/06/waymo-one-is-now-open-to-everyone-in-san-francisco",
+  "origin": "av-map-data",
+  "id": "f5b54811a4"
+ },
+ {
+  "date": "2024-08-06",
+  "type": "area-expansion",
+  "operator": "waymo",
+  "markets": [
+   "waymo-los-angeles"
+  ],
+  "summary": "Los Angeles: area expansion — Service area boundary update",
+  "source_url": "https://waymo.com/blog/2024/08/expanding-destinations-for-san-francisco-and-los-angeles-riders",
+  "origin": "av-map-data",
+  "id": "4bf4fc54ba"
+ },
+ {
+  "date": "2024-08-06",
+  "type": "area-expansion",
+  "operator": "waymo",
+  "markets": [
+   "waymo-sf-bay-area"
+  ],
+  "summary": "San Francisco Bay Area: area expansion — Service area boundary update",
+  "source_url": "https://waymo.com/blog/2024/08/expanding-destinations-for-san-francisco-and-los-angeles-riders",
+  "origin": "av-map-data",
+  "id": "2bfa27c0ea"
+ },
+ {
+  "date": "2024-09-12",
+  "type": "launch",
+  "operator": "may-mobility",
+  "markets": [
+   "may-mobility-martinez-ca"
+  ],
+  "summary": "Martinez: launch (Safety Driver, Public, via May Mobility)",
+  "source_url": "https://ccta.net/news/contra-costa-transportation-authority-and-may-mobility-launch-autonomous-vehicle-service-in-martinez-california/",
+  "origin": "av-map-data",
+  "id": "961a2def73"
+ },
+ {
+  "date": "2024-10-07",
+  "type": "launch",
+  "operator": "may-mobility",
+  "markets": [
+   "may-mobility-peachtree-corners-ga"
+  ],
+  "summary": "Peachtree Corners: launch (Safety Driver, Public, via May Mobility) — Peachtree Corners autonomous shuttle service",
+  "source_url": "https://maymobility.com/posts/peachtree-corners-launch-autonomous-vehicle-may-mobility-t-mobile/",
+  "origin": "av-map-data",
+  "id": "0eec56fd59"
+ },
+ {
+  "date": "2024-11-11",
+  "type": "vehicles",
+  "operator": "zoox",
+  "markets": [
+   "zoox-san-francisco"
+  ],
+  "summary": "San Francisco: vehicles (vehicles → Zoox Robotaxi)",
+  "source_url": "https://www.kron4.com/news/bay-area/zoox-robotaxis-to-begin-testing-on-streets-of-san-francisco/",
+  "origin": "av-map-data",
+  "id": "e1d774f63a"
+ },
+ {
+  "date": "2024-11-11",
+  "type": "supervision-change",
+  "operator": "zoox",
+  "markets": [
+   "zoox-san-francisco"
+  ],
+  "summary": "San Francisco: supervision change (supervision → Autonomous)",
+  "source_url": "https://www.kron4.com/news/bay-area/zoox-robotaxis-to-begin-testing-on-streets-of-san-francisco/",
+  "origin": "av-map-data",
+  "id": "96ca5efc04"
+ },
+ {
+  "date": "2024-11-12",
+  "type": "access-change",
+  "operator": "waymo",
+  "markets": [
+   "waymo-los-angeles"
+  ],
+  "summary": "Los Angeles: access change (access → Public) — Access policy update",
+  "source_url": "https://waymo.com/blog/2024/11/waymo-one-open-to-all-in-los-angeles",
+  "origin": "av-map-data",
+  "id": "e528c2322a"
+ },
+ {
+  "date": "2024-12-05",
+  "type": "partnership",
+  "operator": "waymo",
+  "markets": [
+   "waymo-phoenix"
+  ],
+  "summary": "Phoenix: partnership — Fleet partnership with Moove established",
+  "source_url": "https://www.prnewswire.com/news-releases/moove-partners-with-waymo-to-redefine-the-future-of-urban-mobility-302324144.html",
+  "origin": "av-map-data",
+  "id": "863a32ff26"
+ },
+ {
+  "date": "2024-12-05",
+  "type": "announcement",
+  "operator": "waymo",
+  "markets": [
+   "waymo-miami"
+  ],
+  "summary": "Miami: announcement (Safety Driver, Announced, via Waymo) — Early 2025 testing with safety drivers; 2026 public launch; Moove fleet partnership",
+  "source_url": "https://www.miamiherald.com/news/local/community/miami-dade/article297065439.html",
+  "origin": "av-map-data",
+  "id": "c2c677ce92"
+ },
+ {
+  "date": "2025-01-29",
+  "type": "testing",
+  "operator": "waymo",
+  "markets": [
+   "waymo-las-vegas"
+  ],
+  "summary": "Las Vegas: testing (Safety Driver, Testing)",
+  "source_url": "https://news3lv.com/news/local/waymo-to-begin-testing-self-driving-vehicles-in-las-vegas",
+  "origin": "av-map-data",
+  "id": "664865d4df"
+ },
+ {
+  "date": "2025-01-29",
+  "type": "testing",
+  "operator": "waymo",
+  "markets": [
+   "waymo-san-diego"
+  ],
+  "summary": "San Diego: testing (Safety Driver, Testing)",
+  "source_url": "https://www.cbs8.com/article/news/local/waymo-comes-to-san-diego/509-c9ba8f17-bada-457a-add3-d671e09b23c4",
+  "origin": "av-map-data",
+  "id": "93061e2855"
+ },
+ {
+  "date": "2025-02-01",
+  "type": "ended",
+  "operator": "may-mobility",
+  "markets": [
+   "may-mobility-sun-city-az"
+  ],
+  "summary": "Sun City: ended",
+  "source_url": "https://techcrunch.com/2025/02/12/may-mobility-launches-its-first-driverless-commercial-ride-hail-service/",
+  "origin": "av-map-data",
+  "id": "753a2904cc"
+ },
+ {
+  "date": "2025-02-07",
+  "type": "testing",
+  "operator": "waymo",
+  "markets": [
+   "waymo-new-orleans"
+  ],
+  "summary": "New Orleans: testing (Safety Driver, Testing) — Waymo starting testing for Mardi Gras",
+  "source_url": "https://bizneworleans.com/waymo-to-test-driverless-vehicles-in-new-orleans-during-mardi-gras/",
+  "origin": "av-map-data",
+  "id": "de825383f9"
+ },
+ {
+  "date": "2025-02-16",
+  "type": "supervision-change",
+  "operator": "may-mobility",
+  "markets": [
+   "may-mobility-peachtree-corners-ga"
+  ],
+  "summary": "Peachtree Corners: supervision change (supervision → Autonomous)",
+  "source_url": "https://www.iotworldtoday.com/transportation-logistics/may-mobility-launches-first-commercial-driverless-car-service",
+  "origin": "av-map-data",
+  "id": "a072173c6d"
+ },
+ {
+  "date": "2025-03-04",
+  "type": "launch",
+  "operator": "waymo",
+  "markets": [
+   "waymo-austin"
+  ],
+  "summary": "Austin: launch (Autonomous, Public, via Uber) — Waymo Austin service",
+  "source_url": "https://www.cnbc.com/2025/03/04/waymo-uber-begin-offering-robotaxi-rides-in-austin-ahead-of-sxsw.html",
+  "origin": "av-map-data",
+  "id": "374a1bec34"
+ },
+ {
+  "date": "2025-03-11",
+  "type": "launch",
+  "operator": "waymo",
+  "markets": [
+   "waymo-sf-bay-area"
+  ],
+  "summary": "San Francisco Bay Area: launch (Autonomous, Waitlist, via Waymo) — Waymo Silicon Valley service",
+  "source_url": "https://www.mercurynews.com/2025/03/11/alphabets-waymo-to-offer-self-driving-rides-in-silicon-valley/",
+  "origin": "av-map-data",
+  "id": "094c1f722c"
+ },
+ {
+  "date": "2025-03-24",
+  "type": "testing",
+  "operator": "waymo",
+  "markets": [
+   "waymo-nashville"
+  ],
+  "summary": "Nashville: testing (Safety Driver, Testing) — Adding Nashville testing before the announcement",
+  "source_url": "https://www.wkrn.com/news/local-news/nashville/waymo-to-begin-testing-autonomous-vehicles-in-nashville/",
+  "origin": "av-map-data",
+  "id": "7aa3659a1e"
+ },
+ {
+  "date": "2025-03-25",
+  "type": "announcement",
+  "operator": "waymo",
+  "markets": [
+   "waymo-washington-dc"
+  ],
+  "summary": "Washington: announcement (Safety Driver, Announced, via Waymo) — Vehicles moved to DC in January 2025; DC does not currently allow fully autonomous operations; working with policymakers on legal framework",
+  "source_url": "https://www.reuters.com/technology/alphabets-waymo-aims-2026-self-driving-ride-hailing-launch-washington-dc-2025-03-25/",
+  "origin": "av-map-data",
+  "id": "72435ef47a"
+ },
+ {
+  "date": "2025-04-08",
+  "type": "testing",
+  "operator": "zoox",
+  "markets": [
+   "zoox-los-angeles"
+  ],
+  "summary": "Los Angeles: testing (Safety Driver, Testing) — Retrofitted test fleet; small deployment in Hollywood area; manual mapping then autonomous driving summer 2025",
+  "source_url": "https://zoox.com/journal/atlanta-expansion-2025/",
+  "origin": "av-map-data",
+  "id": "21baf71ad9"
+ },
+ {
+  "date": "2025-04-24",
+  "type": "announcement",
+  "operator": "moia",
+  "markets": [
+   "moia-los-angeles"
+  ],
+  "summary": "Los Angeles: announcement (Safety Driver, Announced, via Uber)",
+  "source_url": "https://investor.uber.com/news-events/news/press-release-details/2025/Volkswagen-and-Uber-Launch-Long-Term-Strategic-Partnership-to-Deploy-Autonomous-ID--Buzz-Vehicles-on-the-Uber-Platform/default.aspx",
+  "origin": "av-map-data",
+  "id": "8001190c6d"
+ },
+ {
+  "date": "2025-05-19",
+  "type": "testing",
+  "operator": "waymo",
+  "markets": [
+   "waymo-boston"
+  ],
+  "summary": "Boston: testing (Safety Driver, Testing)",
+  "source_url": "https://www.cambridgema.gov/Departments/transportation/News/2025/05/waymotesting",
+  "origin": "av-map-data",
+  "id": "ee44cad7fa"
+ },
+ {
+  "date": "2025-05-20",
+  "type": "testing",
+  "operator": "zoox",
+  "markets": [
+   "zoox-atlanta"
+  ],
+  "summary": "Atlanta: testing (Safety Driver, Testing)",
+  "source_url": "https://zoox.com/journal/atlanta-expansion-2025/",
+  "origin": "av-map-data",
+  "id": "1af0f69f11"
+ },
+ {
+  "date": "2025-05-27",
+  "type": "testing",
+  "operator": "waymo",
+  "markets": [
+   "waymo-orlando"
+  ],
+  "summary": "Orlando: testing (Safety Driver, Testing) — Waymo announces testing road trip in Orlando",
+  "source_url": "https://x.com/Waymo/status/1927396004606701883?s=20",
+  "origin": "av-map-data",
+  "id": "5c34503b82"
+ },
+ {
+  "date": "2025-05-27",
+  "type": "testing",
+  "operator": "waymo",
+  "markets": [
+   "waymo-san-antonio"
+  ],
+  "summary": "San Antonio: testing (Safety Driver, Testing) — Waymo testing in San Antonio",
+  "source_url": "https://www.axios.com/local/san-antonio/2025/05/27/waymo-san-antonio-cars-test-drive-downtown",
+  "origin": "av-map-data",
+  "id": "0ac4d61f24"
+ },
+ {
+  "date": "2025-05-28",
+  "type": "testing",
+  "operator": "waymo",
+  "markets": [
+   "waymo-houston"
+  ],
+  "summary": "Houston: testing (Safety Driver, Testing)",
+  "source_url": "https://www.axios.com/local/houston/2025/05/28/waymo-houston-cars-test-driverless",
+  "origin": "av-map-data",
+  "id": "94a547d9b8"
+ },
+ {
+  "date": "2025-06-17",
+  "type": "area-expansion",
+  "operator": "waymo",
+  "markets": [
+   "waymo-sf-bay-area"
+  ],
+  "summary": "San Francisco Bay Area: area expansion — Service area boundary update",
+  "source_url": "https://www.theverge.com/news/688202/waymo-sf-la-service-area-expand-robotaxi",
+  "origin": "av-map-data",
+  "id": "eff4005907"
+ },
+ {
+  "date": "2025-06-17",
+  "type": "area-expansion",
+  "operator": "waymo",
+  "markets": [
+   "waymo-sf-bay-area"
+  ],
+  "summary": "San Francisco Bay Area: area expansion — Service area boundary update",
+  "source_url": "https://www.theverge.com/news/688202/waymo-sf-la-service-area-expand-robotaxi",
+  "origin": "av-map-data",
+  "id": "eff4005907"
+ },
+ {
+  "date": "2025-06-18",
+  "type": "area-expansion",
+  "operator": "waymo",
+  "markets": [
+   "waymo-los-angeles"
+  ],
+  "summary": "Los Angeles: area expansion — Service area boundary update",
+  "source_url": "https://techcrunch.com/2025/06/17/waymo-robotaxis-are-pushing-into-even-more-california-cities/",
+  "origin": "av-map-data",
+  "id": "bd5d5f4245"
+ },
+ {
+  "date": "2025-06-22",
+  "type": "launch",
+  "operator": "tesla",
+  "markets": [
+   "tesla-austin"
+  ],
+  "summary": "Austin: launch (Safety Attendant, Waitlist, via Robotaxi) — Tesla Austin service",
+  "source_url": "https://www.cnbc.com/2025/06/20/tesla-robotaxi-launch-austin.html",
+  "origin": "av-map-data",
+  "id": "ecbe642bd2"
+ },
+ {
+  "date": "2025-06-24",
+  "type": "launch",
+  "operator": "waymo",
+  "markets": [
+   "waymo-atlanta"
+  ],
+  "summary": "Atlanta: launch (Autonomous, Public, via Uber) — Waymo Atlanta service",
+  "source_url": "https://www.uber.com/newsroom/waymo-on-uber-atl/",
+  "origin": "av-map-data",
+  "id": "1da028707b"
+ },
+ {
+  "date": "2025-07-07",
+  "type": "testing",
+  "operator": "waymo",
+  "markets": [
+   "waymo-philadelphia"
+  ],
+  "summary": "Philadelphia: testing (Safety Driver, Testing) — Waymo testing in Philadelphia",
+  "source_url": "https://www.cnbc.com/2025/07/07/waymo-to-begin-testing-in-philadelphia-with-drivers-behind-the-wheel.html",
+  "origin": "av-map-data",
+  "id": "0d8910bebb"
+ },
+ {
+  "date": "2025-07-14",
+  "type": "area-expansion",
+  "operator": "tesla",
+  "markets": [
+   "tesla-austin"
+  ],
+  "summary": "Austin: area expansion — Service area boundary update",
+  "source_url": "https://www.businessinsider.com/tesla-new-robotaxi-geofence-austin-shape-elon-musk-bigger-waymo-2025-7",
+  "origin": "av-map-data",
+  "id": "8c38be9509"
+ },
+ {
+  "date": "2025-07-17",
+  "type": "testing",
+  "operator": "avride",
+  "markets": [
+   "avride-austin"
+  ],
+  "summary": "Austin: testing (Safety Driver, Testing) — Avride testing in Austin",
+  "source_url": "https://www.kvue.com/article/news/local/avride-self-driving-vehicles-austin-testing-driverless-cars-autonomous-currently/269-bc74bd81-9cdb-4264-b446-d8a8d20d77b1",
+  "origin": "av-map-data",
+  "id": "c8f9f29429"
+ },
+ {
+  "date": "2025-07-17",
+  "type": "area-expansion",
+  "operator": "waymo",
+  "markets": [
+   "waymo-austin"
+  ],
+  "summary": "Austin: area expansion — Service area boundary update",
+  "source_url": "https://www.axios.com/local/austin/2025/07/17/waymo-expands-austin-service-area",
+  "origin": "av-map-data",
+  "id": "72e67c5664"
+ },
+ {
+  "date": "2025-07-28",
+  "type": "announcement",
+  "operator": "waymo",
+  "markets": [
+   "waymo-dallas"
+  ],
+  "summary": "Dallas: announcement (Safety Driver, Announced, via Waymo) — Avis Budget Group multi-year fleet management partnership; testing underway as of June 2025",
+  "source_url": "https://waymo.com/blog/2025/07/our-next-city-dallas",
+  "origin": "av-map-data",
+  "id": "0d75a23732"
+ },
+ {
+  "date": "2025-07-31",
+  "type": "launch",
+  "operator": "tesla",
+  "markets": [
+   "tesla-bay-area"
+  ],
+  "summary": "Bay Area: launch (Safety Driver, Waitlist, via Robotaxi) — Tesla Bay Area service",
+  "source_url": "https://www.businessinsider.com/teslas-ride-hailing-service-live-in-san-francisco-musk-says-2025-7",
+  "origin": "av-map-data",
+  "id": "44f38e4af4"
+ },
+ {
+  "date": "2025-08-03",
+  "type": "area-expansion",
+  "operator": "tesla",
+  "markets": [
+   "tesla-austin"
+  ],
+  "summary": "Austin: area expansion — Service area boundary update",
+  "source_url": "https://www.pcmag.com/news/teslas-robotaxi-coverage-expands-four-times-the-size-of-initial-austin",
+  "origin": "av-map-data",
+  "id": "dc7a655720"
+ },
+ {
+  "date": "2025-08-12",
+  "type": "announcement",
+  "operator": "tesla",
+  "markets": [
+   "tesla-austin"
+  ],
+  "summary": "Austin: announcement (Waitlist) — Texas Department of Licensing and Regulation granted Tesla Robotaxi LLC a permit valid until August 6, 2026 to operate as a transportation network company statewide. Pilot program operating in Austin since June 22, 2025 with select group of influencers and analysts.",
+  "source_url": "https://carboncredits.com/tesla-robotaxi-secures-permit-in-texas-fuels-tsla-stock-surge-and-market-buzz/",
+  "origin": "av-map-data",
+  "id": "c5ec0203ae"
+ },
+ {
+  "date": "2025-08-22",
+  "type": "testing",
+  "operator": "waymo",
+  "markets": [
+   "waymo-new-york"
+  ],
+  "summary": "New York City: testing (Safety Driver, Testing, via Waymo) — Up to 8 vehicles in Manhattan and Downtown Brooklyn; permit granted Aug 22; testing began immediately; extended through end of 2025; no permitting structure for driverless operation in NY",
+  "source_url": "https://techcrunch.com/2025/08/22/waymo-approved-to-start-autonomous-vehicle-testing-in-new-york-city/",
+  "origin": "av-map-data",
+  "id": "969183d803"
+ },
+ {
+  "date": "2025-08-26",
+  "type": "area-expansion",
+  "operator": "tesla",
+  "markets": [
+   "tesla-austin"
+  ],
+  "summary": "Austin: area expansion — Service area boundary update",
+  "source_url": "https://electrek.co/2025/08/27/tesla-announces-50-increase-in-austin-robotaxi-but-50-from-what/",
+  "origin": "av-map-data",
+  "id": "2f43a73578"
+ },
+ {
+  "date": "2025-09-01",
+  "type": "supervision-change",
+  "operator": "tesla",
+  "markets": [
+   "tesla-austin"
+  ],
+  "summary": "Austin: supervision change (supervision → Safety Driver) — Supervision level update",
+  "source_url": "https://mashable.com/article/tesla-robotaxi-human-safety-monitor-drivers-seat",
+  "origin": "av-map-data",
+  "id": "a598ff3fc5"
+ },
+ {
+  "date": "2025-09-02",
+  "type": "area-expansion",
+  "operator": "may-mobility",
+  "markets": [
+   "may-mobility-grand-rapids-mn"
+  ],
+  "summary": "Grand Rapids: area expansion",
+  "source_url": "https://www.kaxe.org/local-news/2025-08-11/grand-rapids-autonomous-transit-expanding-to-nearby-cities-tribal-stops",
+  "origin": "av-map-data",
+  "id": "d8e1ecde91"
+ },
+ {
+  "date": "2025-09-02",
+  "type": "testing",
+  "operator": "waymo",
+  "markets": [
+   "waymo-seattle"
+  ],
+  "summary": "Seattle: testing (Safety Driver, Testing, via Waymo) — Dozen vehicles with 6th gen tech; no timeline for public service; Washington state lacks regulations for autonomous operations",
+  "source_url": "https://www.geekwire.com/2025/waymo-to-start-testing-and-laying-groundwork-for-driverless-taxi-service-in-seattle-area/",
+  "origin": "av-map-data",
+  "id": "e124f62f88"
+ },
+ {
+  "date": "2025-09-03",
+  "type": "announcement",
+  "operator": "waymo",
+  "markets": [
+   "waymo-denver"
+  ],
+  "summary": "Denver: announcement (Safety Driver, Testing, via Waymo) — About a dozen vehicles; all-electric; collecting data; goal to serve public early 2026; first city with winter conditions; plans to expand to metro area and DIA",
+  "source_url": "https://www.cbsnews.com/colorado/news/waymo-self-driving-cars-denver-colorado-governors-safer-roads/",
+  "origin": "av-map-data",
+  "id": "7f4ea9e261"
+ },
+ {
+  "date": "2025-09-04",
+  "type": "announcement",
+  "operator": "avride",
+  "markets": [
+   "avride-dallas"
+  ],
+  "summary": "Dallas: announcement (Safety Driver, Announced, via Uber) — Uber + Avride announced robotaxi partnership",
+  "source_url": "https://www.reuters.com/business/autos-transportation/autonomous-technology-startup-avride-ramp-up-testing-part-uber-robotaxi-rollout-2025-09-04/",
+  "origin": "av-map-data",
+  "id": "819bb34448"
+ },
+ {
+  "date": "2025-09-10",
+  "type": "launch",
+  "operator": "may-mobility",
+  "markets": [
+   "may-mobility-atlanta"
+  ],
+  "summary": "Atlanta: launch (Safety Driver, Public, via Lyft) — May Mobility Atlanta service",
+  "source_url": "https://maymobility.com/posts/lyft-and-may-mobility-deploy-their-first-autonomous-vehicle-fleet-in-atlanta/",
+  "origin": "av-map-data",
+  "id": "521c46a8c4"
+ },
+ {
+  "date": "2025-09-10",
+  "type": "launch",
+  "operator": "zoox",
+  "markets": [
+   "zoox-las-vegas"
+  ],
+  "summary": "Las Vegas: launch (Autonomous, Public, via Zoox) — Zoox Las Vegas service",
+  "source_url": "https://techcrunch.com/2025/09/10/zoox-opens-its-las-vegas-robotaxi-service-to-the-public/",
+  "origin": "av-map-data",
+  "id": "c0fe45dae6"
+ },
+ {
+  "date": "2025-09-16",
+  "type": "launch",
+  "operator": "zoox",
+  "markets": [
+   "zoox-san-francisco"
+  ],
+  "summary": "San Francisco: launch (Autonomous, Waitlist, via Zoox) — Zoox San Francisco service",
+  "source_url": "https://x.com/nearcyan/status/1968122084674113773",
+  "origin": "av-map-data",
+  "flags": [
+   "weak-source"
+  ],
+  "id": "b9d0440574"
+ },
+ {
+  "date": "2025-09-17",
+  "type": "announcement",
+  "operator": "waymo",
+  "markets": [
+   "waymo-nashville"
+  ],
+  "summary": "Nashville: announcement (Safety Driver, Announced, via Waymo;Lyft) — Lyft partnership; Waymo app first then Lyft integration; Flexdrive fleet management; autonomous ops in coming months then public riders next year",
+  "source_url": "https://waymo.com/blog/2025/09/waymo-is-coming-to-nashville-in-partnership-with-lyft",
+  "origin": "av-map-data",
+  "id": "e54433e3c1"
+ },
+ {
+  "date": "2025-10-01",
+  "type": "testing",
+  "operator": "zoox",
+  "markets": [
+   "zoox-washington-dc"
+  ],
+  "summary": "Washington: testing (Safety Driver, Testing)",
+  "source_url": "https://www.therobotreport.com/zoox-tests-self-driving-service-in-washington-d-c/",
+  "origin": "av-map-data",
+  "id": "646a7dfbc6"
+ },
+ {
+  "date": "2025-10-28",
+  "type": "area-expansion",
+  "operator": "tesla",
+  "markets": [
+   "tesla-austin"
+  ],
+  "summary": "Austin: area expansion",
+  "source_url": "https://x.com/SawyerMerritt/status/1983287391315214570/photo/1",
+  "origin": "av-map-data",
+  "id": "f6e777ba08"
+ },
+ {
+  "date": "2025-10-29",
+  "type": "announcement",
+  "operator": "nuro",
+  "markets": [
+   "nuro-san-francisco"
+  ],
+  "summary": "San Francisco: announcement (Safety Driver, Announced, via Uber) — Nuro + Uber SF service announcement",
+  "source_url": "https://techcrunch.com/2025/10/29/uber-to-launch-a-premium-robotaxi-service-in-waymos-turf-of-san-francisco/",
+  "origin": "av-map-data",
+  "id": "47af146d05"
+ },
+ {
+  "date": "2025-11-03",
+  "type": "announcement",
+  "operator": "waymo",
+  "markets": [
+   "waymo-detroit"
+  ],
+  "summary": "Detroit: announcement (Safety Driver, Announced)",
+  "source_url": "https://fox5sandiego.com/news/local-news/san-diego/waymo-san-diego-las-vegas-detroit/",
+  "origin": "av-map-data",
+  "id": "3070046f24"
+ },
+ {
+  "date": "2025-11-03",
+  "type": "announcement",
+  "operator": "waymo",
+  "markets": [
+   "waymo-las-vegas"
+  ],
+  "summary": "Las Vegas: announcement (Safety Driver, Announced)",
+  "source_url": "https://fox5sandiego.com/news/local-news/san-diego/waymo-san-diego-las-vegas-detroit/",
+  "origin": "av-map-data",
+  "id": "980cd3d054"
+ },
+ {
+  "date": "2025-11-03",
+  "type": "announcement",
+  "operator": "waymo",
+  "markets": [
+   "waymo-san-diego"
+  ],
+  "summary": "San Diego: announcement (Safety Driver, Announced)",
+  "source_url": "https://fox5sandiego.com/news/local-news/san-diego/waymo-san-diego-las-vegas-detroit/",
+  "origin": "av-map-data",
+  "id": "7ee2a16cc6"
+ },
+ {
+  "date": "2025-11-12",
+  "type": "area-expansion",
+  "operator": "waymo",
+  "markets": [
+   "waymo-sf-bay-area"
+  ],
+  "summary": "San Francisco Bay Area: area expansion — Waymo on the whole peninsula",
+  "source_url": "https://sfstandard.com/2025/11/12/waymo-will-now-drive-bay-area-freeways-san-jos/",
+  "origin": "av-map-data",
+  "id": "7fedd3bdbd"
+ },
+ {
+  "date": "2025-11-17",
+  "type": "announcement",
+  "operator": "tesla",
+  "markets": [
+   "tesla-phoenix"
+  ],
+  "summary": "Phoenix: announcement — Tesla received TNC permit from Arizona Department of Transportation on November 17, 2025. Company expressed interest in operating within Phoenix Metro area.",
+  "source_url": "https://techcrunch.com/2025/11/18/tesla-receives-ride-hailing-permit-in-arizona-in-last-required-step-to-launch-robotaxi-service/",
+  "origin": "av-map-data",
+  "id": "328385be23"
+ },
+ {
+  "date": "2025-11-18",
+  "type": "supervision-change",
+  "operator": "waymo",
+  "markets": [
+   "waymo-miami"
+  ],
+  "summary": "Miami: supervision change (supervision → Autonomous) — https://x.com/Waymo/status/1990806862015705559?s=20",
+  "source_url": "",
+  "origin": "av-map-data",
+  "flags": [
+   "no-source-url"
+  ],
+  "id": "ef417d54a8"
+ },
+ {
+  "date": "2025-11-18",
+  "type": "announcement",
+  "operator": "waymo",
+  "markets": [
+   "waymo-orlando"
+  ],
+  "summary": "Orlando: announcement (Safety Driver, Announced) — Waymo makes a sneaky Orlando announcement as a part of a blog post to say they will be launching service in Orlando next year.",
+  "source_url": "https://waymo.com/blog/2025/11/safe-routine-ready-autonomous-driving-in-new-cities",
+  "origin": "av-map-data",
+  "id": "0f2f30fe27"
+ },
+ {
+  "date": "2025-11-18",
+  "type": "announcement",
+  "operator": "waymo",
+  "markets": [
+   "waymo-san-antonio"
+  ],
+  "summary": "San Antonio: announcement (Safety Driver, Announced) — Waymo makes a sneaky San Antonio announcement as a part of a blog post to say they will be launching service in Orlando next year.",
+  "source_url": "https://waymo.com/blog/2025/11/safe-routine-ready-autonomous-driving-in-new-cities",
+  "origin": "av-map-data",
+  "id": "1fadc0edcd"
+ },
+ {
+  "date": "2025-11-18",
+  "type": "announcement",
+  "operator": "waymo",
+  "markets": [
+   "waymo-houston"
+  ],
+  "summary": "Houston: announcement (Safety Driver, Announced) — Waymo makes a sneaky Houston announcement as a part of a blog post to say they will be launching service in Orlando next year.",
+  "source_url": "https://waymo.com/blog/2025/11/safe-routine-ready-autonomous-driving-in-new-cities",
+  "origin": "av-map-data",
+  "id": "9fd021c26f"
+ },
+ {
+  "date": "2025-11-18",
+  "type": "area-expansion",
+  "operator": "zoox",
+  "markets": [
+   "zoox-san-francisco"
+  ],
+  "summary": "San Francisco: area expansion — Zoox operating in more of SF",
+  "source_url": "https://sfstandard.com/2025/11/18/zoox-launches-publicly-san-francisco-kind/",
+  "origin": "av-map-data",
+  "id": "3404496bf2"
+ },
+ {
+  "date": "2025-11-20",
+  "type": "announcement",
+  "operator": "waymo",
+  "markets": [
+   "waymo-new-orleans"
+  ],
+  "summary": "New Orleans: announcement (Safety Driver, Announced)",
+  "source_url": "https://waymo.com/blog/?modal=short-laissez-les-bons-temps-rouler-waymo-is-bringing-its-fully-autonomous-ride",
+  "origin": "av-map-data",
+  "id": "257658061d"
+ },
+ {
+  "date": "2025-11-20",
+  "type": "announcement",
+  "operator": "waymo",
+  "markets": [
+   "waymo-minneapolis"
+  ],
+  "summary": "Minneapolis: announcement (Safety Driver, Announced)",
+  "source_url": "https://waymo.com/blog/?modal=short-were-lacing-up-our-skates-and-laying-the-early-groundwork-for-our-fully",
+  "origin": "av-map-data",
+  "id": "9cdb8d8c98"
+ },
+ {
+  "date": "2025-11-20",
+  "type": "announcement",
+  "operator": "waymo",
+  "markets": [
+   "waymo-tampa"
+  ],
+  "summary": "Tampa: announcement (Safety Driver, Announced)",
+  "source_url": "https://waymo.com/blog/?modal=short-get-ready-tampa-were-laying-the-groundwork-to-serve-you-in-the-future-in-the",
+  "origin": "av-map-data",
+  "id": "407de4ed8a"
+ },
+ {
+  "date": "2025-12-02",
+  "type": "supervision-change",
+  "operator": "waymo",
+  "markets": [
+   "waymo-dallas"
+  ],
+  "summary": "Dallas: supervision change (supervision → Autonomous) — https://x.com/Waymo/status/1995976302864580611?s=20",
+  "source_url": "",
+  "origin": "av-map-data",
+  "flags": [
+   "no-source-url"
+  ],
+  "id": "c28f455d0d"
+ },
+ {
+  "date": "2025-12-03",
+  "type": "launch",
+  "operator": "avride",
+  "markets": [
+   "avride-dallas"
+  ],
+  "summary": "Dallas: launch (Safety Driver, Public, via Uber)",
+  "source_url": "https://techcrunch.com/2025/12/03/uber-and-avride-launch-robotaxi-service-in-dallas/",
+  "origin": "av-map-data",
+  "id": "bc7471b982"
+ },
+ {
+  "date": "2025-12-03",
+  "type": "announcement",
+  "operator": "waymo",
+  "markets": [
+   "waymo-st-louis"
+  ],
+  "summary": "St. Louis: announcement (Safety Driver, Announced)",
+  "source_url": "https://waymo.com/blog/?modal=short-entering-st-louis",
+  "origin": "av-map-data",
+  "id": "e096bb0b67"
+ },
+ {
+  "date": "2025-12-03",
+  "type": "announcement",
+  "operator": "waymo",
+  "markets": [
+   "waymo-pittsburgh"
+  ],
+  "summary": "Pittsburgh: announcement (Safety Driver, Announced)",
+  "source_url": "https://waymo.com/blog/?modal=short-waymo-coming-to-pittsburgh",
+  "origin": "av-map-data",
+  "id": "fed31c7667"
+ },
+ {
+  "date": "2025-12-03",
+  "type": "announcement",
+  "operator": "waymo",
+  "markets": [
+   "waymo-baltimore"
+  ],
+  "summary": "Baltimore: announcement (Safety Driver, Announced)",
+  "source_url": "https://waymo.com/blog/?modal=short-waymo-is-heading-to-baltimore",
+  "origin": "av-map-data",
+  "id": "4feaec83bf"
+ },
+ {
+  "date": "2025-12-03",
+  "type": "announcement",
+  "operator": "waymo",
+  "markets": [
+   "waymo-philadelphia"
+  ],
+  "summary": "Philadelphia: announcement (Safety Driver, Announced)",
+  "source_url": "https://waymo.com/blog/?modal=short-bringing-our-service-to-philadelphia",
+  "origin": "av-map-data",
+  "id": "5ec346e861"
+ },
+ {
+  "date": "2025-12-04",
+  "type": "supervision-change",
+  "operator": "waymo",
+  "markets": [
+   "waymo-houston"
+  ],
+  "summary": "Houston: supervision change (supervision → Autonomous) — https://x.com/Waymo/status/1996595348207231085?s=20",
+  "source_url": "",
+  "origin": "av-map-data",
+  "flags": [
+   "no-source-url"
+  ],
+  "id": "e66ad2d96c"
+ },
+ {
+  "date": "2025-12-10",
+  "type": "supervision-change",
+  "operator": "waymo",
+  "markets": [
+   "waymo-san-antonio"
+  ],
+  "summary": "San Antonio: supervision change (supervision → Autonomous) — Waymo announcement about autonomous testing in San Antonio",
+  "source_url": "https://x.com/Waymo/status/1998875372163600672?s=20",
+  "origin": "av-map-data",
+  "id": "34348bf254"
+ },
+ {
+  "date": "2025-12-11",
+  "type": "supervision-change",
+  "operator": "waymo",
+  "markets": [
+   "waymo-orlando"
+  ],
+  "summary": "Orlando: supervision change (supervision → Autonomous) — Orlando becomes autonomous for Waymo",
+  "source_url": "https://x.com/Waymo/status/1999237761434345487?s=20",
+  "origin": "av-map-data",
+  "id": "b56dd716ce"
+ },
+ {
+  "date": "2025-12-20",
+  "type": "area-expansion",
+  "operator": "waymo",
+  "markets": [
+   "waymo-sf-bay-area"
+  ],
+  "summary": "San Francisco Bay Area: area expansion — Thanks to u/dscreations for posting this on Reddit!",
+  "source_url": "https://www.reddit.com/r/waymo/comments/1prowr0/san_jose_service_area_expanded/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button",
+  "origin": "av-map-data",
+  "flags": [
+   "weak-source"
+  ],
+  "id": "16806d673e"
+ },
+ {
+  "date": "2025-12-31",
+  "type": "ended",
+  "operator": "may-mobility",
+  "markets": [
+   "may-mobility-martinez-ca"
+  ],
+  "summary": "Martinez: ended — Pilot program concluded after providing nearly one thousand rides.",
+  "source_url": "https://www.facebook.com/ContraCostaTransportationAuthority/photos/1152329803651028/",
+  "origin": "av-map-data",
+  "flags": [
+   "weak-source"
+  ],
+  "id": "53d6597ea4"
+ },
+ {
+  "date": "2026-01-13",
+  "type": "area-expansion",
+  "operator": "waymo",
+  "markets": [
+   "waymo-austin"
+  ],
+  "summary": "Austin: area expansion — Waymo expands Austin service area according to a Waymo employee on X",
+  "source_url": "https://x.com/reed/status/2011133349486871008?s=20",
+  "origin": "av-map-data",
+  "id": "6d79a2f6c2"
+ },
+ {
+  "date": "2026-01-22",
+  "type": "supervision-change",
+  "operator": "tesla",
+  "markets": [
+   "tesla-austin"
+  ],
+  "summary": "Austin: supervision change (supervision → Autonomous) — Tesla officially removes safety monitors from a limited number of Robotaxis in Austin, transitioning to unsupervised operations.",
+  "source_url": "https://www.techbuzz.ai/articles/tesla-goes-fully-driverless-in-austin-robotaxi-rollout",
+  "origin": "av-map-data",
+  "flags": [
+   "weak-source"
+  ],
+  "id": "44830a54e5"
+ },
+ {
+  "date": "2026-01-22",
+  "type": "launch",
+  "operator": "waymo",
+  "markets": [
+   "waymo-miami"
+  ],
+  "summary": "Miami: launch (Autonomous, Waitlist, via Waymo) — Waymo launches its service to the public in Miami and is gradually letting riders off a waitlist to use their service.",
+  "source_url": "https://www.cnbc.com/2026/01/22/waymo-launches-robotaxi-service-in-miami-extending-us-lead.html",
+  "origin": "av-map-data",
+  "id": "c790c8f1eb"
+ },
+ {
+  "date": "2026-02-05",
+  "type": "announcement",
+  "operator": "waymo",
+  "markets": [
+   "waymo-sacramento"
+  ],
+  "summary": "Sacramento: announcement (Announced) — Waymo begins manual mapping with Jaguar I-PACE fleet as it works toward public rider launch.",
+  "source_url": "https://waymo.com/blog/2026/02/waymo-is-headed-to-sacramento/",
+  "origin": "av-map-data",
+  "id": "10fa52cf42"
+ },
+ {
+  "date": "2026-02-05",
+  "type": "announcement",
+  "operator": "waymo",
+  "markets": [
+   "waymo-boston"
+  ],
+  "summary": "Boston: announcement (Announced) — Waymo returns to Boston to validate 6th-gen Driver in snow and narrow streets while engaging with state officials on legalization.",
+  "source_url": "https://waymo.com/blog/2026/02/waymo-is-returning-to-boston/",
+  "origin": "av-map-data",
+  "id": "130bc3bc54"
+ },
+ {
+  "date": "2026-02-05",
+  "type": "testing",
+  "operator": "waymo",
+  "markets": [
+   "waymo-sacramento"
+  ],
+  "summary": "Sacramento: testing (Safety Driver, Testing) — Waymo begins manual mapping and initial data collection with its all-electric Jaguar I-PACE fleet.",
+  "source_url": "https://waymo.com/blog/?modal=short-waymo-is-headed-to-sacramento",
+  "origin": "av-map-data",
+  "id": "4430a14739"
+ },
+ {
+  "date": "2026-02-05",
+  "type": "testing",
+  "operator": "waymo",
+  "markets": [
+   "waymo-boston"
+  ],
+  "summary": "Boston: testing (Safety Driver, Testing) — Waymo returns to Boston to begin manual mapping and sensor validation for the 6th-gen Driver in wintry conditions.",
+  "source_url": "https://waymo.com/blog/?modal=short-back-to-boston",
+  "origin": "av-map-data",
+  "id": "050b17a666"
+ },
+ {
+  "date": "2026-02-09",
+  "type": "supervision-change",
+  "operator": "waymo",
+  "markets": [
+   "waymo-nashville"
+  ],
+  "summary": "Nashville: supervision change (supervision → Autonomous) — Waymo announces driver-out in Nashville.",
+  "source_url": "https://www.reuters.com/business/autos-transportation/waymo-goes-fully-autonomous-nashville-2026-02-09/",
+  "origin": "av-map-data",
+  "id": "02b3d0c33f"
+ },
+ {
+  "date": "2026-02-12",
+  "type": "supervision-change",
+  "operator": "waymo",
+  "markets": [
+   "waymo-sf-bay-area"
+  ],
+  "summary": "San Francisco Bay Area: supervision change (supervision → Autonomous) — 6th-generation Driver begins fully driverless operations for employees and guests",
+  "source_url": "https://electrek.co/2026/02/12/waymo-begins-fully-autonomous-ops-with-6th-gen-driver-targets-1m-weekly-rides/",
+  "origin": "av-map-data",
+  "id": "7de76e3ae2"
+ },
+ {
+  "date": "2026-02-12",
+  "type": "supervision-change",
+  "operator": "waymo",
+  "markets": [
+   "waymo-los-angeles"
+  ],
+  "summary": "Los Angeles: supervision change (supervision → Autonomous) — 6th-generation Driver begins fully driverless operations for employees and guests",
+  "source_url": "https://electrek.co/2026/02/12/waymo-begins-fully-autonomous-ops-with-6th-gen-driver-targets-1m-weekly-rides/",
+  "origin": "av-map-data",
+  "id": "be8acbebee"
+ },
+ {
+  "date": "2026-02-18",
+  "type": "vehicles",
+  "operator": "tesla",
+  "markets": [
+   "tesla-austin"
+  ],
+  "summary": "Austin: vehicles (vehicles → Model Y;Cybercab) — First production Cybercab (no steering wheel) rolls off the line at Giga Texas; fleet now includes both Model Y and Cybercab units.",
+  "source_url": "https://www.autoblog.com/electric/tesla-builds-first-production-cybercab",
+  "origin": "av-map-data",
+  "id": "297cdf6d38"
+ },
+ {
+  "date": "2026-02-18",
+  "type": "vehicles",
+  "operator": "tesla",
+  "markets": [
+   "tesla-austin"
+  ],
+  "summary": "Austin: vehicles (vehicles → Cybercab) — First production Cybercab rolls off line at Giga Texas",
+  "source_url": "https://flacenter.com/teslas-cybercab-milestone-and-what-it-means-for-future-evs/",
+  "origin": "av-map-data",
+  "id": "db5491dd88"
+ },
+ {
+  "date": "2026-02-24",
+  "type": "launch",
+  "operator": "waymo",
+  "markets": [
+   "waymo-dallas"
+  ],
+  "summary": "Dallas: launch (Autonomous, Waitlist, via Waymo) — Waymo launches commercial driverless service for public waitlist users; service includes Bishop Arts District.",
+  "source_url": "https://waymo.com/blog/2026/02/dallas-houston-san-antonio-orlando",
+  "origin": "av-map-data",
+  "id": "95c0a3d0b4"
+ },
+ {
+  "date": "2026-02-24",
+  "type": "launch",
+  "operator": "waymo",
+  "markets": [
+   "waymo-houston"
+  ],
+  "summary": "Houston: launch (Autonomous, Waitlist, via Waymo) — Commercial launch within the I-610 loop, including Downtown, Midtown, and Montrose (approx. 25 sq miles).",
+  "source_url": "https://waymo.com/blog/2026/02/dallas-houston-san-antonio-orlando",
+  "origin": "av-map-data",
+  "id": "ea3bbf4f4d"
+ },
+ {
+  "date": "2026-02-24",
+  "type": "launch",
+  "operator": "waymo",
+  "markets": [
+   "waymo-san-antonio"
+  ],
+  "summary": "San Antonio: launch (Autonomous, Waitlist, via Waymo) — Fully autonomous commercial service begins for public waitlist users.",
+  "source_url": "https://waymo.com/blog/2026/02/dallas-houston-san-antonio-orlando",
+  "origin": "av-map-data",
+  "id": "9b24a5c999"
+ },
+ {
+  "date": "2026-02-24",
+  "type": "launch",
+  "operator": "waymo",
+  "markets": [
+   "waymo-orlando"
+  ],
+  "summary": "Orlando: launch (Autonomous, Waitlist, via Waymo) — Commercial launch covering approximately 50-55 square miles of Orlando's entertainment and tourism hubs.",
+  "source_url": "https://waymo.com/blog/2026/02/dallas-houston-san-antonio-orlando",
+  "origin": "av-map-data",
+  "id": "7529bcce28"
+ },
+ {
+  "date": "2026-02-25",
+  "type": "announcement",
+  "operator": "waymo",
+  "markets": [
+   "waymo-chicago"
+  ],
+  "summary": "Chicago: announcement — Waymo announces intention to bring autonomous ride-hailing to Chicago, beginning with manual mapping.",
+  "source_url": "https://waymo.com/blog/2026/02/chicago-expansion",
+  "origin": "av-map-data",
+  "id": "6087971a73"
+ },
+ {
+  "date": "2026-02-25",
+  "type": "testing",
+  "operator": "waymo",
+  "markets": [
+   "waymo-chicago"
+  ],
+  "summary": "Chicago: testing (Safety Driver, Testing) — Waymo begins manual mapping in Chicago with a specialized fleet to validate sensor performance in high-density urban canyons.",
+  "source_url": "https://waymo.com/blog/2026/02/chicago-expansion",
+  "origin": "av-map-data",
+  "id": "9dac7a1d92"
+ },
+ {
+  "date": "2026-02-25",
+  "type": "announcement",
+  "operator": "waymo",
+  "markets": [
+   "waymo-charlotte"
+  ],
+  "summary": "Charlotte: announcement — Waymo announces expansion to Charlotte, North Carolina, as part of its multi-city growth strategy.",
+  "source_url": "https://waymo.com/blog/2026/02/charlotte-expansion",
+  "origin": "av-map-data",
+  "id": "1106425ad5"
+ },
+ {
+  "date": "2026-02-25",
+  "type": "testing",
+  "operator": "waymo",
+  "markets": [
+   "waymo-charlotte"
+  ],
+  "summary": "Charlotte: testing (Safety Driver, Testing) — Waymo begins manual mapping and data collection in Charlotte, focusing on the Uptown sports and entertainment hub.",
+  "source_url": "https://waymo.com/blog/2026/02/charlotte-expansion",
+  "origin": "av-map-data",
+  "id": "4bea51e2c3"
+ },
+ {
+  "date": "2026-03-11",
+  "type": "announcement",
+  "operator": "zoox",
+  "markets": [
+   "zoox-las-vegas"
+  ],
+  "summary": "Las Vegas: announcement (Autonomous, Announced, via Uber) — Partnership to deploy purpose-built robotaxis on Uber app in Las Vegas",
+  "source_url": "https://investor.uber.com/news-events/news/press-release-details/2026/Zoox-and-Uber-Announce-Strategic-Partnership/default.aspx",
+  "origin": "av-map-data",
+  "id": "5343e3587e"
+ },
+ {
+  "date": "2026-03-12",
+  "type": "announcement",
+  "operator": "zoox",
+  "markets": [
+   "zoox-las-vegas"
+  ],
+  "summary": "Las Vegas: announcement (Safety Driver, via Uber) — Initial launch with safety drivers before transitioning to fully driverless operations. Service will focus on Las Vegas resort corridor. Los Angeles launch to follow later.",
+  "source_url": "https://www.webanditnews.com/2026/03/12/zoox-robotaxis-are-coming-to-uber-in-las-vegas-and-los-angeles-heres-what-it-means/",
+  "origin": "av-map-data",
+  "id": "ab908f1761"
+ },
+ {
+  "date": "2026-03-13",
+  "type": "launch",
+  "operator": "motional",
+  "markets": [
+   "motional-las-vegas"
+  ],
+  "summary": "Las Vegas: launch (Safety Driver, Public, via Uber) — Uber and Motional relaunch commercial robotaxi service on the Las Vegas Strip",
+  "source_url": "https://thenextweb.com/news/uber-relaunches-motional-robotaxis-in-las-vegas",
+  "origin": "av-map-data",
+  "id": "575bb7d610"
+ },
+ {
+  "date": "2026-03-24",
+  "type": "announcement",
+  "operator": "zoox",
+  "markets": [
+   "zoox-austin"
+  ],
+  "summary": "Austin: announcement (Autonomous, Waitlist) — Initial service limited to employees and family/friends before opening to waitlist. Article mentions Miami as well but Austin extracted per multi-city rules.",
+  "source_url": "https://www.theverge.com/transportation/899323/zoox-robotaxi-las-vegas-san-francisco-austin-miami",
+  "origin": "av-map-data",
+  "id": "f5e0ba1224"
+ },
+ {
+  "date": "2026-03-24",
+  "type": "testing",
+  "operator": "zoox",
+  "markets": [
+   "zoox-austin"
+  ],
+  "summary": "Austin: testing — Purpose-built robotaxi testing begins",
+  "source_url": "https://www.therobotreport.com/zoox-begins-testing-purpose-built-robotaxis-phoenix-and-dallas/",
+  "origin": "av-map-data",
+  "id": "f91aa35b3f"
+ },
+ {
+  "date": "2026-03-24",
+  "type": "testing",
+  "operator": "zoox",
+  "markets": [
+   "zoox-miami"
+  ],
+  "summary": "Miami: testing — Purpose-built robotaxi testing begins",
+  "source_url": "https://www.therobotreport.com/zoox-begins-testing-purpose-built-robotaxis-phoenix-and-dallas/",
+  "origin": "av-map-data",
+  "id": "63b14d44fd"
+ },
+ {
+  "date": "2026-03-24",
+  "type": "testing",
+  "operator": "zoox",
+  "markets": [
+   "zoox-phoenix"
+  ],
+  "summary": "Phoenix: testing — Purpose-built robotaxi testing begins",
+  "source_url": "https://www.therobotreport.com/zoox-begins-testing-purpose-built-robotaxis-phoenix-and-dallas/",
+  "origin": "av-map-data",
+  "id": "86f51520e0"
+ },
+ {
+  "date": "2026-03-24",
+  "type": "testing",
+  "operator": "zoox",
+  "markets": [
+   "zoox-dallas"
+  ],
+  "summary": "Dallas: testing — Purpose-built robotaxi testing begins",
+  "source_url": "https://www.therobotreport.com/zoox-begins-testing-purpose-built-robotaxis-phoenix-and-dallas/",
+  "origin": "av-map-data",
+  "id": "5278820641"
+ },
+ {
+  "date": "2026-03-27",
+  "type": "access-change",
+  "operator": "tesla",
+  "markets": [
+   "tesla-austin"
+  ],
+  "summary": "Austin: access change (access → Public) — Minimum rider age lowered from 13 to 8 (with adult)",
+  "source_url": "https://www.notateslaapp.com/news/3869/tesla-lowers-minimum-age-to-ride-a-robotaxi",
+  "origin": "av-map-data",
+  "flags": [
+   "weak-source"
+  ],
+  "id": "8b934bdcaa"
+ },
+ {
+  "date": "2026-04-01",
+  "type": "supervision-change",
+  "operator": "tesla",
+  "markets": [
+   "tesla-austin"
+  ],
+  "summary": "Austin: supervision change (supervision → Autonomous) — 10 unsupervised Model Ys confirmed in fleet",
+  "source_url": "https://www.basenor.com/blogs/news/tesla-austin-robotaxi-fleet-hits-10-unsupervised-model-ys",
+  "origin": "av-map-data",
+  "flags": [
+   "weak-source"
+  ],
+  "id": "8ccf7441c5"
+ },
+ {
+  "date": "2026-04-06",
+  "type": "testing",
+  "operator": "tesla",
+  "markets": [
+   "tesla-phoenix"
+  ],
+  "summary": "Phoenix: testing — ~60 Robotaxi-configured Model Ys spotted at staging lot",
+  "source_url": "https://www.basenor.com/blogs/news/tesla-robotaxi-expansion-60-model-ys-spotted-in-phoenix",
+  "origin": "av-map-data",
+  "flags": [
+   "weak-source"
+  ],
+  "id": "5bfbf04ef6"
+ },
+ {
+  "date": "2026-04-07",
+  "type": "launch",
+  "operator": "waymo",
+  "markets": [
+   "waymo-nashville"
+  ],
+  "summary": "Nashville: launch (Autonomous, Waitlist, via Waymo) — 11th US city; Lyft/Flexdrive fleet management; 60 sq mi initial area",
+  "source_url": "https://techcrunch.com/2026/04/07/waymo-opens-robotaxi-service-in-nashville-partners-with-lyft/",
+  "origin": "av-map-data",
+  "id": "caac2f31ad"
+ },
+ {
+  "date": "2026-04-08",
+  "type": "testing",
+  "operator": "moia",
+  "markets": [
+   "moia-los-angeles"
+  ],
+  "summary": "Los Angeles: testing (Safety Driver, via Uber) — MOIA America testing begins; ~10 vehicles scaling to 100+; commercial launch late 2026",
+  "source_url": "https://techcrunch.com/2026/04/08/volkswagen-moia-uber-los-angeles-testing-self-driving-microbuses-id-buzz/",
+  "origin": "av-map-data",
+  "id": "2c9be4b4d5"
+ },
+ {
+  "date": "2026-04-13",
+  "type": "testing",
+  "operator": "nuro",
+  "markets": [
+   "nuro-san-francisco"
+  ],
+  "summary": "San Francisco: testing (via Uber) — Uber employee test rides in Lucid Gravity robotaxis; public launch late 2026",
+  "source_url": "https://techcrunch.com/2026/04/13/uber-nuro-san-francisco-testing-premium-robotaxi-service/",
+  "origin": "av-map-data",
+  "id": "4a4dbeffd4"
+ },
+ {
+  "date": "2026-04-15",
+  "type": "access-change",
+  "operator": "waymo",
+  "markets": [
+   "waymo-miami"
+  ],
+  "summary": "Miami: access change (access → Public) — Open to public - no waitlist required",
+  "source_url": "https://waymo.com/blog/2026/04/floridas-new-way-to-ride/",
+  "origin": "av-map-data",
+  "id": "e74ed0353c"
+ },
+ {
+  "date": "2026-04-15",
+  "type": "access-change",
+  "operator": "waymo",
+  "markets": [
+   "waymo-orlando"
+  ],
+  "summary": "Orlando: access change (access → Public) — Open to public - no waitlist required",
+  "source_url": "https://waymo.com/blog/2026/04/floridas-new-way-to-ride/",
+  "origin": "av-map-data",
+  "id": "a3be0ed5bd"
+ },
+ {
+  "date": "2026-04-18",
+  "type": "launch",
+  "operator": "tesla",
+  "markets": [
+   "tesla-dallas"
+  ],
+  "summary": "Dallas: launch (Autonomous, Public, via Robotaxi) — Fully unsupervised launch skipping safety monitor phase; ~30-35 sq mi geofence covering urban core and Park Cities",
+  "source_url": "https://techcrunch.com/2026/04/18/tesla-brings-its-robotaxi-service-to-dallas-and-houston/",
+  "origin": "av-map-data",
+  "id": "ae9577679c"
+ },
+ {
+  "date": "2026-04-18",
+  "type": "launch",
+  "operator": "tesla",
+  "markets": [
+   "tesla-houston"
+  ],
+  "summary": "Houston: launch (Autonomous, Public, via Robotaxi) — Fully unsupervised launch; ~12-15 sq mi geofence focused on Northwest region covering Jersey Village and Willowbrook areas",
+  "source_url": "https://techcrunch.com/2026/04/18/tesla-brings-its-robotaxi-service-to-dallas-and-houston/",
+  "origin": "av-map-data",
+  "id": "d8d72e9d82"
+ },
+ {
+  "date": "2026-04-24",
+  "type": "testing",
+  "operator": "moia",
+  "markets": [
+   "moia-orlando"
+  ],
+  "summary": "Orlando: testing (Safety Driver, via Beep) — Validation testing started in Lake Nona FL; up to 5000 ID. Buzz vehicles planned over 10 years; passenger rides later 2026",
+  "source_url": "https://www.prnewswire.com/news-releases/moia-america-to-expand-into-new-us-markets-through-strategic-partnership-with-beep-starting-in-orlando-302752223.html",
+  "origin": "av-map-data",
+  "id": "3ceeb57d74"
+ },
+ {
+  "date": "2026-04-30",
+  "type": "announcement",
+  "operator": "nuro",
+  "markets": [
+   "nuro-san-francisco"
+  ],
+  "summary": "San Francisco: announcement (via Uber) — Hertz Oro Mobility named fleet operator for Uber/Lucid/Nuro robotaxi service launching Bay Area late 2026",
+  "source_url": "https://newsroom.hertz.com/press-releases/press-release-details/hertz-and-uber-partner-to-power-autonomous-robotaxi-and-driver-led-fleet-operations/",
+  "origin": "av-map-data",
+  "id": "b1f12c10d6"
+ },
+ {
+  "date": "2026-05-05",
+  "type": "testing",
+  "operator": "nuro",
+  "markets": [
+   "nuro-san-francisco"
+  ],
+  "summary": "San Francisco: testing (Safety Driver, via Uber) — CA DMV modified driverless AV permit to include Lucid Gravity; Nuro one of 5 companies with both DMV Driverless Testing + CPUC Drivered Pilot permits",
+  "source_url": "https://techcrunch.com/2026/05/05/nuro-receives-driverless-testing-permit-ahead-of-uber-robotaxi-service-launch/",
+  "origin": "av-map-data",
+  "id": "305c01e32b"
+ },
+ {
+  "date": "2026-05-13",
+  "type": "access-change",
+  "operator": "waymo",
+  "markets": [
+   "waymo-miami"
+  ],
+  "summary": "Miami: access change (access → Public) — Miami expansion announced; part of total 1400+ sq mi across 11 cities; FIFA World Cup match-ready expansion",
+  "source_url": "https://waymo.com/blog/shorts/growing-to-1400-sqm/",
+  "origin": "av-map-data",
+  "id": "6549ebd91f"
+ },
+ {
+  "date": "2026-05-13",
+  "type": "access-change",
+  "operator": "waymo",
+  "markets": [
+   "waymo-austin"
+  ],
+  "summary": "Austin: access change (access → Public) — Austin service area expansion in coming weeks; part of 1400+ sq mi total coverage",
+  "source_url": "https://waymo.com/blog/shorts/growing-to-1400-sqm/",
+  "origin": "av-map-data",
+  "id": "a5873ab6f9"
+ },
+ {
+  "date": "2026-05-13",
+  "type": "access-change",
+  "operator": "waymo",
+  "markets": [
+   "waymo-atlanta"
+  ],
+  "summary": "Atlanta: access change (access → Public) — Atlanta service area expansion in coming weeks; part of 1400+ sq mi total",
+  "source_url": "https://waymo.com/blog/shorts/growing-to-1400-sqm/",
+  "origin": "av-map-data",
+  "id": "20f7e845fc"
+ },
+ {
+  "date": "2026-05-13",
+  "type": "access-change",
+  "operator": "waymo",
+  "markets": [
+   "waymo-houston"
+  ],
+  "summary": "Houston: access change (access → Public) — Houston expansion to include EaDo, Texas Medical Center, NE Houston; tens of thousands of riders already on service",
+  "source_url": "https://www.axios.com/local/houston/2026/05/13/waymo-houston-expansion-world-cup-nrg-stadium",
+  "origin": "av-map-data",
+  "id": "aa7403a30a"
+ },
+ {
+  "date": "2026-05-13",
+  "type": "access-change",
+  "operator": "waymo",
+  "markets": [
+   "waymo-sf-bay-area"
+  ],
+  "summary": "San Francisco Bay Area: access change (access → Public) — SF Bay Area service area expansion in coming weeks; part of 1400+ sq mi total",
+  "source_url": "https://waymo.com/blog/shorts/growing-to-1400-sqm/",
+  "origin": "av-map-data",
+  "id": "f1ea7d5a69"
+ },
+ {
+  "date": "2026-05-14",
+  "type": "regulatory",
+  "operator": "tesla",
+  "markets": [
+   "tesla-austin",
+   "tesla-dallas",
+   "tesla-houston"
+  ],
+  "summary": "Tesla Robotaxi LLC receives Texas DMV AV authorization (new state framework).",
+  "source_url": "https://texasavtracker.com/",
+  "origin": "curated",
+  "id": "43d6ef1daa"
+ },
+ {
+  "date": "2026-07-03",
+  "type": "supervision-change",
+  "operator": "tesla",
+  "markets": [
+   "tesla-miami"
+  ],
+  "summary": "Tesla begins unsupervised (no safety monitor) Robotaxi operation in Miami.",
+  "source_url": "https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q3-2026-Update.pdf",
+  "origin": "curated",
+  "id": "792c751c8d"
+ },
+ {
+  "date": "2026-07-21",
+  "type": "supervision-change",
+  "operator": "tesla",
+  "markets": [
+   "tesla-orlando",
+   "tesla-tampa"
+  ],
+  "summary": "Tesla begins unsupervised Robotaxi operation in Orlando and Tampa.",
+  "source_url": "https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q3-2026-Update.pdf",
+  "origin": "curated",
+  "id": "48b4a27658"
+ },
+ {
+  "date": "2026-08-10",
+  "type": "fares",
+  "operator": "zoox",
+  "markets": [
+   "zoox-las-vegas"
+  ],
+  "summary": "Zoox starts charging fares in Las Vegas — its first commercial market (NHTSA exemption, up to 2,500 vehicles).",
+  "source_url": "https://techcrunch.com/2026/08/05/zoox-to-start-charging-for-robotaxi-rides-in-las-vegas/",
+  "origin": "curated",
+  "id": "50f5c8ed06"
+ },
+ {
+  "date": "2026-08-26",
+  "type": "hours",
+  "operator": "tesla",
+  "markets": [
+   "tesla-austin"
+  ],
+  "summary": "Austin Robotaxi hours 6am–10pm (baseline before late-night extensions).",
+  "source_url": "https://teslanorth.com/2026/10/23/tesla-robotaxi-austin-1am-cota/",
+  "origin": "curated",
+  "id": "67bad026ad"
+ },
+ {
+  "date": "2026-09-01",
+  "type": "launch",
+  "operator": "waymo",
+  "markets": [
+   "waymo-denver",
+   "waymo-san-diego",
+   "waymo-tampa"
+  ],
+  "summary": "Waymo launches paid rider-only service (rolling invites) in Denver, San Diego and Tampa; >4,000 vehicles, 14 cities.",
+  "source_url": "https://techcrunch.com/2026/09/01/waymo-accelerates-robotaxi-expansion-with-launches-in-denver-san-diego-and-tampa/",
+  "origin": "curated",
+  "id": "57e370619a"
+ },
+ {
+  "date": "2026-09-01",
+  "type": "announcement",
+  "operator": "zoox",
+  "markets": [
+   "zoox-houston",
+   "zoox-san-diego"
+  ],
+  "summary": "Zoox to begin supervised testing in Houston and San Diego.",
+  "source_url": "https://www.cnbc.com/2026/09/01/waymo-and-zoox-expand-into-more-us-markets-as-robotaxi-race-heats-up.html",
+  "origin": "curated",
+  "id": "2c73be20d9"
+ },
+ {
+  "date": "2026-09-03",
+  "type": "vehicles",
+  "operator": "tesla",
+  "markets": [
+   "tesla-austin"
+  ],
+  "summary": "Cybercab begins carrying Robotaxi riders in Austin.",
+  "source_url": "https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q3-2026-Update.pdf",
+  "origin": "curated",
+  "id": "154c2f42ad"
+ },
+ {
+  "date": "2026-09-14",
+  "type": "launch",
+  "operator": "waymo",
+  "markets": [
+   "waymo-las-vegas"
+  ],
+  "summary": "Waymo opens Las Vegas service (~24 sq mi, Ojai vehicles).",
+  "source_url": "https://techcrunch.com/2026/09/14/waymo-opens-robotaxi-service-in-las-vegas/",
+  "origin": "curated",
+  "id": "5cd4044a1a"
+ },
+ {
+  "date": "2026-09-24",
+  "type": "milestone",
+  "operator": "waymo",
+  "markets": [],
+  "summary": "TechCrunch fleet analysis: ~4,000 Waymo vehicles in 15 cities, ~500k paid rides/week, ~80% of fleet in CA+TX.",
+  "source_url": "https://techcrunch.com/2026/09/24/waymo-is-scaling-fast-heres-what-the-fleet-data-shows/",
+  "origin": "curated",
+  "id": "111898678b"
+ },
+ {
+  "date": "2026-10-02",
+  "type": "hours",
+  "operator": "tesla",
+  "markets": [
+   "tesla-austin"
+  ],
+  "summary": "Austin Robotaxi hours extended to 11pm.",
+  "source_url": "https://teslanorth.com/2026/10/23/tesla-robotaxi-austin-1am-cota/",
+  "origin": "curated",
+  "id": "4d71465359"
+ },
+ {
+  "date": "2026-10-14",
+  "type": "access-change",
+  "operator": "waymo",
+  "markets": [
+   "waymo-tampa",
+   "waymo-san-diego",
+   "waymo-san-antonio"
+  ],
+  "summary": "Waymo opens Tampa, San Diego and San Antonio to all riders (no waitlist).",
+  "source_url": "https://support.google.com/waymo/announcements/12766613?hl=en",
+  "origin": "curated",
+  "id": "171ab05de6"
+ },
+ {
+  "date": "2026-10-16",
+  "type": "hours",
+  "operator": "tesla",
+  "markets": [
+   "tesla-austin"
+  ],
+  "summary": "Austin Robotaxi hours extended to midnight.",
+  "source_url": "https://teslanorth.com/2026/10/23/tesla-robotaxi-austin-1am-cota/",
+  "origin": "curated",
+  "id": "292eefc67c"
+ },
+ {
+  "date": "2026-10-16",
+  "type": "announcement",
+  "operator": "waymo",
+  "markets": [
+   "waymo-toronto"
+  ],
+  "summary": "Waymo announces Toronto — first Canadian city; manual driving now, service targeted for 2028.",
+  "source_url": "https://waymo.com/blog/2026/10/waymo-in-toronto/",
+  "origin": "curated",
+  "id": "dc4970c309"
+ },
+ {
+  "date": "2026-10-19",
+  "type": "milestone",
+  "operator": "waymo",
+  "markets": [],
+  "summary": "Semafor/Reuters: Waymo plans ~8,000 vehicles by end of 2026 and ~20,000 by end of 2027 (not confirmed by Waymo).",
+  "source_url": "https://www.investing.com/news/stock-market-news/waymo-plans-to-quintuple-fleet-to-20000-semafor-reports-4958528",
+  "origin": "curated",
+  "id": "2fb87b6f08"
+ },
+ {
+  "date": "2026-10-21",
+  "type": "access-change",
+  "operator": "waymo",
+  "markets": [
+   "waymo-las-vegas"
+  ],
+  "summary": "Waymo adds Harry Reid International Airport (LAS) pickups/drop-offs.",
+  "source_url": "https://waymo.com/blog/shorts/las-airport/",
+  "origin": "curated",
+  "id": "f7c07721c1"
+ },
+ {
+  "date": "2026-10-22",
+  "type": "area-expansion",
+  "operator": "tesla",
+  "markets": [
+   "tesla-austin"
+  ],
+  "summary": "Tesla expands Austin geofence to Circuit of the Americas for F1 weekend (~+8 sq mi to ~272 sq mi) and extends hours to 1am.",
+  "source_url": "https://teslanorth.com/2026/10/23/tesla-robotaxi-austin-1am-cota/",
+  "origin": "curated",
+  "id": "835a21862c"
+ },
+ {
+  "date": "2026-10-23",
+  "type": "vehicles",
+  "operator": "tesla",
+  "markets": [
+   "tesla-austin"
+  ],
+  "summary": "Cybercabs deployed for Austin F1 weekend; 463 Cybercabs on Texas registry per Teslarati.",
+  "source_url": "https://www.teslarati.com/tesla-cybercabs-take-over-austins-f1-weekend/",
+  "origin": "curated",
+  "id": "3c0cc10209"
+ }
+]

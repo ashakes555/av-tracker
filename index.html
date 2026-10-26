@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AV Deployment Tracker</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="site/css/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="title"><h1>AV Deployment Tracker</h1><span class="sub">Robotaxi deployments · US (Canada as it launches)</span></div>
+  <nav><a href="#charts">Charts</a><a href="#cities">Cities</a><a href="#events">Events</a><a href="sources.html">Sources</a></nav>
+</header>
+<section class="filters" id="global-filters" aria-label="Global filters">
+  <div class="frow">
+    <label>Country <select data-f="country"></select></label>
+    <label>State/Prov. <select data-f="state"></select></label>
+    <label>City <select data-f="city"></select></label>
+    <label>Operator <select data-f="operator"></select></label>
+  </div>
+  <div class="frow range" data-range="global">
+    <span class="rlabel">Range</span>
+    <button data-r="3M">3M</button><button data-r="1Y">1Y</button><button data-r="3Y">3Y</button><button data-r="ALL" class="on">All</button>
+    <label>From <input type="date" data-r="from"></label><label>To <input type="date" data-r="to"></label>
+  </div>
+  <p class="updated" id="updated"></p>
+</section>
+<main>
+  <section id="charts" class="grid">
+    <article class="card" data-chart="vehicles"><h2>Vehicles</h2></article>
+    <article class="card" data-chart="usage"><h2>Rider miles &amp; rides</h2></article>
+    <article class="card" data-chart="area"><h2>Service area</h2></article>
+    <article class="card" data-chart="status"><h2>Cities served by status</h2></article>
+  </section>
+  <p class="legend-key"><span class="k rep"></span> reported <span class="k der"></span> derived (computed from reported data) <span class="k est"></span> estimate · Tap a point for its source.</p>
+  <section id="cities" class="card wide">
+    <h2>Cities</h2>
+    <p class="hint">Uses the global filters. Tap a column header to sort. "Vehicles" shows a city-level count only where one is published; Texas registry counts are statewide (see Vehicles chart).</p>
+    <div class="tablewrap"><table id="city-table"></table></div>
+  </section>
+  <section id="events" class="card wide">
+    <h2>Events</h2>
+    <div class="frow"><label>Type <select id="ev-type"></select></label><label class="grow">Search <input type="search" id="ev-q" placeholder="e.g. airport"></label><label class="chk"><input type="checkbox" id="ev-inrange" checked> only in time range</label></div>
+    <ol id="event-list" class="timeline"></ol>
+    <button id="ev-more" class="more" hidden>Show more</button>
+  </section>
+</main>
+<footer>
+  <p>Service areas: <a href="https://robotaxitracker.com">Robotaxi Tracker (robotaxitracker.com)</a> (CC BY 4.0) and <a href="https://github.com/path-avmap/av-map-data">av-map-data</a> (MIT). Texas registry counts via <a href="https://texasavtracker.com/">texasavtracker.com</a>. Full list on the <a href="sources.html">Sources page</a>. Personal research build, not affiliated with any operator.</p>
+</footer>
+<script src="site/vendor/chart.umd.min.js"></script>
+<script src="site/vendor/chartjs-adapter-date-fns.bundle.min.js"></script>
+<script src="site/js/common.js"></script>
+<script src="site/js/app.js"></script>
+</body>
+</html>

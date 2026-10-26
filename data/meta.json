@@ -1,0 +1,88 @@
+{
+ "generated_at": "2026-10-26T10:06:12-07:00",
+ "data_as_of": "2026-10-25",
+ "statuses": [
+  "announced",
+  "testing",
+  "safety-driver",
+  "driverless-employees",
+  "public-driverless",
+  "paid-public",
+  "ended"
+ ],
+ "status_definitions": {
+  "announced": "Publicly announced / mapping only, no AV testing reported yet",
+  "testing": "AV testing on public roads (safety driver, no public riders)",
+  "safety-driver": "Public (or invited) riders with a safety driver or monitor on board (may be paid)",
+  "driverless-employees": "Rider-only (no human on board) rides for employees/guests only",
+  "public-driverless": "Rider-only rides for public riders (waitlist or open), free",
+  "paid-public": "Rider-only rides for public riders with fares",
+  "ended": "Service ended"
+ },
+ "metrics": {
+  "vehicles": {
+   "label": "Vehicles",
+   "unit": "vehicles",
+   "kind": "level",
+   "family": "vehicles"
+  },
+  "vehicles_driverless": {
+   "label": "Driverless (no-monitor) vehicles",
+   "unit": "vehicles",
+   "kind": "level",
+   "family": "vehicles"
+  },
+  "area_sq_mi": {
+   "label": "Service area",
+   "unit": "sq mi",
+   "kind": "level",
+   "family": "area"
+  },
+  "driverless_miles_cum": {
+   "label": "Cumulative driverless miles (no safety monitor)",
+   "unit": "miles",
+   "kind": "cumulative",
+   "family": "usage"
+  },
+  "ro_miles_cum": {
+   "label": "Cumulative rider-only miles",
+   "unit": "miles",
+   "kind": "cumulative",
+   "family": "usage"
+  },
+  "autonomous_miles_cum": {
+   "label": "Cumulative autonomous miles (incl. testing)",
+   "unit": "miles",
+   "kind": "cumulative",
+   "family": "usage"
+  },
+  "paid_rides_week": {
+   "label": "Paid rides per week",
+   "unit": "rides/week",
+   "kind": "rate",
+   "family": "usage"
+  },
+  "miles_week": {
+   "label": "Autonomous miles per week",
+   "unit": "miles/week",
+   "kind": "rate",
+   "family": "usage"
+  },
+  "riders_cum": {
+   "label": "Cumulative riders",
+   "unit": "riders",
+   "kind": "cumulative",
+   "family": "usage"
+  }
+ },
+ "confidence": {
+  "reported": "Number published by company, regulator, or a tracker's own measurement, as-is",
+  "derived": "Computed from reported data (polygon area, sums, differences)",
+  "estimate": "Modelled estimate with stated method (none in v1)"
+ },
+ "warnings": [],
+ "unmapped_avmap_us_rows": [
+  "Waymo / London (2)",
+  "Waymo / Tokyo (1)"
+ ]
+}

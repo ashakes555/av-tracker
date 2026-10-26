@@ -1,0 +1,4440 @@
+[
+ {
+  "id": "avride-dallas-area",
+  "points": [
+   {
+    "date": "2025-12-03",
+    "value": 9.24,
+    "source_url": "https://techcrunch.com/2025/12/03/uber-and-avride-launch-robotaxi-service-in-dallas/",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/avride-dallas/2025-12-03_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/avride-dallas/2025-12-03_avmap.geojson",
+    "note": "av-map-data polygon"
+   }
+  ],
+  "operator": "avride",
+  "metric": "area_sq_mi",
+  "scope": "market",
+  "market": "avride-dallas",
+  "state": "TX",
+  "country": "US",
+  "unit": "sq mi",
+  "kind": "level",
+  "label": "Dallas service area",
+  "description": "",
+  "method": "Geodesic area (pyproj Geod WGS84, geometry_area_perimeter) of the market polygon; polygons from av-map-data (dated events) and Robotaxi Tracker git history (observation dates). Reported figures from companies/press are included as 'reported' points.",
+  "family": "area",
+  "first_date": "2025-12-03",
+  "last_date": "2025-12-03"
+ },
+ {
+  "id": "avride-tx-vehicles",
+  "points": [
+   {
+    "date": "2026-05-28",
+    "value": 317,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-08-11",
+    "value": 344,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-09-03",
+    "value": 344,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   }
+  ],
+  "operator": "avride",
+  "metric": "vehicles",
+  "scope": "state",
+  "market": null,
+  "state": "TX",
+  "country": "US",
+  "unit": "vehicles",
+  "kind": "level",
+  "label": "Avride vehicles on Texas AV registry",
+  "description": "Count of VINs listed under the operator's authorization in the Texas DMV AV registry (Senate Bill 2807 framework, effective 2026), as compiled daily by texasavtracker.com. Statewide; not split by city.",
+  "method": "Imported from texasavtracker.com /api/data history (lastChecked 2026-10-26); one point per recorded change.",
+  "authorized_at": "2026-05-21",
+  "family": "vehicles",
+  "first_date": "2026-05-28",
+  "last_date": "2026-09-03"
+ },
+ {
+  "id": "cruise-san-francisco-area",
+  "points": [
+   {
+    "date": "2022-02-02",
+    "value": 11.88,
+    "source_url": "https://fortune.com/2022/02/01/cruise-robotaxi-self-driving-car-san-francisco/",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/cruise-san-francisco/2022-02-02_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/cruise-san-francisco/2022-02-02_avmap.geojson",
+    "note": "av-map-data polygon"
+   },
+   {
+    "date": "2022-11-01",
+    "value": 33.45,
+    "source_url": "https://sfstandard.com/2022/11/01/self-driving-cruise-cars-are-expanding-to-most-of-sf-says-ceo/",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/cruise-san-francisco/2022-11-01_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/cruise-san-francisco/2022-11-01_avmap.geojson",
+    "note": "av-map-data polygon"
+   }
+  ],
+  "operator": "cruise",
+  "metric": "area_sq_mi",
+  "scope": "market",
+  "market": "cruise-san-francisco",
+  "state": "CA",
+  "country": "US",
+  "unit": "sq mi",
+  "kind": "level",
+  "label": "San Francisco service area",
+  "description": "",
+  "method": "Geodesic area (pyproj Geod WGS84, geometry_area_perimeter) of the market polygon; polygons from av-map-data (dated events) and Robotaxi Tracker git history (observation dates). Reported figures from companies/press are included as 'reported' points.",
+  "family": "area",
+  "first_date": "2022-02-02",
+  "last_date": "2022-11-01"
+ },
+ {
+  "id": "may-mobility-ann-arbor-mi-area",
+  "points": [
+   {
+    "date": "2021-10-11",
+    "value": 1.27,
+    "source_url": "https://maymobility.com/posts/a2go-autonomous-shuttle-service-launches-in-ann-arbor-on-october-11/",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/may-mobility-ann-arbor-mi/2021-10-11_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/may-mobility-ann-arbor-mi/2021-10-11_avmap.geojson",
+    "note": "av-map-data polygon"
+   }
+  ],
+  "operator": "may-mobility",
+  "metric": "area_sq_mi",
+  "scope": "market",
+  "market": "may-mobility-ann-arbor-mi",
+  "state": "MI",
+  "country": "US",
+  "unit": "sq mi",
+  "kind": "level",
+  "label": "Ann Arbor service area",
+  "description": "",
+  "method": "Geodesic area (pyproj Geod WGS84, geometry_area_perimeter) of the market polygon; polygons from av-map-data (dated events) and Robotaxi Tracker git history (observation dates). Reported figures from companies/press are included as 'reported' points.",
+  "family": "area",
+  "first_date": "2021-10-11",
+  "last_date": "2021-10-11"
+ },
+ {
+  "id": "may-mobility-arlington-tx-area",
+  "points": [
+   {
+    "date": "2021-03-23",
+    "value": 1.14,
+    "source_url": "https://maymobility.com/locations/arlington-tx/",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/may-mobility-arlington-tx/2021-03-23_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/may-mobility-arlington-tx/2021-03-23_avmap.geojson",
+    "note": "av-map-data polygon"
+   }
+  ],
+  "operator": "may-mobility",
+  "metric": "area_sq_mi",
+  "scope": "market",
+  "market": "may-mobility-arlington-tx",
+  "state": "TX",
+  "country": "US",
+  "unit": "sq mi",
+  "kind": "level",
+  "label": "Arlington service area",
+  "description": "",
+  "method": "Geodesic area (pyproj Geod WGS84, geometry_area_perimeter) of the market polygon; polygons from av-map-data (dated events) and Robotaxi Tracker git history (observation dates). Reported figures from companies/press are included as 'reported' points.",
+  "family": "area",
+  "first_date": "2021-03-23",
+  "last_date": "2021-03-23"
+ },
+ {
+  "id": "may-mobility-atlanta-area",
+  "points": [
+   {
+    "date": "2025-09-10",
+    "value": 5.35,
+    "source_url": "https://maymobility.com/posts/lyft-and-may-mobility-deploy-their-first-autonomous-vehicle-fleet-in-atlanta/",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/may-mobility-atlanta/2025-09-10_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/may-mobility-atlanta/2025-09-10_avmap.geojson",
+    "note": "av-map-data polygon"
+   }
+  ],
+  "operator": "may-mobility",
+  "metric": "area_sq_mi",
+  "scope": "market",
+  "market": "may-mobility-atlanta",
+  "state": "GA",
+  "country": "US",
+  "unit": "sq mi",
+  "kind": "level",
+  "label": "Atlanta service area",
+  "description": "",
+  "method": "Geodesic area (pyproj Geod WGS84, geometry_area_perimeter) of the market polygon; polygons from av-map-data (dated events) and Robotaxi Tracker git history (observation dates). Reported figures from companies/press are included as 'reported' points.",
+  "family": "area",
+  "first_date": "2025-09-10",
+  "last_date": "2025-09-10"
+ },
+ {
+  "id": "may-mobility-grand-rapids-mi-area",
+  "points": [
+   {
+    "date": "2019-07-25",
+    "value": 1.32,
+    "source_url": "https://www.michiganbusiness.org/press-releases/2019/07/public-private-partners-launch-grand-rapids-autonomous-vehicle-initiative-avgr/",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/may-mobility-grand-rapids-mi/2019-07-25_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/may-mobility-grand-rapids-mi/2019-07-25_avmap.geojson",
+    "note": "av-map-data polygon"
+   },
+   {
+    "date": "2021-07-26",
+    "value": 1.6,
+    "source_url": "https://www.prnewswire.com/news-releases/may-mobility-announces-on-demand-autonomous-service-in-grand-rapids-michigan-301351595.html",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/may-mobility-grand-rapids-mi/2021-07-26_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/may-mobility-grand-rapids-mi/2021-07-26_avmap.geojson",
+    "note": "av-map-data polygon"
+   }
+  ],
+  "operator": "may-mobility",
+  "metric": "area_sq_mi",
+  "scope": "market",
+  "market": "may-mobility-grand-rapids-mi",
+  "state": "MI",
+  "country": "US",
+  "unit": "sq mi",
+  "kind": "level",
+  "label": "Grand Rapids service area",
+  "description": "",
+  "method": "Geodesic area (pyproj Geod WGS84, geometry_area_perimeter) of the market polygon; polygons from av-map-data (dated events) and Robotaxi Tracker git history (observation dates). Reported figures from companies/press are included as 'reported' points.",
+  "family": "area",
+  "first_date": "2019-07-25",
+  "last_date": "2021-07-26"
+ },
+ {
+  "id": "may-mobility-grand-rapids-mn-area",
+  "points": [
+   {
+    "date": "2022-09-28",
+    "value": 3.43,
+    "source_url": "https://maymobility.com/posts/may-mobility-and-via-launch-first-rural-transit-program-to-use-wheelchair-accessible-ada-compliant-autonomous-vehicless/",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/may-mobility-grand-rapids-mn/2022-09-28_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/may-mobility-grand-rapids-mn/2022-09-28_avmap.geojson",
+    "note": "av-map-data polygon"
+   },
+   {
+    "date": "2025-09-02",
+    "value": 7.89,
+    "source_url": "https://www.kaxe.org/local-news/2025-08-11/grand-rapids-autonomous-transit-expanding-to-nearby-cities-tribal-stops",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/may-mobility-grand-rapids-mn/2025-09-02_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/may-mobility-grand-rapids-mn/2025-09-02_avmap.geojson",
+    "note": "av-map-data polygon"
+   }
+  ],
+  "operator": "may-mobility",
+  "metric": "area_sq_mi",
+  "scope": "market",
+  "market": "may-mobility-grand-rapids-mn",
+  "state": "MN",
+  "country": "US",
+  "unit": "sq mi",
+  "kind": "level",
+  "label": "Grand Rapids service area",
+  "description": "",
+  "method": "Geodesic area (pyproj Geod WGS84, geometry_area_perimeter) of the market polygon; polygons from av-map-data (dated events) and Robotaxi Tracker git history (observation dates). Reported figures from companies/press are included as 'reported' points.",
+  "family": "area",
+  "first_date": "2022-09-28",
+  "last_date": "2025-09-02"
+ },
+ {
+  "id": "may-mobility-martinez-ca-area",
+  "points": [
+   {
+    "date": "2024-09-12",
+    "value": 1.79,
+    "source_url": "https://ccta.net/news/contra-costa-transportation-authority-and-may-mobility-launch-autonomous-vehicle-service-in-martinez-california/",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/may-mobility-martinez-ca/2024-09-12_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/may-mobility-martinez-ca/2024-09-12_avmap.geojson",
+    "note": "av-map-data polygon"
+   }
+  ],
+  "operator": "may-mobility",
+  "metric": "area_sq_mi",
+  "scope": "market",
+  "market": "may-mobility-martinez-ca",
+  "state": "CA",
+  "country": "US",
+  "unit": "sq mi",
+  "kind": "level",
+  "label": "Martinez service area",
+  "description": "",
+  "method": "Geodesic area (pyproj Geod WGS84, geometry_area_perimeter) of the market polygon; polygons from av-map-data (dated events) and Robotaxi Tracker git history (observation dates). Reported figures from companies/press are included as 'reported' points.",
+  "family": "area",
+  "first_date": "2024-09-12",
+  "last_date": "2024-09-12"
+ },
+ {
+  "id": "may-mobility-peachtree-corners-ga-area",
+  "points": [
+   {
+    "date": "2024-10-07",
+    "value": 0.46,
+    "source_url": "https://maymobility.com/posts/peachtree-corners-launch-autonomous-vehicle-may-mobility-t-mobile/",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/may-mobility-peachtree-corners-ga/2024-10-07_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/may-mobility-peachtree-corners-ga/2024-10-07_avmap.geojson",
+    "note": "av-map-data polygon"
+   }
+  ],
+  "operator": "may-mobility",
+  "metric": "area_sq_mi",
+  "scope": "market",
+  "market": "may-mobility-peachtree-corners-ga",
+  "state": "GA",
+  "country": "US",
+  "unit": "sq mi",
+  "kind": "level",
+  "label": "Peachtree Corners service area",
+  "description": "",
+  "method": "Geodesic area (pyproj Geod WGS84, geometry_area_perimeter) of the market polygon; polygons from av-map-data (dated events) and Robotaxi Tracker git history (observation dates). Reported figures from companies/press are included as 'reported' points.",
+  "family": "area",
+  "first_date": "2024-10-07",
+  "last_date": "2024-10-07"
+ },
+ {
+  "id": "tesla-austin-area",
+  "points": [
+   {
+    "date": "2025-06-22",
+    "value": 20.37,
+    "source_url": "https://www.cnbc.com/2025/06/20/tesla-robotaxi-launch-austin.html",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/tesla-austin/2025-06-22_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/tesla-austin/2025-06-22_avmap.geojson",
+    "note": "av-map-data polygon"
+   },
+   {
+    "date": "2025-07-14",
+    "value": 43.92,
+    "source_url": "https://www.businessinsider.com/tesla-new-robotaxi-geofence-austin-shape-elon-musk-bigger-waymo-2025-7",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/tesla-austin/2025-07-14_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/tesla-austin/2025-07-14_avmap.geojson",
+    "note": "av-map-data polygon"
+   },
+   {
+    "date": "2025-08-03",
+    "value": 92.03,
+    "source_url": "https://www.pcmag.com/news/teslas-robotaxi-coverage-expands-four-times-the-size-of-initial-austin",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/tesla-austin/2025-08-03_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/tesla-austin/2025-08-03_avmap.geojson",
+    "note": "av-map-data polygon"
+   },
+   {
+    "date": "2025-08-26",
+    "value": 175.45,
+    "source_url": "https://electrek.co/2025/08/27/tesla-announces-50-increase-in-austin-robotaxi-but-50-from-what/",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/tesla-austin/2025-08-26_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/tesla-austin/2025-08-26_avmap.geojson",
+    "note": "av-map-data polygon"
+   },
+   {
+    "date": "2025-10-28",
+    "value": 245.72,
+    "source_url": "https://x.com/SawyerMerritt/status/1983287391315214570/photo/1",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/tesla-austin/2025-10-28_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/tesla-austin/2025-10-28_avmap.geojson",
+    "note": "av-map-data polygon"
+   },
+   {
+    "date": "2026-04-20",
+    "value": 243.55,
+    "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/9c5480d",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/tesla-austin/2026-04-20_rtt.geojson",
+    "dataset": "rtt",
+    "area_file": "areas/tesla-austin/2026-04-20_rtt.geojson",
+    "note": "RTT initial import — polygon as of import date, not an expansion date"
+   },
+   {
+    "date": "2026-08-29",
+    "value": 244.95,
+    "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/a75b193",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/tesla-austin/2026-08-29_rtt.geojson",
+    "dataset": "rtt",
+    "area_file": "areas/tesla-austin/2026-08-29_rtt.geojson",
+    "note": "RTT git commit date = date change first observed (actual expansion may be earlier)"
+   },
+   {
+    "date": "2026-08-31",
+    "value": 263.93,
+    "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/f6ace76",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/tesla-austin/2026-08-31_rtt.geojson",
+    "dataset": "rtt",
+    "area_file": "areas/tesla-austin/2026-08-31_rtt.geojson",
+    "note": "RTT git commit date = date change first observed (actual expansion may be earlier)"
+   },
+   {
+    "date": "2026-10-23",
+    "value": 272,
+    "source_url": "https://teslanorth.com/2026/10/23/tesla-robotaxi-austin-1am-cota/",
+    "confidence": "reported",
+    "source_type": "third-party-tracker",
+    "note": "F1/COTA expansion (+~8 sq mi) as measured by Robotaxi Tracker; polygon not yet in public RTT repo",
+    "curated": true
+   }
+  ],
+  "operator": "tesla",
+  "metric": "area_sq_mi",
+  "scope": "market",
+  "market": "tesla-austin",
+  "state": "TX",
+  "country": "US",
+  "unit": "sq mi",
+  "kind": "level",
+  "label": "Austin service area",
+  "description": "",
+  "method": "Geodesic area (pyproj Geod WGS84, geometry_area_perimeter) of the market polygon; polygons from av-map-data (dated events) and Robotaxi Tracker git history (observation dates). Reported figures from companies/press are included as 'reported' points.",
+  "family": "area",
+  "first_date": "2025-06-22",
+  "last_date": "2026-10-23"
+ },
+ {
+  "id": "tesla-austin-driverless-miles",
+  "points": [
+   {
+    "date": "2026-01-25",
+    "value": 235,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-01-19"
+   },
+   {
+    "date": "2026-02-01",
+    "value": 599,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-01-26"
+   },
+   {
+    "date": "2026-02-08",
+    "value": 825,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-02-02"
+   },
+   {
+    "date": "2026-02-15",
+    "value": 1197,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-02-09"
+   },
+   {
+    "date": "2026-02-22",
+    "value": 1235,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-02-16"
+   },
+   {
+    "date": "2026-03-01",
+    "value": 1355,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-02-23"
+   },
+   {
+    "date": "2026-03-08",
+    "value": 1398,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-03-02"
+   },
+   {
+    "date": "2026-03-15",
+    "value": 1512,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-03-09"
+   },
+   {
+    "date": "2026-03-22",
+    "value": 1770,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-03-16"
+   },
+   {
+    "date": "2026-03-29",
+    "value": 3532,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-03-23"
+   },
+   {
+    "date": "2026-04-05",
+    "value": 6235,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-03-30"
+   },
+   {
+    "date": "2026-04-12",
+    "value": 10251,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-04-06"
+   },
+   {
+    "date": "2026-04-19",
+    "value": 15901,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-04-13"
+   },
+   {
+    "date": "2026-04-26",
+    "value": 21727,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-04-20"
+   },
+   {
+    "date": "2026-05-03",
+    "value": 29997,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-04-27"
+   },
+   {
+    "date": "2026-05-10",
+    "value": 38585,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-05-04"
+   },
+   {
+    "date": "2026-05-17",
+    "value": 50448,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-05-11"
+   },
+   {
+    "date": "2026-05-24",
+    "value": 64063,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-05-18"
+   },
+   {
+    "date": "2026-05-31",
+    "value": 76847,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-05-25"
+   },
+   {
+    "date": "2026-06-07",
+    "value": 88937,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-06-01"
+   },
+   {
+    "date": "2026-06-14",
+    "value": 101277,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-06-08"
+   },
+   {
+    "date": "2026-06-21",
+    "value": 116013,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-06-15"
+   },
+   {
+    "date": "2026-06-28",
+    "value": 129706,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-06-22"
+   },
+   {
+    "date": "2026-07-05",
+    "value": 148455,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-06-29"
+   },
+   {
+    "date": "2026-07-12",
+    "value": 165782,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-07-06"
+   },
+   {
+    "date": "2026-07-19",
+    "value": 178259,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-07-13"
+   },
+   {
+    "date": "2026-07-26",
+    "value": 193336,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-07-20"
+   },
+   {
+    "date": "2026-08-02",
+    "value": 214927,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-07-27"
+   },
+   {
+    "date": "2026-08-09",
+    "value": 256953,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-08-03"
+   },
+   {
+    "date": "2026-08-16",
+    "value": 318408,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-08-10"
+   },
+   {
+    "date": "2026-08-23",
+    "value": 392117,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-08-17"
+   },
+   {
+    "date": "2026-08-30",
+    "value": 475165,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-08-24"
+   },
+   {
+    "date": "2026-09-06",
+    "value": 603842,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-08-31"
+   },
+   {
+    "date": "2026-09-13",
+    "value": 742131,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-09-07"
+   },
+   {
+    "date": "2026-09-20",
+    "value": 898653,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-09-14"
+   },
+   {
+    "date": "2026-09-27",
+    "value": 1088366,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-09-21"
+   },
+   {
+    "date": "2026-10-04",
+    "value": 1343467,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-09-28"
+   },
+   {
+    "date": "2026-10-11",
+    "value": 1680215,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-10-05"
+   },
+   {
+    "date": "2026-10-18",
+    "value": 2118015,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-10-12"
+   }
+  ],
+  "operator": "tesla",
+  "metric": "driverless_miles_cum",
+  "scope": "market",
+  "market": "tesla-austin",
+  "state": "TX",
+  "country": "US",
+  "unit": "miles",
+  "kind": "cumulative",
+  "label": "Austin cumulative driverless miles",
+  "description": "Tesla Robotaxi Safety Report: cumulative miles driven autonomously with NO safety monitor in the vehicle (includes miles with remote-operator assistance/takeover). Window starts 22 Jan 2026. Supervised (safety-monitor) miles are excluded.",
+  "method": "Extracted from JSON embedded in tesla.com/robotaxi/safety (react-data 'tesla_robotaxi_graph'), fetched via headless Chrome (plain HTTP gets Akamai 403). Tesla dates are Monday week-starts; stored date = week end (Sunday), value = cumulative through that week.",
+  "family": "usage",
+  "first_date": "2026-01-25",
+  "last_date": "2026-10-18"
+ },
+ {
+  "id": "tesla-austin-vehicles-driverless",
+  "points": [
+   {
+    "date": "2026-04-30",
+    "value": 19,
+    "source_url": "https://electrek.co/2026/04/30/tesla-robotaxi-unsupervised-finally-signs-ramping-up/",
+    "confidence": "reported",
+    "source_type": "press",
+    "note": "Unsupervised (no-monitor) vehicles observed by community trackers",
+    "curated": true
+   }
+  ],
+  "operator": "tesla",
+  "metric": "vehicles_driverless",
+  "scope": "market",
+  "market": "tesla-austin",
+  "state": "TX",
+  "country": "US",
+  "unit": "vehicles",
+  "kind": "level",
+  "label": "Austin unsupervised vehicles",
+  "description": "",
+  "method": "Hand-curated from cited company statements / press reports.",
+  "family": "vehicles",
+  "first_date": "2026-04-30",
+  "last_date": "2026-04-30"
+ },
+ {
+  "id": "tesla-bay-area-area",
+  "points": [
+   {
+    "date": "2025-07-31",
+    "value": 1120.66,
+    "source_url": "https://www.businessinsider.com/teslas-ride-hailing-service-live-in-san-francisco-musk-says-2025-7",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/tesla-bay-area/2025-07-31_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/tesla-bay-area/2025-07-31_avmap.geojson",
+    "note": "av-map-data polygon"
+   },
+   {
+    "date": "2026-04-20",
+    "value": 1094.45,
+    "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/9c5480d",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/tesla-bay-area/2026-04-20_rtt.geojson",
+    "dataset": "rtt",
+    "area_file": "areas/tesla-bay-area/2026-04-20_rtt.geojson",
+    "note": "RTT initial import — polygon as of import date, not an expansion date"
+   }
+  ],
+  "operator": "tesla",
+  "metric": "area_sq_mi",
+  "scope": "market",
+  "market": "tesla-bay-area",
+  "state": "CA",
+  "country": "US",
+  "unit": "sq mi",
+  "kind": "level",
+  "label": "Bay Area service area",
+  "description": "",
+  "method": "Geodesic area (pyproj Geod WGS84, geometry_area_perimeter) of the market polygon; polygons from av-map-data (dated events) and Robotaxi Tracker git history (observation dates). Reported figures from companies/press are included as 'reported' points.",
+  "family": "area",
+  "first_date": "2025-07-31",
+  "last_date": "2026-04-20"
+ },
+ {
+  "id": "tesla-company-driverless-miles",
+  "points": [
+   {
+    "date": "2026-01-25",
+    "value": 235,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   },
+   {
+    "date": "2026-02-01",
+    "value": 599,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   },
+   {
+    "date": "2026-02-08",
+    "value": 825,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   },
+   {
+    "date": "2026-02-15",
+    "value": 1197,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   },
+   {
+    "date": "2026-02-22",
+    "value": 1235,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   },
+   {
+    "date": "2026-03-01",
+    "value": 1355,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   },
+   {
+    "date": "2026-03-08",
+    "value": 1398,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   },
+   {
+    "date": "2026-03-15",
+    "value": 1512,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   },
+   {
+    "date": "2026-03-22",
+    "value": 1770,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   },
+   {
+    "date": "2026-03-29",
+    "value": 3532,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   },
+   {
+    "date": "2026-04-05",
+    "value": 6235,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   },
+   {
+    "date": "2026-04-12",
+    "value": 10251,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   },
+   {
+    "date": "2026-04-19",
+    "value": 16438,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   },
+   {
+    "date": "2026-04-26",
+    "value": 26485,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   },
+   {
+    "date": "2026-05-03",
+    "value": 39535,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   },
+   {
+    "date": "2026-05-10",
+    "value": 52722,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   },
+   {
+    "date": "2026-05-17",
+    "value": 69547,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   },
+   {
+    "date": "2026-05-24",
+    "value": 87825,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   },
+   {
+    "date": "2026-05-31",
+    "value": 107558,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   },
+   {
+    "date": "2026-06-07",
+    "value": 129780,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   },
+   {
+    "date": "2026-06-14",
+    "value": 156439,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   },
+   {
+    "date": "2026-06-21",
+    "value": 186296,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   },
+   {
+    "date": "2026-06-28",
+    "value": 220353,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   },
+   {
+    "date": "2026-07-05",
+    "value": 258951,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   },
+   {
+    "date": "2026-07-12",
+    "value": 305542,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   },
+   {
+    "date": "2026-07-19",
+    "value": 361449,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   },
+   {
+    "date": "2026-07-26",
+    "value": 424970,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   },
+   {
+    "date": "2026-08-02",
+    "value": 498919,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   },
+   {
+    "date": "2026-08-09",
+    "value": 587706,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   },
+   {
+    "date": "2026-08-16",
+    "value": 689275,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   },
+   {
+    "date": "2026-08-23",
+    "value": 804687,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   },
+   {
+    "date": "2026-08-30",
+    "value": 936906,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   },
+   {
+    "date": "2026-09-06",
+    "value": 1108858,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   },
+   {
+    "date": "2026-09-13",
+    "value": 1305859,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   },
+   {
+    "date": "2026-09-20",
+    "value": 1531902,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   },
+   {
+    "date": "2026-09-27",
+    "value": 1789945,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   },
+   {
+    "date": "2026-09-30",
+    "value": 2000000,
+    "source_url": "https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q3-2026-Update.pdf",
+    "confidence": "reported",
+    "source_type": "official",
+    "note": "'nearly 2M' cumulative unsupervised miles at end of Q3 2026 (rounded)",
+    "curated": true
+   },
+   {
+    "date": "2026-10-04",
+    "value": 2124226,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   },
+   {
+    "date": "2026-10-11",
+    "value": 2554847,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   },
+   {
+    "date": "2026-10-18",
+    "value": 3112541,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "derived",
+    "source_type": "official",
+    "note": "Sum of per-city weekly values"
+   }
+  ],
+  "operator": "tesla",
+  "metric": "driverless_miles_cum",
+  "scope": "company",
+  "market": null,
+  "state": null,
+  "country": "US",
+  "unit": "miles",
+  "kind": "cumulative",
+  "label": "Tesla cumulative driverless miles (all cities)",
+  "description": "Sum of the per-city Tesla Robotaxi Safety Report series plus Tesla quarterly-report statements.",
+  "method": "Weekly points = sum of per-city cumulative values for weeks where all reporting cities have a value (derived from reported).",
+  "family": "usage",
+  "first_date": "2026-01-25",
+  "last_date": "2026-10-18"
+ },
+ {
+  "id": "tesla-dallas-area",
+  "points": [
+   {
+    "date": "2026-04-20",
+    "value": 30.84,
+    "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/9c5480d",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/tesla-dallas/2026-04-20_rtt.geojson",
+    "dataset": "rtt",
+    "area_file": "areas/tesla-dallas/2026-04-20_rtt.geojson",
+    "note": "RTT initial import — polygon as of import date, not an expansion date"
+   },
+   {
+    "date": "2026-08-29",
+    "value": 81.06,
+    "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/be25073",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/tesla-dallas/2026-08-29_rtt.geojson",
+    "dataset": "rtt",
+    "area_file": "areas/tesla-dallas/2026-08-29_rtt.geojson",
+    "note": "RTT git commit date = date change first observed (actual expansion may be earlier)"
+   }
+  ],
+  "operator": "tesla",
+  "metric": "area_sq_mi",
+  "scope": "market",
+  "market": "tesla-dallas",
+  "state": "TX",
+  "country": "US",
+  "unit": "sq mi",
+  "kind": "level",
+  "label": "Dallas service area",
+  "description": "",
+  "method": "Geodesic area (pyproj Geod WGS84, geometry_area_perimeter) of the market polygon; polygons from av-map-data (dated events) and Robotaxi Tracker git history (observation dates). Reported figures from companies/press are included as 'reported' points.",
+  "family": "area",
+  "first_date": "2026-04-20",
+  "last_date": "2026-08-29"
+ },
+ {
+  "id": "tesla-dallas-driverless-miles",
+  "points": [
+   {
+    "date": "2026-04-19",
+    "value": 239,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-04-13"
+   },
+   {
+    "date": "2026-04-26",
+    "value": 2186,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-04-20"
+   },
+   {
+    "date": "2026-05-03",
+    "value": 4406,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-04-27"
+   },
+   {
+    "date": "2026-05-10",
+    "value": 6287,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-05-04"
+   },
+   {
+    "date": "2026-05-17",
+    "value": 8351,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-05-11"
+   },
+   {
+    "date": "2026-05-24",
+    "value": 10336,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-05-18"
+   },
+   {
+    "date": "2026-05-31",
+    "value": 13365,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-05-25"
+   },
+   {
+    "date": "2026-06-07",
+    "value": 18115,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-06-01"
+   },
+   {
+    "date": "2026-06-14",
+    "value": 23807,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-06-08"
+   },
+   {
+    "date": "2026-06-21",
+    "value": 32142,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-06-15"
+   },
+   {
+    "date": "2026-06-28",
+    "value": 39484,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-06-22"
+   },
+   {
+    "date": "2026-07-05",
+    "value": 46316,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-06-29"
+   },
+   {
+    "date": "2026-07-12",
+    "value": 55965,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-07-06"
+   },
+   {
+    "date": "2026-07-19",
+    "value": 71036,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-07-13"
+   },
+   {
+    "date": "2026-07-26",
+    "value": 87388,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-07-20"
+   },
+   {
+    "date": "2026-08-02",
+    "value": 104286,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-07-27"
+   },
+   {
+    "date": "2026-08-09",
+    "value": 127242,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-08-03"
+   },
+   {
+    "date": "2026-08-16",
+    "value": 145971,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-08-10"
+   },
+   {
+    "date": "2026-08-23",
+    "value": 166952,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-08-17"
+   },
+   {
+    "date": "2026-08-30",
+    "value": 197918,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-08-24"
+   },
+   {
+    "date": "2026-09-06",
+    "value": 227115,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-08-31"
+   },
+   {
+    "date": "2026-09-13",
+    "value": 269163,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-09-07"
+   },
+   {
+    "date": "2026-09-20",
+    "value": 322985,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-09-14"
+   },
+   {
+    "date": "2026-09-27",
+    "value": 377205,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-09-21"
+   },
+   {
+    "date": "2026-10-04",
+    "value": 439625,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-09-28"
+   },
+   {
+    "date": "2026-10-11",
+    "value": 513289,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-10-05"
+   },
+   {
+    "date": "2026-10-18",
+    "value": 608130,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-10-12"
+   }
+  ],
+  "operator": "tesla",
+  "metric": "driverless_miles_cum",
+  "scope": "market",
+  "market": "tesla-dallas",
+  "state": "TX",
+  "country": "US",
+  "unit": "miles",
+  "kind": "cumulative",
+  "label": "Dallas cumulative driverless miles",
+  "description": "Tesla Robotaxi Safety Report: cumulative miles driven autonomously with NO safety monitor in the vehicle (includes miles with remote-operator assistance/takeover). Window starts 22 Jan 2026. Supervised (safety-monitor) miles are excluded.",
+  "method": "Extracted from JSON embedded in tesla.com/robotaxi/safety (react-data 'tesla_robotaxi_graph'), fetched via headless Chrome (plain HTTP gets Akamai 403). Tesla dates are Monday week-starts; stored date = week end (Sunday), value = cumulative through that week.",
+  "family": "usage",
+  "first_date": "2026-04-19",
+  "last_date": "2026-10-18"
+ },
+ {
+  "id": "tesla-dallas-vehicles-driverless",
+  "points": [
+   {
+    "date": "2026-04-30",
+    "value": 3,
+    "source_url": "https://electrek.co/2026/04/30/tesla-robotaxi-unsupervised-finally-signs-ramping-up/",
+    "confidence": "reported",
+    "source_type": "press",
+    "note": "Community tracker count",
+    "curated": true
+   }
+  ],
+  "operator": "tesla",
+  "metric": "vehicles_driverless",
+  "scope": "market",
+  "market": "tesla-dallas",
+  "state": "TX",
+  "country": "US",
+  "unit": "vehicles",
+  "kind": "level",
+  "label": "Dallas unsupervised vehicles",
+  "description": "",
+  "method": "Hand-curated from cited company statements / press reports.",
+  "family": "vehicles",
+  "first_date": "2026-04-30",
+  "last_date": "2026-04-30"
+ },
+ {
+  "id": "tesla-houston-area",
+  "points": [
+   {
+    "date": "2026-04-20",
+    "value": 24.87,
+    "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/9c5480d",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/tesla-houston/2026-04-20_rtt.geojson",
+    "dataset": "rtt",
+    "area_file": "areas/tesla-houston/2026-04-20_rtt.geojson",
+    "note": "RTT initial import — polygon as of import date, not an expansion date"
+   }
+  ],
+  "operator": "tesla",
+  "metric": "area_sq_mi",
+  "scope": "market",
+  "market": "tesla-houston",
+  "state": "TX",
+  "country": "US",
+  "unit": "sq mi",
+  "kind": "level",
+  "label": "Houston service area",
+  "description": "",
+  "method": "Geodesic area (pyproj Geod WGS84, geometry_area_perimeter) of the market polygon; polygons from av-map-data (dated events) and Robotaxi Tracker git history (observation dates). Reported figures from companies/press are included as 'reported' points.",
+  "family": "area",
+  "first_date": "2026-04-20",
+  "last_date": "2026-04-20"
+ },
+ {
+  "id": "tesla-houston-driverless-miles",
+  "points": [
+   {
+    "date": "2026-04-19",
+    "value": 298,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-04-13"
+   },
+   {
+    "date": "2026-04-26",
+    "value": 2572,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-04-20"
+   },
+   {
+    "date": "2026-05-03",
+    "value": 5132,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-04-27"
+   },
+   {
+    "date": "2026-05-10",
+    "value": 7850,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-05-04"
+   },
+   {
+    "date": "2026-05-17",
+    "value": 10748,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-05-11"
+   },
+   {
+    "date": "2026-05-24",
+    "value": 13426,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-05-18"
+   },
+   {
+    "date": "2026-05-31",
+    "value": 17346,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-05-25"
+   },
+   {
+    "date": "2026-06-07",
+    "value": 22728,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-06-01"
+   },
+   {
+    "date": "2026-06-14",
+    "value": 31355,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-06-08"
+   },
+   {
+    "date": "2026-06-21",
+    "value": 38141,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-06-15"
+   },
+   {
+    "date": "2026-06-28",
+    "value": 51163,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-06-22"
+   },
+   {
+    "date": "2026-07-05",
+    "value": 63049,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-06-29"
+   },
+   {
+    "date": "2026-07-12",
+    "value": 80137,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-07-06"
+   },
+   {
+    "date": "2026-07-19",
+    "value": 105869,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-07-13"
+   },
+   {
+    "date": "2026-07-26",
+    "value": 124377,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-07-20"
+   },
+   {
+    "date": "2026-08-02",
+    "value": 144198,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-07-27"
+   },
+   {
+    "date": "2026-08-09",
+    "value": 159186,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-08-03"
+   },
+   {
+    "date": "2026-08-16",
+    "value": 170629,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-08-10"
+   },
+   {
+    "date": "2026-08-23",
+    "value": 179914,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-08-17"
+   },
+   {
+    "date": "2026-08-30",
+    "value": 186444,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-08-24"
+   },
+   {
+    "date": "2026-09-06",
+    "value": 191357,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-08-31"
+   },
+   {
+    "date": "2026-09-13",
+    "value": 197515,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-09-07"
+   },
+   {
+    "date": "2026-09-20",
+    "value": 202404,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-09-14"
+   },
+   {
+    "date": "2026-09-27",
+    "value": 206917,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-09-21"
+   },
+   {
+    "date": "2026-10-04",
+    "value": 211983,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-09-28"
+   },
+   {
+    "date": "2026-10-11",
+    "value": 218676,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-10-05"
+   },
+   {
+    "date": "2026-10-18",
+    "value": 225964,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-10-12"
+   }
+  ],
+  "operator": "tesla",
+  "metric": "driverless_miles_cum",
+  "scope": "market",
+  "market": "tesla-houston",
+  "state": "TX",
+  "country": "US",
+  "unit": "miles",
+  "kind": "cumulative",
+  "label": "Houston cumulative driverless miles",
+  "description": "Tesla Robotaxi Safety Report: cumulative miles driven autonomously with NO safety monitor in the vehicle (includes miles with remote-operator assistance/takeover). Window starts 22 Jan 2026. Supervised (safety-monitor) miles are excluded.",
+  "method": "Extracted from JSON embedded in tesla.com/robotaxi/safety (react-data 'tesla_robotaxi_graph'), fetched via headless Chrome (plain HTTP gets Akamai 403). Tesla dates are Monday week-starts; stored date = week end (Sunday), value = cumulative through that week.",
+  "family": "usage",
+  "first_date": "2026-04-19",
+  "last_date": "2026-10-18"
+ },
+ {
+  "id": "tesla-houston-vehicles-driverless",
+  "points": [
+   {
+    "date": "2026-04-30",
+    "value": 3,
+    "source_url": "https://electrek.co/2026/04/30/tesla-robotaxi-unsupervised-finally-signs-ramping-up/",
+    "confidence": "reported",
+    "source_type": "press",
+    "note": "Community tracker count",
+    "curated": true
+   }
+  ],
+  "operator": "tesla",
+  "metric": "vehicles_driverless",
+  "scope": "market",
+  "market": "tesla-houston",
+  "state": "TX",
+  "country": "US",
+  "unit": "vehicles",
+  "kind": "level",
+  "label": "Houston unsupervised vehicles",
+  "description": "",
+  "method": "Hand-curated from cited company statements / press reports.",
+  "family": "vehicles",
+  "first_date": "2026-04-30",
+  "last_date": "2026-04-30"
+ },
+ {
+  "id": "tesla-miami-area",
+  "points": [
+   {
+    "date": "2026-07-25",
+    "value": 29.0,
+    "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/cf9a658",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/tesla-miami/2026-07-25_rtt.geojson",
+    "dataset": "rtt",
+    "area_file": "areas/tesla-miami/2026-07-25_rtt.geojson",
+    "note": "RTT git commit date = date change first observed (actual expansion may be earlier)"
+   },
+   {
+    "date": "2026-08-29",
+    "value": 30.73,
+    "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/a75b193",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/tesla-miami/2026-08-29_rtt.geojson",
+    "dataset": "rtt",
+    "area_file": "areas/tesla-miami/2026-08-29_rtt.geojson",
+    "note": "RTT git commit date = date change first observed (actual expansion may be earlier)"
+   }
+  ],
+  "operator": "tesla",
+  "metric": "area_sq_mi",
+  "scope": "market",
+  "market": "tesla-miami",
+  "state": "FL",
+  "country": "US",
+  "unit": "sq mi",
+  "kind": "level",
+  "label": "Miami service area",
+  "description": "",
+  "method": "Geodesic area (pyproj Geod WGS84, geometry_area_perimeter) of the market polygon; polygons from av-map-data (dated events) and Robotaxi Tracker git history (observation dates). Reported figures from companies/press are included as 'reported' points.",
+  "family": "area",
+  "first_date": "2026-07-25",
+  "last_date": "2026-08-29"
+ },
+ {
+  "id": "tesla-miami-driverless-miles",
+  "points": [
+   {
+    "date": "2026-07-05",
+    "value": 1131,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-06-29"
+   },
+   {
+    "date": "2026-07-12",
+    "value": 3658,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-07-06"
+   },
+   {
+    "date": "2026-07-19",
+    "value": 6285,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-07-13"
+   },
+   {
+    "date": "2026-07-26",
+    "value": 8703,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-07-20"
+   },
+   {
+    "date": "2026-08-02",
+    "value": 11077,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-07-27"
+   },
+   {
+    "date": "2026-08-09",
+    "value": 13689,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-08-03"
+   },
+   {
+    "date": "2026-08-16",
+    "value": 16626,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-08-10"
+   },
+   {
+    "date": "2026-08-23",
+    "value": 19229,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-08-17"
+   },
+   {
+    "date": "2026-08-30",
+    "value": 21879,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-08-24"
+   },
+   {
+    "date": "2026-09-06",
+    "value": 24055,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-08-31"
+   },
+   {
+    "date": "2026-09-13",
+    "value": 27087,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-09-07"
+   },
+   {
+    "date": "2026-09-20",
+    "value": 30290,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-09-14"
+   },
+   {
+    "date": "2026-09-27",
+    "value": 33217,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-09-21"
+   },
+   {
+    "date": "2026-10-04",
+    "value": 36496,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-09-28"
+   },
+   {
+    "date": "2026-10-11",
+    "value": 40636,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-10-05"
+   },
+   {
+    "date": "2026-10-18",
+    "value": 46262,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-10-12"
+   }
+  ],
+  "operator": "tesla",
+  "metric": "driverless_miles_cum",
+  "scope": "market",
+  "market": "tesla-miami",
+  "state": "FL",
+  "country": "US",
+  "unit": "miles",
+  "kind": "cumulative",
+  "label": "Miami cumulative driverless miles",
+  "description": "Tesla Robotaxi Safety Report: cumulative miles driven autonomously with NO safety monitor in the vehicle (includes miles with remote-operator assistance/takeover). Window starts 22 Jan 2026. Supervised (safety-monitor) miles are excluded.",
+  "method": "Extracted from JSON embedded in tesla.com/robotaxi/safety (react-data 'tesla_robotaxi_graph'), fetched via headless Chrome (plain HTTP gets Akamai 403). Tesla dates are Monday week-starts; stored date = week end (Sunday), value = cumulative through that week.",
+  "family": "usage",
+  "first_date": "2026-07-05",
+  "last_date": "2026-10-18"
+ },
+ {
+  "id": "tesla-orlando-area",
+  "points": [
+   {
+    "date": "2026-07-27",
+    "value": 25.63,
+    "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/e14da6b",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/tesla-orlando/2026-07-27_rtt.geojson",
+    "dataset": "rtt",
+    "area_file": "areas/tesla-orlando/2026-07-27_rtt.geojson",
+    "note": "RTT git commit date = date change first observed (actual expansion may be earlier)"
+   },
+   {
+    "date": "2026-08-29",
+    "value": 26.12,
+    "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/a75b193",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/tesla-orlando/2026-08-29_rtt.geojson",
+    "dataset": "rtt",
+    "area_file": "areas/tesla-orlando/2026-08-29_rtt.geojson",
+    "note": "RTT git commit date = date change first observed (actual expansion may be earlier)"
+   }
+  ],
+  "operator": "tesla",
+  "metric": "area_sq_mi",
+  "scope": "market",
+  "market": "tesla-orlando",
+  "state": "FL",
+  "country": "US",
+  "unit": "sq mi",
+  "kind": "level",
+  "label": "Orlando service area",
+  "description": "",
+  "method": "Geodesic area (pyproj Geod WGS84, geometry_area_perimeter) of the market polygon; polygons from av-map-data (dated events) and Robotaxi Tracker git history (observation dates). Reported figures from companies/press are included as 'reported' points.",
+  "family": "area",
+  "first_date": "2026-07-27",
+  "last_date": "2026-08-29"
+ },
+ {
+  "id": "tesla-orlando-driverless-miles",
+  "points": [
+   {
+    "date": "2026-07-26",
+    "value": 6074,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-07-20"
+   },
+   {
+    "date": "2026-08-02",
+    "value": 13444,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-07-27"
+   },
+   {
+    "date": "2026-08-09",
+    "value": 17102,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-08-03"
+   },
+   {
+    "date": "2026-08-16",
+    "value": 21079,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-08-10"
+   },
+   {
+    "date": "2026-08-23",
+    "value": 26983,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-08-17"
+   },
+   {
+    "date": "2026-08-30",
+    "value": 31983,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-08-24"
+   },
+   {
+    "date": "2026-09-06",
+    "value": 35664,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-08-31"
+   },
+   {
+    "date": "2026-09-13",
+    "value": 39434,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-09-07"
+   },
+   {
+    "date": "2026-09-20",
+    "value": 43216,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-09-14"
+   },
+   {
+    "date": "2026-09-27",
+    "value": 46535,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-09-21"
+   },
+   {
+    "date": "2026-10-04",
+    "value": 50816,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-09-28"
+   },
+   {
+    "date": "2026-10-11",
+    "value": 55045,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-10-05"
+   },
+   {
+    "date": "2026-10-18",
+    "value": 61053,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-10-12"
+   }
+  ],
+  "operator": "tesla",
+  "metric": "driverless_miles_cum",
+  "scope": "market",
+  "market": "tesla-orlando",
+  "state": "FL",
+  "country": "US",
+  "unit": "miles",
+  "kind": "cumulative",
+  "label": "Orlando cumulative driverless miles",
+  "description": "Tesla Robotaxi Safety Report: cumulative miles driven autonomously with NO safety monitor in the vehicle (includes miles with remote-operator assistance/takeover). Window starts 22 Jan 2026. Supervised (safety-monitor) miles are excluded.",
+  "method": "Extracted from JSON embedded in tesla.com/robotaxi/safety (react-data 'tesla_robotaxi_graph'), fetched via headless Chrome (plain HTTP gets Akamai 403). Tesla dates are Monday week-starts; stored date = week end (Sunday), value = cumulative through that week.",
+  "family": "usage",
+  "first_date": "2026-07-26",
+  "last_date": "2026-10-18"
+ },
+ {
+  "id": "tesla-tampa-area",
+  "points": [
+   {
+    "date": "2026-07-27",
+    "value": 23.75,
+    "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/e14da6b",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/tesla-tampa/2026-07-27_rtt.geojson",
+    "dataset": "rtt",
+    "area_file": "areas/tesla-tampa/2026-07-27_rtt.geojson",
+    "note": "RTT git commit date = date change first observed (actual expansion may be earlier)"
+   },
+   {
+    "date": "2026-08-29",
+    "value": 23.54,
+    "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/a75b193",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/tesla-tampa/2026-08-29_rtt.geojson",
+    "dataset": "rtt",
+    "area_file": "areas/tesla-tampa/2026-08-29_rtt.geojson",
+    "note": "RTT git commit date = date change first observed (actual expansion may be earlier)"
+   }
+  ],
+  "operator": "tesla",
+  "metric": "area_sq_mi",
+  "scope": "market",
+  "market": "tesla-tampa",
+  "state": "FL",
+  "country": "US",
+  "unit": "sq mi",
+  "kind": "level",
+  "label": "Tampa service area",
+  "description": "",
+  "method": "Geodesic area (pyproj Geod WGS84, geometry_area_perimeter) of the market polygon; polygons from av-map-data (dated events) and Robotaxi Tracker git history (observation dates). Reported figures from companies/press are included as 'reported' points.",
+  "family": "area",
+  "first_date": "2026-07-27",
+  "last_date": "2026-08-29"
+ },
+ {
+  "id": "tesla-tampa-driverless-miles",
+  "points": [
+   {
+    "date": "2026-07-26",
+    "value": 5092,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-07-20"
+   },
+   {
+    "date": "2026-08-02",
+    "value": 10987,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-07-27"
+   },
+   {
+    "date": "2026-08-09",
+    "value": 13534,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-08-03"
+   },
+   {
+    "date": "2026-08-16",
+    "value": 16562,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-08-10"
+   },
+   {
+    "date": "2026-08-23",
+    "value": 19492,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-08-17"
+   },
+   {
+    "date": "2026-08-30",
+    "value": 23517,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-08-24"
+   },
+   {
+    "date": "2026-09-06",
+    "value": 26825,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-08-31"
+   },
+   {
+    "date": "2026-09-13",
+    "value": 30529,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-09-07"
+   },
+   {
+    "date": "2026-09-20",
+    "value": 34354,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-09-14"
+   },
+   {
+    "date": "2026-09-27",
+    "value": 37705,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-09-21"
+   },
+   {
+    "date": "2026-10-04",
+    "value": 41839,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-09-28"
+   },
+   {
+    "date": "2026-10-11",
+    "value": 46986,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-10-05"
+   },
+   {
+    "date": "2026-10-18",
+    "value": 53117,
+    "source_url": "https://www.tesla.com/robotaxi/safety",
+    "confidence": "reported",
+    "source_type": "official",
+    "week_start": "2026-10-12"
+   }
+  ],
+  "operator": "tesla",
+  "metric": "driverless_miles_cum",
+  "scope": "market",
+  "market": "tesla-tampa",
+  "state": "FL",
+  "country": "US",
+  "unit": "miles",
+  "kind": "cumulative",
+  "label": "Tampa cumulative driverless miles",
+  "description": "Tesla Robotaxi Safety Report: cumulative miles driven autonomously with NO safety monitor in the vehicle (includes miles with remote-operator assistance/takeover). Window starts 22 Jan 2026. Supervised (safety-monitor) miles are excluded.",
+  "method": "Extracted from JSON embedded in tesla.com/robotaxi/safety (react-data 'tesla_robotaxi_graph'), fetched via headless Chrome (plain HTTP gets Akamai 403). Tesla dates are Monday week-starts; stored date = week end (Sunday), value = cumulative through that week.",
+  "family": "usage",
+  "first_date": "2026-07-26",
+  "last_date": "2026-10-18"
+ },
+ {
+  "id": "tesla-tx-vehicles",
+  "points": [
+   {
+    "date": "2026-05-28",
+    "value": 42,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-06-02",
+    "value": 42,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-06-05",
+    "value": 51,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-06-09",
+    "value": 59,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-06-11",
+    "value": 69,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-06-28",
+    "value": 84,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-07-02",
+    "value": 102,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-07-14",
+    "value": 117,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-07-15",
+    "value": 175,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-07-30",
+    "value": 181,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-08-11",
+    "value": 186,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-08-23",
+    "value": 191,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-08-27",
+    "value": 270,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-08-28",
+    "value": 269,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-08-31",
+    "value": 314,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-09-02",
+    "value": 420,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-09-03",
+    "value": 420,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-09-04",
+    "value": 432,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-09-09",
+    "value": 437,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-09-11",
+    "value": 439,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-09-19",
+    "value": 448,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-09-22",
+    "value": 476,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-09-22",
+    "value": 479,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-09-24",
+    "value": 489,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-09-25",
+    "value": 546,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-10-02",
+    "value": 578,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-10-02",
+    "value": 589,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-10-09",
+    "value": 739,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-10-15",
+    "value": 769,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-10-17",
+    "value": 803,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-10-22",
+    "value": 858,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-10-23",
+    "value": 927,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-10-25",
+    "value": 970,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   }
+  ],
+  "operator": "tesla",
+  "metric": "vehicles",
+  "scope": "state",
+  "market": null,
+  "state": "TX",
+  "country": "US",
+  "unit": "vehicles",
+  "kind": "level",
+  "label": "Tesla vehicles on Texas AV registry",
+  "description": "Count of VINs listed under the operator's authorization in the Texas DMV AV registry (Senate Bill 2807 framework, effective 2026), as compiled daily by texasavtracker.com. Statewide; not split by city.",
+  "method": "Imported from texasavtracker.com /api/data history (lastChecked 2026-10-26); one point per recorded change.",
+  "authorized_at": "2026-05-14",
+  "family": "vehicles",
+  "first_date": "2026-05-28",
+  "last_date": "2026-10-25"
+ },
+ {
+  "id": "waymo-atlanta-area",
+  "points": [
+   {
+    "date": "2025-06-24",
+    "value": 68.55,
+    "source_url": "https://www.uber.com/newsroom/waymo-on-uber-atl/",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-atlanta/2025-06-24_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/waymo-atlanta/2025-06-24_avmap.geojson",
+    "note": "av-map-data polygon"
+   },
+   {
+    "date": "2026-08-17",
+    "value": 111.64,
+    "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/a88ba8a",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-atlanta/2026-08-17_rtt.geojson",
+    "dataset": "rtt",
+    "area_file": "areas/waymo-atlanta/2026-08-17_rtt.geojson",
+    "note": "RTT git commit date = date change first observed (actual expansion may be earlier)"
+   }
+  ],
+  "operator": "waymo",
+  "metric": "area_sq_mi",
+  "scope": "market",
+  "market": "waymo-atlanta",
+  "state": "GA",
+  "country": "US",
+  "unit": "sq mi",
+  "kind": "level",
+  "label": "Atlanta service area",
+  "description": "",
+  "method": "Geodesic area (pyproj Geod WGS84, geometry_area_perimeter) of the market polygon; polygons from av-map-data (dated events) and Robotaxi Tracker git history (observation dates). Reported figures from companies/press are included as 'reported' points.",
+  "family": "area",
+  "first_date": "2025-06-24",
+  "last_date": "2026-08-17"
+ },
+ {
+  "id": "waymo-atlanta-ro-miles",
+  "points": [
+   {
+    "date": "2025-03-31",
+    "value": 56000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202503-2022benchmark.csv",
+    "confidence": "reported",
+    "source_type": "official",
+    "vintage": "202503",
+    "note": "Ops depot: ATLANTA"
+   },
+   {
+    "date": "2026-03-31",
+    "value": 5379000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202603-2022benchmark.csv",
+    "confidence": "reported",
+    "source_type": "official",
+    "vintage": "202603",
+    "note": "County/metro: Atlanta Area"
+   },
+   {
+    "date": "2026-06-30",
+    "value": 8624000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202606-2022benchmark.csv",
+    "confidence": "reported",
+    "source_type": "official",
+    "vintage": "202606",
+    "note": "County/metro: Atlanta Area"
+   }
+  ],
+  "operator": "waymo",
+  "metric": "ro_miles_cum",
+  "scope": "market",
+  "market": "waymo-atlanta",
+  "state": "GA",
+  "country": "US",
+  "unit": "miles",
+  "kind": "cumulative",
+  "label": "Atlanta cumulative rider-only miles",
+  "description": "Cumulative rider-only (no human driver) miles since Sep 2020 from Waymo Safety Impact hub CSV1, by location. Includes all RO miles (with or without passengers).",
+  "method": "Waymo publishes a new CSV1 vintage quarterly; value is cumulative through end of the vintage month. Vintages ≤2025-09 are by 'Ops Depot'; ≥2025-12 by county with Waymo's own metro aggregate (e.g. 'San Francisco Bay Area'), so a small definitional break exists.",
+  "family": "usage",
+  "first_date": "2025-03-31",
+  "last_date": "2026-06-30"
+ },
+ {
+  "id": "waymo-austin-area",
+  "points": [
+   {
+    "date": "2025-03-04",
+    "value": 35.77,
+    "source_url": "https://www.cnbc.com/2025/03/04/waymo-uber-begin-offering-robotaxi-rides-in-austin-ahead-of-sxsw.html",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-austin/2025-03-04_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/waymo-austin/2025-03-04_avmap.geojson",
+    "note": "av-map-data polygon"
+   },
+   {
+    "date": "2025-07-17",
+    "value": 90.62,
+    "source_url": "https://www.axios.com/local/austin/2025/07/17/waymo-expands-austin-service-area",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-austin/2025-07-17_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/waymo-austin/2025-07-17_avmap.geojson",
+    "note": "av-map-data polygon"
+   },
+   {
+    "date": "2026-01-13",
+    "value": 138.92,
+    "source_url": "https://x.com/reed/status/2011133349486871008?s=20",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-austin/2026-01-13_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/waymo-austin/2026-01-13_avmap.geojson",
+    "note": "av-map-data polygon"
+   },
+   {
+    "date": "2026-08-17",
+    "value": 151.16,
+    "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/a88ba8a",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-austin/2026-08-17_rtt.geojson",
+    "dataset": "rtt",
+    "area_file": "areas/waymo-austin/2026-08-17_rtt.geojson",
+    "note": "RTT git commit date = date change first observed (actual expansion may be earlier)"
+   }
+  ],
+  "operator": "waymo",
+  "metric": "area_sq_mi",
+  "scope": "market",
+  "market": "waymo-austin",
+  "state": "TX",
+  "country": "US",
+  "unit": "sq mi",
+  "kind": "level",
+  "label": "Austin service area",
+  "description": "",
+  "method": "Geodesic area (pyproj Geod WGS84, geometry_area_perimeter) of the market polygon; polygons from av-map-data (dated events) and Robotaxi Tracker git history (observation dates). Reported figures from companies/press are included as 'reported' points.",
+  "family": "area",
+  "first_date": "2025-03-04",
+  "last_date": "2026-08-17"
+ },
+ {
+  "id": "waymo-austin-ro-miles",
+  "points": [
+   {
+    "date": "2024-09-30",
+    "value": 124000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202409-2022benchmark.csv",
+    "confidence": "reported",
+    "source_type": "official",
+    "vintage": "202409",
+    "note": "Ops depot: AUSTIN"
+   },
+   {
+    "date": "2024-12-31",
+    "value": 555000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202412-2022benchmark.csv",
+    "confidence": "reported",
+    "source_type": "official",
+    "vintage": "202412",
+    "note": "Ops depot: AUSTIN"
+   },
+   {
+    "date": "2025-03-31",
+    "value": 1403000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202503-2022benchmark.csv",
+    "confidence": "reported",
+    "source_type": "official",
+    "vintage": "202503",
+    "note": "Ops depot: AUSTIN"
+   },
+   {
+    "date": "2025-06-30",
+    "value": 3225000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202506-2022benchmark.csv",
+    "confidence": "reported",
+    "source_type": "official",
+    "vintage": "202506",
+    "note": "Ops depot: AUSTIN"
+   },
+   {
+    "date": "2025-09-30",
+    "value": 6337000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202509-2022benchmark.csv",
+    "confidence": "reported",
+    "source_type": "official",
+    "vintage": "202509",
+    "note": "Ops depot: AUSTIN"
+   },
+   {
+    "date": "2025-12-31",
+    "value": 10722000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202512-2022benchmark.csv",
+    "confidence": "reported",
+    "source_type": "official",
+    "vintage": "202512",
+    "note": "County/metro: Travis"
+   },
+   {
+    "date": "2026-03-31",
+    "value": 15789000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202603-2022benchmark.csv",
+    "confidence": "reported",
+    "source_type": "official",
+    "vintage": "202603",
+    "note": "County/metro: Travis"
+   },
+   {
+    "date": "2026-06-30",
+    "value": 21064000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202606-2022benchmark.csv",
+    "confidence": "reported",
+    "source_type": "official",
+    "vintage": "202606",
+    "note": "County/metro: Travis"
+   }
+  ],
+  "operator": "waymo",
+  "metric": "ro_miles_cum",
+  "scope": "market",
+  "market": "waymo-austin",
+  "state": "TX",
+  "country": "US",
+  "unit": "miles",
+  "kind": "cumulative",
+  "label": "Austin cumulative rider-only miles",
+  "description": "Cumulative rider-only (no human driver) miles since Sep 2020 from Waymo Safety Impact hub CSV1, by location. Includes all RO miles (with or without passengers).",
+  "method": "Waymo publishes a new CSV1 vintage quarterly; value is cumulative through end of the vintage month. Vintages ≤2025-09 are by 'Ops Depot'; ≥2025-12 by county with Waymo's own metro aggregate (e.g. 'San Francisco Bay Area'), so a small definitional break exists.",
+  "family": "usage",
+  "first_date": "2024-09-30",
+  "last_date": "2026-06-30"
+ },
+ {
+  "id": "waymo-company-area",
+  "points": [
+   {
+    "date": "2026-05-13",
+    "value": 1400,
+    "source_url": "https://waymo.com/blog/shorts/growing-to-1400-sqm/",
+    "confidence": "reported",
+    "source_type": "official",
+    "note": "'1,400+ sq mi' across 11 cities (up from ~1,100)",
+    "curated": true
+   }
+  ],
+  "operator": "waymo",
+  "metric": "area_sq_mi",
+  "scope": "company",
+  "market": null,
+  "state": null,
+  "country": "US",
+  "unit": "sq mi",
+  "kind": "level",
+  "label": "Waymo total service area (company-reported)",
+  "description": "",
+  "method": "Hand-curated from cited company statements / press reports.",
+  "family": "area",
+  "first_date": "2026-05-13",
+  "last_date": "2026-05-13"
+ },
+ {
+  "id": "waymo-company-miles-week",
+  "points": [
+   {
+    "date": "2024-10-29",
+    "value": 1000000,
+    "source_url": "https://www.eetimes.com/waymos-robotaxi-program-progress-and-potential/",
+    "confidence": "reported",
+    "source_type": "press",
+    "curated": true
+   },
+   {
+    "date": "2026-03-27",
+    "value": 4000000,
+    "source_url": "https://eletric-vehicles.com/waymo/waymo-hits-500000-weekly-rides-and-over-4-million-miles-co-ceo-says/",
+    "confidence": "reported",
+    "source_type": "press",
+    "note": "'4M+' autonomous miles weekly",
+    "curated": true
+   }
+  ],
+  "operator": "waymo",
+  "metric": "miles_week",
+  "scope": "company",
+  "market": null,
+  "state": null,
+  "country": "US",
+  "unit": "miles/week",
+  "kind": "rate",
+  "label": "Waymo autonomous miles per week",
+  "description": "",
+  "method": "Hand-curated from cited company statements / press reports.",
+  "family": "usage",
+  "first_date": "2024-10-29",
+  "last_date": "2026-03-27"
+ },
+ {
+  "id": "waymo-company-paid-rides-week",
+  "points": [
+   {
+    "date": "2023-05-31",
+    "value": 10000,
+    "source_url": "https://www.eetimes.com/waymos-robotaxi-program-progress-and-potential/",
+    "confidence": "reported",
+    "source_type": "press",
+    "note": "Month-level date (May 2023)",
+    "curated": true
+   },
+   {
+    "date": "2024-05-09",
+    "value": 50000,
+    "source_url": "https://www.engadget.com/waymo-says-its-robotaxis-are-now-making-50000-paid-trips-every-week-130005096.html",
+    "confidence": "reported",
+    "source_type": "press",
+    "curated": true
+   },
+   {
+    "date": "2024-08-20",
+    "value": 100000,
+    "source_url": "https://www.reuters.com/business/autos-transportation/alphabets-waymo-robotaxi-unit-doubles-its-paid-rides-three-months-2024-08-20/",
+    "confidence": "reported",
+    "source_type": "press",
+    "curated": true
+   },
+   {
+    "date": "2024-10-29",
+    "value": 150000,
+    "source_url": "https://www.eetimes.com/waymos-robotaxi-program-progress-and-potential/",
+    "confidence": "reported",
+    "source_type": "press",
+    "note": "Alphabet Q3 2024 call",
+    "curated": true
+   },
+   {
+    "date": "2025-02-27",
+    "value": 200000,
+    "source_url": "https://techcrunch.com/2025/02/27/waymo-has-doubled-its-weekly-robotaxi-rides-in-less-than-a-year/",
+    "confidence": "reported",
+    "source_type": "press",
+    "curated": true
+   },
+   {
+    "date": "2025-04-24",
+    "value": 250000,
+    "source_url": "https://www.cnbc.com/2025/04/24/waymo-reports-250000-paid-robotaxi-rides-per-week-in-us.html",
+    "confidence": "reported",
+    "source_type": "press",
+    "curated": true
+   },
+   {
+    "date": "2026-03-27",
+    "value": 500000,
+    "source_url": "https://eletric-vehicles.com/waymo/waymo-hits-500000-weekly-rides-and-over-4-million-miles-co-ceo-says/",
+    "confidence": "reported",
+    "source_type": "press",
+    "curated": true
+   },
+   {
+    "date": "2026-09-01",
+    "value": 500000,
+    "source_url": "https://www.cnbc.com/2026/09/01/waymo-and-zoox-expand-into-more-us-markets-as-robotaxi-race-heats-up.html",
+    "confidence": "reported",
+    "source_type": "press",
+    "note": "'more than 500,000'; target 1M/week by end of 2026",
+    "curated": true
+   }
+  ],
+  "operator": "waymo",
+  "metric": "paid_rides_week",
+  "scope": "company",
+  "market": null,
+  "state": null,
+  "country": "US",
+  "unit": "rides/week",
+  "kind": "rate",
+  "label": "Waymo paid rides per week",
+  "description": "",
+  "method": "Hand-curated from cited company statements / press reports.",
+  "family": "usage",
+  "first_date": "2023-05-31",
+  "last_date": "2026-09-01"
+ },
+ {
+  "id": "waymo-company-ro-miles",
+  "points": [
+   {
+    "date": "2024-09-30",
+    "value": 33103000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202409-2022benchmark.csv",
+    "confidence": "derived",
+    "source_type": "official",
+    "vintage": "202409",
+    "note": "Sum of depot rows"
+   },
+   {
+    "date": "2024-12-31",
+    "value": 50083000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202412-2022benchmark.csv",
+    "confidence": "derived",
+    "source_type": "official",
+    "vintage": "202412",
+    "note": "Sum of depot rows"
+   },
+   {
+    "date": "2025-03-31",
+    "value": 71620000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202503-2022benchmark.csv",
+    "confidence": "derived",
+    "source_type": "official",
+    "vintage": "202503",
+    "note": "Sum of depot rows"
+   },
+   {
+    "date": "2025-06-30",
+    "value": 95965000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202506-2022benchmark.csv",
+    "confidence": "derived",
+    "source_type": "official",
+    "vintage": "202506",
+    "note": "Sum of depot rows"
+   },
+   {
+    "date": "2025-09-30",
+    "value": 127158000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202509-2022benchmark.csv",
+    "confidence": "derived",
+    "source_type": "official",
+    "vintage": "202509",
+    "note": "Sum of depot rows"
+   },
+   {
+    "date": "2025-12-31",
+    "value": 170712000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202512-2022benchmark.csv",
+    "confidence": "reported",
+    "source_type": "official",
+    "vintage": "202512"
+   },
+   {
+    "date": "2026-03-31",
+    "value": 220613000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202603-2022benchmark.csv",
+    "confidence": "reported",
+    "source_type": "official",
+    "vintage": "202603"
+   },
+   {
+    "date": "2026-06-30",
+    "value": 271329000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202606-2022benchmark.csv",
+    "confidence": "reported",
+    "source_type": "official",
+    "vintage": "202606"
+   }
+  ],
+  "operator": "waymo",
+  "metric": "ro_miles_cum",
+  "scope": "company",
+  "market": null,
+  "state": null,
+  "country": "US",
+  "unit": "miles",
+  "kind": "cumulative",
+  "label": "Waymo cumulative rider-only miles (all locations)",
+  "description": "All-locations cumulative rider-only miles from Waymo Safety Impact hub CSV1.",
+  "method": "'All Locations' row when published (≥2025-12); earlier vintages = sum of depot rows (derived).",
+  "family": "usage",
+  "first_date": "2024-09-30",
+  "last_date": "2026-06-30"
+ },
+ {
+  "id": "waymo-company-vehicles",
+  "points": [
+   {
+    "date": "2024-08-20",
+    "value": 700,
+    "source_url": "https://www.reuters.com/business/autos-transportation/alphabets-waymo-robotaxi-unit-doubles-its-paid-rides-three-months-2024-08-20/",
+    "confidence": "reported",
+    "source_type": "press",
+    "note": "'about 700' vehicles",
+    "curated": true
+   },
+   {
+    "date": "2025-05-05",
+    "value": 1500,
+    "source_url": "https://waymo.com/blog/2025/05/scaling-our-fleet-through-us-manufacturing",
+    "confidence": "reported",
+    "source_type": "official",
+    "note": "'more than 1,500' vehicles",
+    "curated": true
+   },
+   {
+    "date": "2026-03-27",
+    "value": 3067,
+    "source_url": "https://eletric-vehicles.com/waymo/waymo-hits-500000-weekly-rides-and-over-4-million-miles-co-ceo-says/",
+    "confidence": "reported",
+    "source_type": "press",
+    "note": "Co-CEO figure",
+    "curated": true
+   },
+   {
+    "date": "2026-09-01",
+    "value": 4000,
+    "source_url": "https://techcrunch.com/2026/09/01/waymo-accelerates-robotaxi-expansion-with-launches-in-denver-san-diego-and-tampa/",
+    "confidence": "reported",
+    "source_type": "press",
+    "note": "'more than 4,000' vehicles",
+    "curated": true
+   }
+  ],
+  "operator": "waymo",
+  "metric": "vehicles",
+  "scope": "company",
+  "market": null,
+  "state": null,
+  "country": "US",
+  "unit": "vehicles",
+  "kind": "level",
+  "label": "Waymo fleet size (company-reported)",
+  "description": "",
+  "method": "Hand-curated from cited company statements / press reports.",
+  "family": "vehicles",
+  "first_date": "2024-08-20",
+  "last_date": "2026-09-01"
+ },
+ {
+  "id": "waymo-dallas-area",
+  "points": [
+   {
+    "date": "2026-02-24",
+    "value": 47.84,
+    "source_url": "https://waymo.com/blog/2026/02/dallas-houston-san-antonio-orlando",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-dallas/2026-02-24_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/waymo-dallas/2026-02-24_avmap.geojson",
+    "note": "av-map-data polygon"
+   }
+  ],
+  "operator": "waymo",
+  "metric": "area_sq_mi",
+  "scope": "market",
+  "market": "waymo-dallas",
+  "state": "TX",
+  "country": "US",
+  "unit": "sq mi",
+  "kind": "level",
+  "label": "Dallas service area",
+  "description": "",
+  "method": "Geodesic area (pyproj Geod WGS84, geometry_area_perimeter) of the market polygon; polygons from av-map-data (dated events) and Robotaxi Tracker git history (observation dates). Reported figures from companies/press are included as 'reported' points.",
+  "family": "area",
+  "first_date": "2026-02-24",
+  "last_date": "2026-02-24"
+ },
+ {
+  "id": "waymo-denver-area",
+  "points": [
+   {
+    "date": "2026-09-01",
+    "value": 59.37,
+    "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/d5d1581",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-denver/2026-09-01_rtt.geojson",
+    "dataset": "rtt",
+    "area_file": "areas/waymo-denver/2026-09-01_rtt.geojson",
+    "note": "RTT git commit date = date change first observed (actual expansion may be earlier)"
+   }
+  ],
+  "operator": "waymo",
+  "metric": "area_sq_mi",
+  "scope": "market",
+  "market": "waymo-denver",
+  "state": "CO",
+  "country": "US",
+  "unit": "sq mi",
+  "kind": "level",
+  "label": "Denver service area",
+  "description": "",
+  "method": "Geodesic area (pyproj Geod WGS84, geometry_area_perimeter) of the market polygon; polygons from av-map-data (dated events) and Robotaxi Tracker git history (observation dates). Reported figures from companies/press are included as 'reported' points.",
+  "family": "area",
+  "first_date": "2026-09-01",
+  "last_date": "2026-09-01"
+ },
+ {
+  "id": "waymo-houston-area",
+  "points": [
+   {
+    "date": "2026-02-24",
+    "value": 22.64,
+    "source_url": "https://waymo.com/blog/2026/02/dallas-houston-san-antonio-orlando",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-houston/2026-02-24_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/waymo-houston/2026-02-24_avmap.geojson",
+    "note": "av-map-data polygon"
+   },
+   {
+    "date": "2026-05-20",
+    "value": 53.12,
+    "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/d9ae2e0",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-houston/2026-05-20_rtt.geojson",
+    "dataset": "rtt",
+    "area_file": "areas/waymo-houston/2026-05-20_rtt.geojson",
+    "note": "RTT git commit date = date change first observed (actual expansion may be earlier)"
+   },
+   {
+    "date": "2026-05-21",
+    "value": 49.16,
+    "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/4e27e66",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-houston/2026-05-21_rtt.geojson",
+    "dataset": "rtt",
+    "area_file": "areas/waymo-houston/2026-05-21_rtt.geojson",
+    "note": "RTT git commit date = date change first observed (actual expansion may be earlier)"
+   }
+  ],
+  "operator": "waymo",
+  "metric": "area_sq_mi",
+  "scope": "market",
+  "market": "waymo-houston",
+  "state": "TX",
+  "country": "US",
+  "unit": "sq mi",
+  "kind": "level",
+  "label": "Houston service area",
+  "description": "",
+  "method": "Geodesic area (pyproj Geod WGS84, geometry_area_perimeter) of the market polygon; polygons from av-map-data (dated events) and Robotaxi Tracker git history (observation dates). Reported figures from companies/press are included as 'reported' points.",
+  "family": "area",
+  "first_date": "2026-02-24",
+  "last_date": "2026-05-21"
+ },
+ {
+  "id": "waymo-las-vegas-area",
+  "points": [
+   {
+    "date": "2026-09-14",
+    "value": 24,
+    "source_url": "https://techcrunch.com/2026/09/14/waymo-opens-robotaxi-service-in-las-vegas/",
+    "confidence": "reported",
+    "source_type": "press",
+    "curated": true
+   }
+  ],
+  "operator": "waymo",
+  "metric": "area_sq_mi",
+  "scope": "market",
+  "market": "waymo-las-vegas",
+  "state": "NV",
+  "country": "US",
+  "unit": "sq mi",
+  "kind": "level",
+  "label": "Las Vegas service area",
+  "description": "",
+  "method": "Hand-curated from cited company statements / press reports.",
+  "family": "area",
+  "first_date": "2026-09-14",
+  "last_date": "2026-09-14"
+ },
+ {
+  "id": "waymo-los-angeles-area",
+  "points": [
+   {
+    "date": "2024-03-13",
+    "value": 59.26,
+    "source_url": "https://waymo.com/blog/2024/03/scaling-waymo-one-safely-across-four-cities-this-year",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-los-angeles/2024-03-13_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/waymo-los-angeles/2024-03-13_avmap.geojson",
+    "note": "av-map-data polygon"
+   },
+   {
+    "date": "2024-08-06",
+    "value": 89.07,
+    "source_url": "https://waymo.com/blog/2024/08/expanding-destinations-for-san-francisco-and-los-angeles-riders",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-los-angeles/2024-08-06_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/waymo-los-angeles/2024-08-06_avmap.geojson",
+    "note": "av-map-data polygon"
+   },
+   {
+    "date": "2025-06-18",
+    "value": 124.06,
+    "source_url": "https://techcrunch.com/2025/06/17/waymo-robotaxis-are-pushing-into-even-more-california-cities/",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-los-angeles/2025-06-18_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/waymo-los-angeles/2025-06-18_avmap.geojson",
+    "note": "av-map-data polygon"
+   },
+   {
+    "date": "2026-06-15",
+    "value": 130.33,
+    "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/9aa4b99",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-los-angeles/2026-06-15_rtt.geojson",
+    "dataset": "rtt",
+    "area_file": "areas/waymo-los-angeles/2026-06-15_rtt.geojson",
+    "note": "RTT git commit date = date change first observed (actual expansion may be earlier)"
+   },
+   {
+    "date": "2026-08-13",
+    "value": 124.64,
+    "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/c87f081",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-los-angeles/2026-08-13_rtt.geojson",
+    "dataset": "rtt",
+    "area_file": "areas/waymo-los-angeles/2026-08-13_rtt.geojson",
+    "note": "RTT git commit date = date change first observed (actual expansion may be earlier)"
+   }
+  ],
+  "operator": "waymo",
+  "metric": "area_sq_mi",
+  "scope": "market",
+  "market": "waymo-los-angeles",
+  "state": "CA",
+  "country": "US",
+  "unit": "sq mi",
+  "kind": "level",
+  "label": "Los Angeles service area",
+  "description": "",
+  "method": "Geodesic area (pyproj Geod WGS84, geometry_area_perimeter) of the market polygon; polygons from av-map-data (dated events) and Robotaxi Tracker git history (observation dates). Reported figures from companies/press are included as 'reported' points.",
+  "family": "area",
+  "first_date": "2024-03-13",
+  "last_date": "2026-08-13"
+ },
+ {
+  "id": "waymo-los-angeles-ro-miles",
+  "points": [
+   {
+    "date": "2024-09-30",
+    "value": 1947000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202409-2022benchmark.csv",
+    "confidence": "reported",
+    "source_type": "official",
+    "vintage": "202409",
+    "note": "Ops depot: LOS_ANGELES"
+   },
+   {
+    "date": "2024-12-31",
+    "value": 5165000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202412-2022benchmark.csv",
+    "confidence": "reported",
+    "source_type": "official",
+    "vintage": "202412",
+    "note": "Ops depot: LOS_ANGELES"
+   },
+   {
+    "date": "2025-03-31",
+    "value": 9645000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202503-2022benchmark.csv",
+    "confidence": "reported",
+    "source_type": "official",
+    "vintage": "202503",
+    "note": "Ops depot: LOS_ANGELES"
+   },
+   {
+    "date": "2025-06-30",
+    "value": 16462000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202506-2022benchmark.csv",
+    "confidence": "reported",
+    "source_type": "official",
+    "vintage": "202506",
+    "note": "Ops depot: LOS_ANGELES"
+   },
+   {
+    "date": "2025-09-30",
+    "value": 25470000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202509-2022benchmark.csv",
+    "confidence": "reported",
+    "source_type": "official",
+    "vintage": "202509",
+    "note": "Ops depot: LOS_ANGELES"
+   },
+   {
+    "date": "2025-12-31",
+    "value": 37857000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202512-2022benchmark.csv",
+    "confidence": "reported",
+    "source_type": "official",
+    "vintage": "202512",
+    "note": "County/metro: Los Angeles"
+   },
+   {
+    "date": "2026-03-31",
+    "value": 51816000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202603-2022benchmark.csv",
+    "confidence": "reported",
+    "source_type": "official",
+    "vintage": "202603",
+    "note": "County/metro: Los Angeles"
+   },
+   {
+    "date": "2026-06-30",
+    "value": 67098000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202606-2022benchmark.csv",
+    "confidence": "reported",
+    "source_type": "official",
+    "vintage": "202606",
+    "note": "County/metro: Los Angeles"
+   }
+  ],
+  "operator": "waymo",
+  "metric": "ro_miles_cum",
+  "scope": "market",
+  "market": "waymo-los-angeles",
+  "state": "CA",
+  "country": "US",
+  "unit": "miles",
+  "kind": "cumulative",
+  "label": "Los Angeles cumulative rider-only miles",
+  "description": "Cumulative rider-only (no human driver) miles since Sep 2020 from Waymo Safety Impact hub CSV1, by location. Includes all RO miles (with or without passengers).",
+  "method": "Waymo publishes a new CSV1 vintage quarterly; value is cumulative through end of the vintage month. Vintages ≤2025-09 are by 'Ops Depot'; ≥2025-12 by county with Waymo's own metro aggregate (e.g. 'San Francisco Bay Area'), so a small definitional break exists.",
+  "family": "usage",
+  "first_date": "2024-09-30",
+  "last_date": "2026-06-30"
+ },
+ {
+  "id": "waymo-miami-area",
+  "points": [
+   {
+    "date": "2026-01-22",
+    "value": 90.86,
+    "source_url": "https://www.cnbc.com/2026/01/22/waymo-launches-robotaxi-service-in-miami-extending-us-lead.html",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-miami/2026-01-22_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/waymo-miami/2026-01-22_avmap.geojson",
+    "note": "av-map-data polygon"
+   },
+   {
+    "date": "2026-05-13",
+    "value": 165.04,
+    "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/942d0c8",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-miami/2026-05-13_rtt.geojson",
+    "dataset": "rtt",
+    "area_file": "areas/waymo-miami/2026-05-13_rtt.geojson",
+    "note": "RTT git commit date = date change first observed (actual expansion may be earlier)"
+   },
+   {
+    "date": "2026-08-13",
+    "value": 144.71,
+    "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/c87f081",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-miami/2026-08-13_rtt.geojson",
+    "dataset": "rtt",
+    "area_file": "areas/waymo-miami/2026-08-13_rtt.geojson",
+    "note": "RTT git commit date = date change first observed (actual expansion may be earlier)"
+   }
+  ],
+  "operator": "waymo",
+  "metric": "area_sq_mi",
+  "scope": "market",
+  "market": "waymo-miami",
+  "state": "FL",
+  "country": "US",
+  "unit": "sq mi",
+  "kind": "level",
+  "label": "Miami service area",
+  "description": "",
+  "method": "Geodesic area (pyproj Geod WGS84, geometry_area_perimeter) of the market polygon; polygons from av-map-data (dated events) and Robotaxi Tracker git history (observation dates). Reported figures from companies/press are included as 'reported' points.",
+  "family": "area",
+  "first_date": "2026-01-22",
+  "last_date": "2026-08-13"
+ },
+ {
+  "id": "waymo-nashville-area",
+  "points": [
+   {
+    "date": "2026-04-07",
+    "value": 50.53,
+    "source_url": "https://techcrunch.com/2026/04/07/waymo-opens-robotaxi-service-in-nashville-partners-with-lyft/",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-nashville/2026-04-07_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/waymo-nashville/2026-04-07_avmap.geojson",
+    "note": "av-map-data polygon"
+   },
+   {
+    "date": "2026-04-07",
+    "value": 60,
+    "source_url": "https://techcrunch.com/2026/04/07/waymo-opens-robotaxi-service-in-nashville-partners-with-lyft/",
+    "confidence": "reported",
+    "source_type": "press",
+    "note": "Approximate launch figure",
+    "curated": true
+   },
+   {
+    "date": "2026-04-20",
+    "value": 49.83,
+    "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/9c5480d",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-nashville/2026-04-20_rtt.geojson",
+    "dataset": "rtt",
+    "area_file": "areas/waymo-nashville/2026-04-20_rtt.geojson",
+    "note": "RTT initial import — polygon as of import date, not an expansion date"
+   },
+   {
+    "date": "2026-08-13",
+    "value": 50.2,
+    "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/c87f081",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-nashville/2026-08-13_rtt.geojson",
+    "dataset": "rtt",
+    "area_file": "areas/waymo-nashville/2026-08-13_rtt.geojson",
+    "note": "RTT git commit date = date change first observed (actual expansion may be earlier)"
+   }
+  ],
+  "operator": "waymo",
+  "metric": "area_sq_mi",
+  "scope": "market",
+  "market": "waymo-nashville",
+  "state": "TN",
+  "country": "US",
+  "unit": "sq mi",
+  "kind": "level",
+  "label": "Nashville service area",
+  "description": "",
+  "method": "Geodesic area (pyproj Geod WGS84, geometry_area_perimeter) of the market polygon; polygons from av-map-data (dated events) and Robotaxi Tracker git history (observation dates). Reported figures from companies/press are included as 'reported' points.",
+  "family": "area",
+  "first_date": "2026-04-07",
+  "last_date": "2026-08-13"
+ },
+ {
+  "id": "waymo-orlando-area",
+  "points": [
+   {
+    "date": "2026-02-24",
+    "value": 57.95,
+    "source_url": "https://waymo.com/blog/2026/02/dallas-houston-san-antonio-orlando",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-orlando/2026-02-24_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/waymo-orlando/2026-02-24_avmap.geojson",
+    "note": "av-map-data polygon"
+   },
+   {
+    "date": "2026-08-13",
+    "value": 66.0,
+    "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/c87f081",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-orlando/2026-08-13_rtt.geojson",
+    "dataset": "rtt",
+    "area_file": "areas/waymo-orlando/2026-08-13_rtt.geojson",
+    "note": "RTT git commit date = date change first observed (actual expansion may be earlier)"
+   }
+  ],
+  "operator": "waymo",
+  "metric": "area_sq_mi",
+  "scope": "market",
+  "market": "waymo-orlando",
+  "state": "FL",
+  "country": "US",
+  "unit": "sq mi",
+  "kind": "level",
+  "label": "Orlando service area",
+  "description": "",
+  "method": "Geodesic area (pyproj Geod WGS84, geometry_area_perimeter) of the market polygon; polygons from av-map-data (dated events) and Robotaxi Tracker git history (observation dates). Reported figures from companies/press are included as 'reported' points.",
+  "family": "area",
+  "first_date": "2026-02-24",
+  "last_date": "2026-08-13"
+ },
+ {
+  "id": "waymo-phoenix-area",
+  "points": [
+   {
+    "date": "2017-04-25",
+    "value": 70.88,
+    "source_url": "https://www.technologyreview.com/2017/04/25/152152/waymo-has-invited-the-public-to-hop-into-its-self-driving-cars/",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-phoenix/2017-04-25_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/waymo-phoenix/2017-04-25_avmap.geojson",
+    "note": "av-map-data polygon"
+   },
+   {
+    "date": "2020-10-08",
+    "value": 50.13,
+    "source_url": "https://waymo.com/blog/2020/10/waymo-is-opening-its-fully-driverless-service-in-phoenix",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-phoenix/2020-10-08_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/waymo-phoenix/2020-10-08_avmap.geojson",
+    "note": "av-map-data polygon"
+   },
+   {
+    "date": "2022-11-01",
+    "value": 93.3,
+    "source_url": "https://techcrunch.com/2022/11/01/waymo-launches-autonomous-rides-to-phoenix-airport/",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-phoenix/2022-11-01_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/waymo-phoenix/2022-11-01_avmap.geojson",
+    "note": "av-map-data polygon"
+   },
+   {
+    "date": "2023-05-04",
+    "value": 172.75,
+    "source_url": "https://waymo.com/blog/2023/05/waymo-one-doubles-service-area-in",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-phoenix/2023-05-04_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/waymo-phoenix/2023-05-04_avmap.geojson",
+    "note": "av-map-data polygon"
+   },
+   {
+    "date": "2024-06-05",
+    "value": 302.95,
+    "source_url": "https://waymo.com/blog/2024/06/largest-autonomous-ride-hail-territory-in-us-now-even-larger",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-phoenix/2024-06-05_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/waymo-phoenix/2024-06-05_avmap.geojson",
+    "note": "av-map-data polygon"
+   },
+   {
+    "date": "2026-08-13",
+    "value": 355.38,
+    "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/f0de424",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-phoenix/2026-08-13_rtt.geojson",
+    "dataset": "rtt",
+    "area_file": "areas/waymo-phoenix/2026-08-13_rtt.geojson",
+    "note": "RTT git commit date = date change first observed (actual expansion may be earlier)"
+   }
+  ],
+  "operator": "waymo",
+  "metric": "area_sq_mi",
+  "scope": "market",
+  "market": "waymo-phoenix",
+  "state": "AZ",
+  "country": "US",
+  "unit": "sq mi",
+  "kind": "level",
+  "label": "Phoenix service area",
+  "description": "",
+  "method": "Geodesic area (pyproj Geod WGS84, geometry_area_perimeter) of the market polygon; polygons from av-map-data (dated events) and Robotaxi Tracker git history (observation dates). Reported figures from companies/press are included as 'reported' points.",
+  "family": "area",
+  "first_date": "2017-04-25",
+  "last_date": "2026-08-13"
+ },
+ {
+  "id": "waymo-phoenix-ro-miles",
+  "points": [
+   {
+    "date": "2024-09-30",
+    "value": 20823000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202409-2022benchmark.csv",
+    "confidence": "reported",
+    "source_type": "official",
+    "vintage": "202409",
+    "note": "Ops depot: PHOENIX"
+   },
+   {
+    "date": "2024-12-31",
+    "value": 28331000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202412-2022benchmark.csv",
+    "confidence": "reported",
+    "source_type": "official",
+    "vintage": "202412",
+    "note": "Ops depot: PHOENIX"
+   },
+   {
+    "date": "2025-03-31",
+    "value": 37492000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202503-2022benchmark.csv",
+    "confidence": "reported",
+    "source_type": "official",
+    "vintage": "202503",
+    "note": "Ops depot: PHOENIX"
+   },
+   {
+    "date": "2025-06-30",
+    "value": 46390000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202506-2022benchmark.csv",
+    "confidence": "reported",
+    "source_type": "official",
+    "vintage": "202506",
+    "note": "Ops depot: PHOENIX"
+   },
+   {
+    "date": "2025-09-30",
+    "value": 56535000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202509-2022benchmark.csv",
+    "confidence": "reported",
+    "source_type": "official",
+    "vintage": "202509",
+    "note": "Ops depot: PHOENIX"
+   },
+   {
+    "date": "2025-12-31",
+    "value": 68613000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202512-2022benchmark.csv",
+    "confidence": "reported",
+    "source_type": "official",
+    "vintage": "202512",
+    "note": "County/metro: Maricopa"
+   },
+   {
+    "date": "2026-03-31",
+    "value": 80551000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202603-2022benchmark.csv",
+    "confidence": "reported",
+    "source_type": "official",
+    "vintage": "202603",
+    "note": "County/metro: Maricopa"
+   },
+   {
+    "date": "2026-06-30",
+    "value": 92121000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202606-2022benchmark.csv",
+    "confidence": "reported",
+    "source_type": "official",
+    "vintage": "202606",
+    "note": "County/metro: Maricopa"
+   }
+  ],
+  "operator": "waymo",
+  "metric": "ro_miles_cum",
+  "scope": "market",
+  "market": "waymo-phoenix",
+  "state": "AZ",
+  "country": "US",
+  "unit": "miles",
+  "kind": "cumulative",
+  "label": "Phoenix cumulative rider-only miles",
+  "description": "Cumulative rider-only (no human driver) miles since Sep 2020 from Waymo Safety Impact hub CSV1, by location. Includes all RO miles (with or without passengers).",
+  "method": "Waymo publishes a new CSV1 vintage quarterly; value is cumulative through end of the vintage month. Vintages ≤2025-09 are by 'Ops Depot'; ≥2025-12 by county with Waymo's own metro aggregate (e.g. 'San Francisco Bay Area'), so a small definitional break exists.",
+  "family": "usage",
+  "first_date": "2024-09-30",
+  "last_date": "2026-06-30"
+ },
+ {
+  "id": "waymo-san-antonio-area",
+  "points": [
+   {
+    "date": "2026-02-24",
+    "value": 53.52,
+    "source_url": "https://waymo.com/blog/2026/02/dallas-houston-san-antonio-orlando",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-san-antonio/2026-02-24_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/waymo-san-antonio/2026-02-24_avmap.geojson",
+    "note": "av-map-data polygon"
+   },
+   {
+    "date": "2026-08-13",
+    "value": 59.25,
+    "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/c87f081",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-san-antonio/2026-08-13_rtt.geojson",
+    "dataset": "rtt",
+    "area_file": "areas/waymo-san-antonio/2026-08-13_rtt.geojson",
+    "note": "RTT git commit date = date change first observed (actual expansion may be earlier)"
+   }
+  ],
+  "operator": "waymo",
+  "metric": "area_sq_mi",
+  "scope": "market",
+  "market": "waymo-san-antonio",
+  "state": "TX",
+  "country": "US",
+  "unit": "sq mi",
+  "kind": "level",
+  "label": "San Antonio service area",
+  "description": "",
+  "method": "Geodesic area (pyproj Geod WGS84, geometry_area_perimeter) of the market polygon; polygons from av-map-data (dated events) and Robotaxi Tracker git history (observation dates). Reported figures from companies/press are included as 'reported' points.",
+  "family": "area",
+  "first_date": "2026-02-24",
+  "last_date": "2026-08-13"
+ },
+ {
+  "id": "waymo-san-diego-area",
+  "points": [
+   {
+    "date": "2026-09-01",
+    "value": 47.23,
+    "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/d5d1581",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-san-diego/2026-09-01_rtt.geojson",
+    "dataset": "rtt",
+    "area_file": "areas/waymo-san-diego/2026-09-01_rtt.geojson",
+    "note": "RTT git commit date = date change first observed (actual expansion may be earlier)"
+   }
+  ],
+  "operator": "waymo",
+  "metric": "area_sq_mi",
+  "scope": "market",
+  "market": "waymo-san-diego",
+  "state": "CA",
+  "country": "US",
+  "unit": "sq mi",
+  "kind": "level",
+  "label": "San Diego service area",
+  "description": "",
+  "method": "Geodesic area (pyproj Geod WGS84, geometry_area_perimeter) of the market polygon; polygons from av-map-data (dated events) and Robotaxi Tracker git history (observation dates). Reported figures from companies/press are included as 'reported' points.",
+  "family": "area",
+  "first_date": "2026-09-01",
+  "last_date": "2026-09-01"
+ },
+ {
+  "id": "waymo-sf-bay-area-area",
+  "points": [
+   {
+    "date": "2022-12-16",
+    "value": 34.69,
+    "source_url": "https://waymo.com/blog/2022/12/wheels-up-for-waymo-as-we-expand",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-sf-bay-area/2022-12-16_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/waymo-sf-bay-area/2022-12-16_avmap.geojson",
+    "note": "av-map-data polygon"
+   },
+   {
+    "date": "2023-08-21",
+    "value": 44.67,
+    "source_url": "https://waymo.com/blog/2023/08/waymos-next-chapter-in-san-francisco",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-sf-bay-area/2023-08-21_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/waymo-sf-bay-area/2023-08-21_avmap.geojson",
+    "note": "av-map-data polygon"
+   },
+   {
+    "date": "2024-08-06",
+    "value": 54.01,
+    "source_url": "https://waymo.com/blog/2024/08/expanding-destinations-for-san-francisco-and-los-angeles-riders",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-sf-bay-area/2024-08-06_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/waymo-sf-bay-area/2024-08-06_avmap.geojson",
+    "note": "av-map-data polygon"
+   },
+   {
+    "date": "2025-03-11",
+    "value": 81.34,
+    "source_url": "https://www.mercurynews.com/2025/03/11/alphabets-waymo-to-offer-self-driving-rides-in-silicon-valley/",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-sf-bay-area/2025-03-11_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/waymo-sf-bay-area/2025-03-11_avmap.geojson",
+    "note": "av-map-data polygon (union of San Francisco, Silicon Valley)"
+   },
+   {
+    "date": "2025-06-17",
+    "value": 134.44,
+    "source_url": "https://www.theverge.com/news/688202/waymo-sf-la-service-area-expand-robotaxi",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-sf-bay-area/2025-06-17_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/waymo-sf-bay-area/2025-06-17_avmap.geojson",
+    "note": "av-map-data polygon (union of San Francisco, Silicon Valley)"
+   },
+   {
+    "date": "2025-11-12",
+    "value": 258.43,
+    "source_url": "https://sfstandard.com/2025/11/12/waymo-will-now-drive-bay-area-freeways-san-jos/",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-sf-bay-area/2025-11-12_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/waymo-sf-bay-area/2025-11-12_avmap.geojson",
+    "note": "av-map-data polygon (union of San Francisco, Silicon Valley)"
+   },
+   {
+    "date": "2025-12-20",
+    "value": 264.13,
+    "source_url": "https://www.reddit.com/r/waymo/comments/1prowr0/san_jose_service_area_expanded/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-sf-bay-area/2025-12-20_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/waymo-sf-bay-area/2025-12-20_avmap.geojson",
+    "note": "av-map-data polygon (union of San Francisco, Silicon Valley)"
+   },
+   {
+    "date": "2026-05-20",
+    "value": 351.43,
+    "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/353d501",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-sf-bay-area/2026-05-20_rtt.geojson",
+    "dataset": "rtt",
+    "area_file": "areas/waymo-sf-bay-area/2026-05-20_rtt.geojson",
+    "note": "RTT git commit date = date change first observed (actual expansion may be earlier)"
+   },
+   {
+    "date": "2026-07-27",
+    "value": 340.5,
+    "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/7e58a1b",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-sf-bay-area/2026-07-27_rtt.geojson",
+    "dataset": "rtt",
+    "area_file": "areas/waymo-sf-bay-area/2026-07-27_rtt.geojson",
+    "note": "RTT git commit date = date change first observed (actual expansion may be earlier)"
+   },
+   {
+    "date": "2026-08-31",
+    "value": 335.41,
+    "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/f6ace76",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-sf-bay-area/2026-08-31_rtt.geojson",
+    "dataset": "rtt",
+    "area_file": "areas/waymo-sf-bay-area/2026-08-31_rtt.geojson",
+    "note": "RTT git commit date = date change first observed (actual expansion may be earlier)"
+   }
+  ],
+  "operator": "waymo",
+  "metric": "area_sq_mi",
+  "scope": "market",
+  "market": "waymo-sf-bay-area",
+  "state": "CA",
+  "country": "US",
+  "unit": "sq mi",
+  "kind": "level",
+  "label": "San Francisco Bay Area service area",
+  "description": "",
+  "method": "Geodesic area (pyproj Geod WGS84, geometry_area_perimeter) of the market polygon; polygons from av-map-data (dated events) and Robotaxi Tracker git history (observation dates). Reported figures from companies/press are included as 'reported' points.",
+  "family": "area",
+  "first_date": "2022-12-16",
+  "last_date": "2026-08-31"
+ },
+ {
+  "id": "waymo-sf-bay-area-ro-miles",
+  "points": [
+   {
+    "date": "2024-09-30",
+    "value": 10209000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202409-2022benchmark.csv",
+    "confidence": "reported",
+    "source_type": "official",
+    "vintage": "202409",
+    "note": "Ops depot: SAN_FRANCISCO"
+   },
+   {
+    "date": "2024-12-31",
+    "value": 16032000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202412-2022benchmark.csv",
+    "confidence": "reported",
+    "source_type": "official",
+    "vintage": "202412",
+    "note": "Ops depot: SAN_FRANCISCO"
+   },
+   {
+    "date": "2025-03-31",
+    "value": 23024000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202503-2022benchmark.csv",
+    "confidence": "derived",
+    "source_type": "official",
+    "vintage": "202503",
+    "note": "Ops depot: MOUNTAIN_VIEW + SAN_FRANCISCO"
+   },
+   {
+    "date": "2025-06-30",
+    "value": 29888000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202506-2022benchmark.csv",
+    "confidence": "reported",
+    "source_type": "official",
+    "vintage": "202506",
+    "note": "Ops depot: SAN_FRANCISCO"
+   },
+   {
+    "date": "2025-09-30",
+    "value": 38816000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202509-2022benchmark.csv",
+    "confidence": "reported",
+    "source_type": "official",
+    "vintage": "202509",
+    "note": "Ops depot: SAN_FRANCISCO"
+   },
+   {
+    "date": "2025-12-31",
+    "value": 53520000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202512-2022benchmark.csv",
+    "confidence": "reported",
+    "source_type": "official",
+    "vintage": "202512",
+    "note": "County/metro: San Francisco Bay Area"
+   },
+   {
+    "date": "2026-03-31",
+    "value": 67078000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202603-2022benchmark.csv",
+    "confidence": "reported",
+    "source_type": "official",
+    "vintage": "202603",
+    "note": "County/metro: San Francisco Bay Area"
+   },
+   {
+    "date": "2026-06-30",
+    "value": 82421000,
+    "source_url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202606-2022benchmark.csv",
+    "confidence": "reported",
+    "source_type": "official",
+    "vintage": "202606",
+    "note": "County/metro: San Francisco Bay Area"
+   }
+  ],
+  "operator": "waymo",
+  "metric": "ro_miles_cum",
+  "scope": "market",
+  "market": "waymo-sf-bay-area",
+  "state": "CA",
+  "country": "US",
+  "unit": "miles",
+  "kind": "cumulative",
+  "label": "San Francisco Bay Area cumulative rider-only miles",
+  "description": "Cumulative rider-only (no human driver) miles since Sep 2020 from Waymo Safety Impact hub CSV1, by location. Includes all RO miles (with or without passengers).",
+  "method": "Waymo publishes a new CSV1 vintage quarterly; value is cumulative through end of the vintage month. Vintages ≤2025-09 are by 'Ops Depot'; ≥2025-12 by county with Waymo's own metro aggregate (e.g. 'San Francisco Bay Area'), so a small definitional break exists.",
+  "family": "usage",
+  "first_date": "2024-09-30",
+  "last_date": "2026-06-30"
+ },
+ {
+  "id": "waymo-tampa-area",
+  "points": [
+   {
+    "date": "2026-09-01",
+    "value": 44.17,
+    "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/d5d1581",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/waymo-tampa/2026-09-01_rtt.geojson",
+    "dataset": "rtt",
+    "area_file": "areas/waymo-tampa/2026-09-01_rtt.geojson",
+    "note": "RTT git commit date = date change first observed (actual expansion may be earlier)"
+   }
+  ],
+  "operator": "waymo",
+  "metric": "area_sq_mi",
+  "scope": "market",
+  "market": "waymo-tampa",
+  "state": "FL",
+  "country": "US",
+  "unit": "sq mi",
+  "kind": "level",
+  "label": "Tampa service area",
+  "description": "",
+  "method": "Geodesic area (pyproj Geod WGS84, geometry_area_perimeter) of the market polygon; polygons from av-map-data (dated events) and Robotaxi Tracker git history (observation dates). Reported figures from companies/press are included as 'reported' points.",
+  "family": "area",
+  "first_date": "2026-09-01",
+  "last_date": "2026-09-01"
+ },
+ {
+  "id": "waymo-tx-vehicles",
+  "points": [
+   {
+    "date": "2026-05-28",
+    "value": 619,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-06-11",
+    "value": 620,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-06-25",
+    "value": 628,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-06-25",
+    "value": 640,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-07-01",
+    "value": 642,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-07-22",
+    "value": 677,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-08-11",
+    "value": 691,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-08-25",
+    "value": 736,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-09-02",
+    "value": 988,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-09-03",
+    "value": 988,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-09-23",
+    "value": 989,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-09-25",
+    "value": 1133,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-10-01",
+    "value": 1154,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-10-05",
+    "value": 1168,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-10-07",
+    "value": 1175,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-10-08",
+    "value": 1185,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-10-19",
+    "value": 1207,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   }
+  ],
+  "operator": "waymo",
+  "metric": "vehicles",
+  "scope": "state",
+  "market": null,
+  "state": "TX",
+  "country": "US",
+  "unit": "vehicles",
+  "kind": "level",
+  "label": "Waymo vehicles on Texas AV registry",
+  "description": "Count of VINs listed under the operator's authorization in the Texas DMV AV registry (Senate Bill 2807 framework, effective 2026), as compiled daily by texasavtracker.com. Statewide; not split by city.",
+  "method": "Imported from texasavtracker.com /api/data history (lastChecked 2026-10-26); one point per recorded change.",
+  "authorized_at": "2026-05-05",
+  "family": "vehicles",
+  "first_date": "2026-05-28",
+  "last_date": "2026-10-19"
+ },
+ {
+  "id": "zoox-company-autonomous-miles",
+  "points": [
+   {
+    "date": "2026-03-24",
+    "value": 2000000,
+    "source_url": "https://techcrunch.com/2026/03/24/zoox-brings-its-robotaxis-to-austin-and-miami/",
+    "confidence": "reported",
+    "source_type": "press",
+    "note": "'nearly two million autonomous miles' (includes testing)",
+    "curated": true
+   }
+  ],
+  "operator": "zoox",
+  "metric": "autonomous_miles_cum",
+  "scope": "company",
+  "market": null,
+  "state": null,
+  "country": "US",
+  "unit": "miles",
+  "kind": "cumulative",
+  "label": "Zoox cumulative autonomous miles",
+  "description": "",
+  "method": "Hand-curated from cited company statements / press reports.",
+  "family": "usage",
+  "first_date": "2026-03-24",
+  "last_date": "2026-03-24"
+ },
+ {
+  "id": "zoox-company-riders",
+  "points": [
+   {
+    "date": "2026-03-24",
+    "value": 350000,
+    "source_url": "https://techcrunch.com/2026/03/24/zoox-brings-its-robotaxis-to-austin-and-miami/",
+    "confidence": "reported",
+    "source_type": "press",
+    "note": "'over 350,000 riders' to date",
+    "curated": true
+   }
+  ],
+  "operator": "zoox",
+  "metric": "riders_cum",
+  "scope": "company",
+  "market": null,
+  "state": null,
+  "country": "US",
+  "unit": "riders",
+  "kind": "cumulative",
+  "label": "Zoox cumulative riders",
+  "description": "",
+  "method": "Hand-curated from cited company statements / press reports.",
+  "family": "usage",
+  "first_date": "2026-03-24",
+  "last_date": "2026-03-24"
+ },
+ {
+  "id": "zoox-las-vegas-area",
+  "points": [
+   {
+    "date": "2025-09-10",
+    "value": 12.35,
+    "source_url": "https://techcrunch.com/2025/09/10/zoox-opens-its-las-vegas-robotaxi-service-to-the-public/",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/zoox-las-vegas/2025-09-10_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/zoox-las-vegas/2025-09-10_avmap.geojson",
+    "note": "av-map-data polygon"
+   },
+   {
+    "date": "2026-05-14",
+    "value": 23.61,
+    "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/bbed3c4",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/zoox-las-vegas/2026-05-14_rtt.geojson",
+    "dataset": "rtt",
+    "area_file": "areas/zoox-las-vegas/2026-05-14_rtt.geojson",
+    "note": "RTT git commit date = date change first observed (actual expansion may be earlier)"
+   }
+  ],
+  "operator": "zoox",
+  "metric": "area_sq_mi",
+  "scope": "market",
+  "market": "zoox-las-vegas",
+  "state": "NV",
+  "country": "US",
+  "unit": "sq mi",
+  "kind": "level",
+  "label": "Las Vegas service area",
+  "description": "",
+  "method": "Geodesic area (pyproj Geod WGS84, geometry_area_perimeter) of the market polygon; polygons from av-map-data (dated events) and Robotaxi Tracker git history (observation dates). Reported figures from companies/press are included as 'reported' points.",
+  "family": "area",
+  "first_date": "2025-09-10",
+  "last_date": "2026-05-14"
+ },
+ {
+  "id": "zoox-san-francisco-area",
+  "points": [
+   {
+    "date": "2025-09-16",
+    "value": 1.02,
+    "source_url": "https://x.com/nearcyan/status/1968122084674113773",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/zoox-san-francisco/2025-09-16_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/zoox-san-francisco/2025-09-16_avmap.geojson",
+    "note": "av-map-data polygon"
+   },
+   {
+    "date": "2025-11-18",
+    "value": 2.37,
+    "source_url": "https://sfstandard.com/2025/11/18/zoox-launches-publicly-san-francisco-kind/",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/zoox-san-francisco/2025-11-18_avmap.geojson",
+    "dataset": "avmap",
+    "area_file": "areas/zoox-san-francisco/2025-11-18_avmap.geojson",
+    "note": "av-map-data polygon"
+   },
+   {
+    "date": "2026-05-11",
+    "value": 11.39,
+    "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/991b504",
+    "confidence": "derived",
+    "source_type": "third-party-tracker",
+    "method": "geodesic area of areas/zoox-san-francisco/2026-05-11_rtt.geojson",
+    "dataset": "rtt",
+    "area_file": "areas/zoox-san-francisco/2026-05-11_rtt.geojson",
+    "note": "RTT git commit date = date change first observed (actual expansion may be earlier)"
+   }
+  ],
+  "operator": "zoox",
+  "metric": "area_sq_mi",
+  "scope": "market",
+  "market": "zoox-san-francisco",
+  "state": "CA",
+  "country": "US",
+  "unit": "sq mi",
+  "kind": "level",
+  "label": "San Francisco service area",
+  "description": "",
+  "method": "Geodesic area (pyproj Geod WGS84, geometry_area_perimeter) of the market polygon; polygons from av-map-data (dated events) and Robotaxi Tracker git history (observation dates). Reported figures from companies/press are included as 'reported' points.",
+  "family": "area",
+  "first_date": "2025-09-16",
+  "last_date": "2026-05-11"
+ },
+ {
+  "id": "zoox-tx-vehicles",
+  "points": [
+   {
+    "date": "2026-05-28",
+    "value": 44,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-09-03",
+    "value": 44,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   },
+   {
+    "date": "2026-10-02",
+    "value": 63,
+    "source_url": "https://texasavtracker.com/",
+    "confidence": "reported",
+    "source_type": "regulator",
+    "note": "TxDMV registry count via texasavtracker.com"
+   }
+  ],
+  "operator": "zoox",
+  "metric": "vehicles",
+  "scope": "state",
+  "market": null,
+  "state": "TX",
+  "country": "US",
+  "unit": "vehicles",
+  "kind": "level",
+  "label": "Zoox vehicles on Texas AV registry",
+  "description": "Count of VINs listed under the operator's authorization in the Texas DMV AV registry (Senate Bill 2807 framework, effective 2026), as compiled daily by texasavtracker.com. Statewide; not split by city.",
+  "method": "Imported from texasavtracker.com /api/data history (lastChecked 2026-10-26); one point per recorded change.",
+  "authorized_at": "2026-05-08",
+  "family": "vehicles",
+  "first_date": "2026-05-28",
+  "last_date": "2026-10-02"
+ }
+]

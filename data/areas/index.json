@@ -1,0 +1,1076 @@
+[
+ {
+  "market": "avride-dallas",
+  "date": "2025-12-03",
+  "dataset": "avmap",
+  "file": "areas/avride-dallas/2025-12-03_avmap.geojson",
+  "sq_mi": 9.24,
+  "source_url": "https://techcrunch.com/2025/12/03/uber-and-avride-launch-robotaxi-service-in-dallas/",
+  "note": "av-map-data polygon",
+  "files": [
+   "avride-dallas-december-3-2025-boundary.geojson"
+  ]
+ },
+ {
+  "market": "cruise-san-francisco",
+  "date": "2022-02-02",
+  "dataset": "avmap",
+  "file": "areas/cruise-san-francisco/2022-02-02_avmap.geojson",
+  "sq_mi": 11.88,
+  "source_url": "https://fortune.com/2022/02/01/cruise-robotaxi-self-driving-car-san-francisco/",
+  "note": "av-map-data polygon",
+  "files": [
+   "cruise-san-francisco-february-1-2022-boundary.geojson"
+  ]
+ },
+ {
+  "market": "cruise-san-francisco",
+  "date": "2022-11-01",
+  "dataset": "avmap",
+  "file": "areas/cruise-san-francisco/2022-11-01_avmap.geojson",
+  "sq_mi": 33.45,
+  "source_url": "https://sfstandard.com/2022/11/01/self-driving-cruise-cars-are-expanding-to-most-of-sf-says-ceo/",
+  "note": "av-map-data polygon",
+  "files": [
+   "cruise-san-francisco-november-1-2022-boundary.geojson"
+  ]
+ },
+ {
+  "market": "may-mobility-ann-arbor-mi",
+  "date": "2021-10-11",
+  "dataset": "avmap",
+  "file": "areas/may-mobility-ann-arbor-mi/2021-10-11_avmap.geojson",
+  "sq_mi": 1.27,
+  "source_url": "https://maymobility.com/posts/a2go-autonomous-shuttle-service-launches-in-ann-arbor-on-october-11/",
+  "note": "av-map-data polygon",
+  "files": [
+   "may-mobility-ann-arbor-mi-october-11-2021-boundary.geojson"
+  ]
+ },
+ {
+  "market": "may-mobility-arlington-tx",
+  "date": "2021-03-23",
+  "dataset": "avmap",
+  "file": "areas/may-mobility-arlington-tx/2021-03-23_avmap.geojson",
+  "sq_mi": 1.14,
+  "source_url": "https://maymobility.com/locations/arlington-tx/",
+  "note": "av-map-data polygon",
+  "files": [
+   "may-mobility-arlington-tx-march-23-2021-boundary.geojson"
+  ]
+ },
+ {
+  "market": "may-mobility-atlanta",
+  "date": "2025-09-10",
+  "dataset": "avmap",
+  "file": "areas/may-mobility-atlanta/2025-09-10_avmap.geojson",
+  "sq_mi": 5.35,
+  "source_url": "https://maymobility.com/posts/lyft-and-may-mobility-deploy-their-first-autonomous-vehicle-fleet-in-atlanta/",
+  "note": "av-map-data polygon",
+  "files": [
+   "may-mobility-atlanta-september-10-2025-boundary.geojson"
+  ]
+ },
+ {
+  "market": "may-mobility-grand-rapids-mi",
+  "date": "2019-07-25",
+  "dataset": "avmap",
+  "file": "areas/may-mobility-grand-rapids-mi/2019-07-25_avmap.geojson",
+  "sq_mi": 1.32,
+  "source_url": "https://www.michiganbusiness.org/press-releases/2019/07/public-private-partners-launch-grand-rapids-autonomous-vehicle-initiative-avgr/",
+  "note": "av-map-data polygon",
+  "files": [
+   "may-mobility-grand-rapids-mi-july-25-2019-boundary.geojson"
+  ]
+ },
+ {
+  "market": "may-mobility-grand-rapids-mi",
+  "date": "2021-07-26",
+  "dataset": "avmap",
+  "file": "areas/may-mobility-grand-rapids-mi/2021-07-26_avmap.geojson",
+  "sq_mi": 1.6,
+  "source_url": "https://www.prnewswire.com/news-releases/may-mobility-announces-on-demand-autonomous-service-in-grand-rapids-michigan-301351595.html",
+  "note": "av-map-data polygon",
+  "files": [
+   "may-mobility-grand-rapids-mi-july-26-2021-boundary.geojson"
+  ]
+ },
+ {
+  "market": "may-mobility-grand-rapids-mn",
+  "date": "2022-09-28",
+  "dataset": "avmap",
+  "file": "areas/may-mobility-grand-rapids-mn/2022-09-28_avmap.geojson",
+  "sq_mi": 3.43,
+  "source_url": "https://maymobility.com/posts/may-mobility-and-via-launch-first-rural-transit-program-to-use-wheelchair-accessible-ada-compliant-autonomous-vehicless/",
+  "note": "av-map-data polygon",
+  "files": [
+   "may-mobility-grand-rapids-mn-september-28-2022-boundary.geojson"
+  ]
+ },
+ {
+  "market": "may-mobility-grand-rapids-mn",
+  "date": "2025-09-02",
+  "dataset": "avmap",
+  "file": "areas/may-mobility-grand-rapids-mn/2025-09-02_avmap.geojson",
+  "sq_mi": 7.89,
+  "source_url": "https://www.kaxe.org/local-news/2025-08-11/grand-rapids-autonomous-transit-expanding-to-nearby-cities-tribal-stops",
+  "note": "av-map-data polygon",
+  "files": [
+   "may-mobility-grand-rapids-mn-september-2-2025-boundary.geojson"
+  ]
+ },
+ {
+  "market": "may-mobility-martinez-ca",
+  "date": "2024-09-12",
+  "dataset": "avmap",
+  "file": "areas/may-mobility-martinez-ca/2024-09-12_avmap.geojson",
+  "sq_mi": 1.79,
+  "source_url": "https://ccta.net/news/contra-costa-transportation-authority-and-may-mobility-launch-autonomous-vehicle-service-in-martinez-california/",
+  "note": "av-map-data polygon",
+  "files": [
+   "may-mobility-martinez-ca-september-12-2024-boundary.geojson"
+  ]
+ },
+ {
+  "market": "may-mobility-peachtree-corners-ga",
+  "date": "2024-10-07",
+  "dataset": "avmap",
+  "file": "areas/may-mobility-peachtree-corners-ga/2024-10-07_avmap.geojson",
+  "sq_mi": 0.46,
+  "source_url": "https://maymobility.com/posts/peachtree-corners-launch-autonomous-vehicle-may-mobility-t-mobile/",
+  "note": "av-map-data polygon",
+  "files": [
+   "may-mobility-peachtree-corners-ga-october-7-2024-boundary.geojson"
+  ]
+ },
+ {
+  "market": "tesla-austin",
+  "date": "2025-06-22",
+  "dataset": "avmap",
+  "file": "areas/tesla-austin/2025-06-22_avmap.geojson",
+  "sq_mi": 20.37,
+  "source_url": "https://www.cnbc.com/2025/06/20/tesla-robotaxi-launch-austin.html",
+  "note": "av-map-data polygon",
+  "files": [
+   "tesla-austin-june-22-2025-boundary.geojson"
+  ]
+ },
+ {
+  "market": "tesla-austin",
+  "date": "2025-07-14",
+  "dataset": "avmap",
+  "file": "areas/tesla-austin/2025-07-14_avmap.geojson",
+  "sq_mi": 43.92,
+  "source_url": "https://www.businessinsider.com/tesla-new-robotaxi-geofence-austin-shape-elon-musk-bigger-waymo-2025-7",
+  "note": "av-map-data polygon",
+  "files": [
+   "tesla-austin-july-14-2025-boundary.geojson"
+  ]
+ },
+ {
+  "market": "tesla-austin",
+  "date": "2025-08-03",
+  "dataset": "avmap",
+  "file": "areas/tesla-austin/2025-08-03_avmap.geojson",
+  "sq_mi": 92.03,
+  "source_url": "https://www.pcmag.com/news/teslas-robotaxi-coverage-expands-four-times-the-size-of-initial-austin",
+  "note": "av-map-data polygon",
+  "files": [
+   "tesla-austin-august-3-2025-boundary.geojson"
+  ]
+ },
+ {
+  "market": "tesla-austin",
+  "date": "2025-08-26",
+  "dataset": "avmap",
+  "file": "areas/tesla-austin/2025-08-26_avmap.geojson",
+  "sq_mi": 175.45,
+  "source_url": "https://electrek.co/2025/08/27/tesla-announces-50-increase-in-austin-robotaxi-but-50-from-what/",
+  "note": "av-map-data polygon",
+  "files": [
+   "tesla-austin-august-26-2025-boundary.geojson"
+  ]
+ },
+ {
+  "market": "tesla-austin",
+  "date": "2025-10-28",
+  "dataset": "avmap",
+  "file": "areas/tesla-austin/2025-10-28_avmap.geojson",
+  "sq_mi": 245.72,
+  "source_url": "https://x.com/SawyerMerritt/status/1983287391315214570/photo/1",
+  "note": "av-map-data polygon",
+  "files": [
+   "tesla-austin-october-28-2025-boundary.geojson"
+  ]
+ },
+ {
+  "market": "tesla-austin",
+  "date": "2026-01-22",
+  "dataset": "avmap",
+  "file": "areas/tesla-austin/2026-01-22_avmap.geojson",
+  "sq_mi": 245.72,
+  "source_url": "https://www.techbuzz.ai/articles/tesla-goes-fully-driverless-in-austin-robotaxi-rollout",
+  "note": "av-map-data polygon",
+  "files": [
+   "tesla-austin-october-28-2025-boundary.geojson"
+  ]
+ },
+ {
+  "market": "tesla-austin",
+  "date": "2026-04-20",
+  "dataset": "rtt",
+  "file": "areas/tesla-austin/2026-04-20_rtt.geojson",
+  "sq_mi": 243.55,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/9c5480d",
+  "note": "RTT initial import — polygon as of import date, not an expansion date",
+  "commit": "9c5480d",
+  "rtt_slug": "tesla/austin"
+ },
+ {
+  "market": "tesla-austin",
+  "date": "2026-08-29",
+  "dataset": "rtt",
+  "file": "areas/tesla-austin/2026-08-29_rtt.geojson",
+  "sq_mi": 244.95,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/a75b193",
+  "note": "RTT git commit date = date change first observed (actual expansion may be earlier)",
+  "commit": "a75b193",
+  "rtt_slug": "tesla/austin"
+ },
+ {
+  "market": "tesla-austin",
+  "date": "2026-08-31",
+  "dataset": "rtt",
+  "file": "areas/tesla-austin/2026-08-31_rtt.geojson",
+  "sq_mi": 263.93,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/f6ace76",
+  "note": "RTT git commit date = date change first observed (actual expansion may be earlier)",
+  "commit": "f6ace76",
+  "rtt_slug": "tesla/austin"
+ },
+ {
+  "market": "tesla-bay-area",
+  "date": "2025-07-31",
+  "dataset": "avmap",
+  "file": "areas/tesla-bay-area/2025-07-31_avmap.geojson",
+  "sq_mi": 1120.66,
+  "source_url": "https://www.businessinsider.com/teslas-ride-hailing-service-live-in-san-francisco-musk-says-2025-7",
+  "note": "av-map-data polygon",
+  "files": [
+   "tesla-bay-area-july-31-2025-boundary.geojson"
+  ]
+ },
+ {
+  "market": "tesla-bay-area",
+  "date": "2026-04-20",
+  "dataset": "rtt",
+  "file": "areas/tesla-bay-area/2026-04-20_rtt.geojson",
+  "sq_mi": 1094.45,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/9c5480d",
+  "note": "RTT initial import — polygon as of import date, not an expansion date",
+  "commit": "9c5480d",
+  "rtt_slug": "tesla/bay_area"
+ },
+ {
+  "market": "tesla-dallas",
+  "date": "2026-04-20",
+  "dataset": "rtt",
+  "file": "areas/tesla-dallas/2026-04-20_rtt.geojson",
+  "sq_mi": 30.84,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/9c5480d",
+  "note": "RTT initial import — polygon as of import date, not an expansion date",
+  "commit": "9c5480d",
+  "rtt_slug": "tesla/dallas"
+ },
+ {
+  "market": "tesla-dallas",
+  "date": "2026-08-29",
+  "dataset": "rtt",
+  "file": "areas/tesla-dallas/2026-08-29_rtt.geojson",
+  "sq_mi": 81.06,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/be25073",
+  "note": "RTT git commit date = date change first observed (actual expansion may be earlier)",
+  "commit": "be25073",
+  "rtt_slug": "tesla/dallas"
+ },
+ {
+  "market": "tesla-houston",
+  "date": "2026-04-20",
+  "dataset": "rtt",
+  "file": "areas/tesla-houston/2026-04-20_rtt.geojson",
+  "sq_mi": 24.87,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/9c5480d",
+  "note": "RTT initial import — polygon as of import date, not an expansion date",
+  "commit": "9c5480d",
+  "rtt_slug": "tesla/houston"
+ },
+ {
+  "market": "tesla-miami",
+  "date": "2026-07-25",
+  "dataset": "rtt",
+  "file": "areas/tesla-miami/2026-07-25_rtt.geojson",
+  "sq_mi": 29.0,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/cf9a658",
+  "note": "RTT git commit date = date change first observed (actual expansion may be earlier)",
+  "commit": "cf9a658",
+  "rtt_slug": "tesla/miami"
+ },
+ {
+  "market": "tesla-miami",
+  "date": "2026-08-29",
+  "dataset": "rtt",
+  "file": "areas/tesla-miami/2026-08-29_rtt.geojson",
+  "sq_mi": 30.73,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/a75b193",
+  "note": "RTT git commit date = date change first observed (actual expansion may be earlier)",
+  "commit": "a75b193",
+  "rtt_slug": "tesla/miami"
+ },
+ {
+  "market": "tesla-orlando",
+  "date": "2026-07-27",
+  "dataset": "rtt",
+  "file": "areas/tesla-orlando/2026-07-27_rtt.geojson",
+  "sq_mi": 25.63,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/e14da6b",
+  "note": "RTT git commit date = date change first observed (actual expansion may be earlier)",
+  "commit": "e14da6b",
+  "rtt_slug": "tesla/orlando"
+ },
+ {
+  "market": "tesla-orlando",
+  "date": "2026-08-29",
+  "dataset": "rtt",
+  "file": "areas/tesla-orlando/2026-08-29_rtt.geojson",
+  "sq_mi": 26.12,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/a75b193",
+  "note": "RTT git commit date = date change first observed (actual expansion may be earlier)",
+  "commit": "a75b193",
+  "rtt_slug": "tesla/orlando"
+ },
+ {
+  "market": "tesla-tampa",
+  "date": "2026-07-27",
+  "dataset": "rtt",
+  "file": "areas/tesla-tampa/2026-07-27_rtt.geojson",
+  "sq_mi": 23.75,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/e14da6b",
+  "note": "RTT git commit date = date change first observed (actual expansion may be earlier)",
+  "commit": "e14da6b",
+  "rtt_slug": "tesla/tampa"
+ },
+ {
+  "market": "tesla-tampa",
+  "date": "2026-08-29",
+  "dataset": "rtt",
+  "file": "areas/tesla-tampa/2026-08-29_rtt.geojson",
+  "sq_mi": 23.54,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/a75b193",
+  "note": "RTT git commit date = date change first observed (actual expansion may be earlier)",
+  "commit": "a75b193",
+  "rtt_slug": "tesla/tampa"
+ },
+ {
+  "market": "waymo-atlanta",
+  "date": "2025-06-24",
+  "dataset": "avmap",
+  "file": "areas/waymo-atlanta/2025-06-24_avmap.geojson",
+  "sq_mi": 68.55,
+  "source_url": "https://www.uber.com/newsroom/waymo-on-uber-atl/",
+  "note": "av-map-data polygon",
+  "files": [
+   "waymo-atlanta-june-24-2025-boundary.geojson"
+  ]
+ },
+ {
+  "market": "waymo-atlanta",
+  "date": "2026-04-20",
+  "dataset": "rtt",
+  "file": "areas/waymo-atlanta/2026-04-20_rtt.geojson",
+  "sq_mi": 68.55,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/9c5480d",
+  "note": "RTT initial import — polygon as of import date, not an expansion date",
+  "commit": "9c5480d",
+  "rtt_slug": "waymo/atlanta"
+ },
+ {
+  "market": "waymo-atlanta",
+  "date": "2026-08-17",
+  "dataset": "rtt",
+  "file": "areas/waymo-atlanta/2026-08-17_rtt.geojson",
+  "sq_mi": 111.64,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/a88ba8a",
+  "note": "RTT git commit date = date change first observed (actual expansion may be earlier)",
+  "commit": "a88ba8a",
+  "rtt_slug": "waymo/atlanta"
+ },
+ {
+  "market": "waymo-austin",
+  "date": "2025-03-04",
+  "dataset": "avmap",
+  "file": "areas/waymo-austin/2025-03-04_avmap.geojson",
+  "sq_mi": 35.77,
+  "source_url": "https://www.cnbc.com/2025/03/04/waymo-uber-begin-offering-robotaxi-rides-in-austin-ahead-of-sxsw.html",
+  "note": "av-map-data polygon",
+  "files": [
+   "waymo-austin-march-4-2025-boundary.geojson"
+  ]
+ },
+ {
+  "market": "waymo-austin",
+  "date": "2025-07-17",
+  "dataset": "avmap",
+  "file": "areas/waymo-austin/2025-07-17_avmap.geojson",
+  "sq_mi": 90.62,
+  "source_url": "https://www.axios.com/local/austin/2025/07/17/waymo-expands-austin-service-area",
+  "note": "av-map-data polygon",
+  "files": [
+   "waymo-austin-july-17-2025-boundary.geojson"
+  ]
+ },
+ {
+  "market": "waymo-austin",
+  "date": "2026-01-13",
+  "dataset": "avmap",
+  "file": "areas/waymo-austin/2026-01-13_avmap.geojson",
+  "sq_mi": 138.92,
+  "source_url": "https://x.com/reed/status/2011133349486871008?s=20",
+  "note": "av-map-data polygon",
+  "files": [
+   "waymo-austin-january-13-2026-boundary.geojson"
+  ]
+ },
+ {
+  "market": "waymo-austin",
+  "date": "2026-04-20",
+  "dataset": "rtt",
+  "file": "areas/waymo-austin/2026-04-20_rtt.geojson",
+  "sq_mi": 138.92,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/9c5480d",
+  "note": "RTT initial import — polygon as of import date, not an expansion date",
+  "commit": "9c5480d",
+  "rtt_slug": "waymo/austin-waymo"
+ },
+ {
+  "market": "waymo-austin",
+  "date": "2026-08-17",
+  "dataset": "rtt",
+  "file": "areas/waymo-austin/2026-08-17_rtt.geojson",
+  "sq_mi": 151.16,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/a88ba8a",
+  "note": "RTT git commit date = date change first observed (actual expansion may be earlier)",
+  "commit": "a88ba8a",
+  "rtt_slug": "waymo/austin-waymo"
+ },
+ {
+  "market": "waymo-dallas",
+  "date": "2026-02-24",
+  "dataset": "avmap",
+  "file": "areas/waymo-dallas/2026-02-24_avmap.geojson",
+  "sq_mi": 47.84,
+  "source_url": "https://waymo.com/blog/2026/02/dallas-houston-san-antonio-orlando",
+  "note": "av-map-data polygon",
+  "files": [
+   "waymo-dallas-february-24-2026-boundary.geojson"
+  ]
+ },
+ {
+  "market": "waymo-dallas",
+  "date": "2026-04-20",
+  "dataset": "rtt",
+  "file": "areas/waymo-dallas/2026-04-20_rtt.geojson",
+  "sq_mi": 47.84,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/9c5480d",
+  "note": "RTT initial import — polygon as of import date, not an expansion date",
+  "commit": "9c5480d",
+  "rtt_slug": "waymo/dallas"
+ },
+ {
+  "market": "waymo-denver",
+  "date": "2026-09-01",
+  "dataset": "rtt",
+  "file": "areas/waymo-denver/2026-09-01_rtt.geojson",
+  "sq_mi": 59.37,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/d5d1581",
+  "note": "RTT git commit date = date change first observed (actual expansion may be earlier)",
+  "commit": "d5d1581",
+  "rtt_slug": "waymo/denver"
+ },
+ {
+  "market": "waymo-houston",
+  "date": "2026-02-24",
+  "dataset": "avmap",
+  "file": "areas/waymo-houston/2026-02-24_avmap.geojson",
+  "sq_mi": 22.64,
+  "source_url": "https://waymo.com/blog/2026/02/dallas-houston-san-antonio-orlando",
+  "note": "av-map-data polygon",
+  "files": [
+   "waymo-houston-february-24-2026-boundary.geojson"
+  ]
+ },
+ {
+  "market": "waymo-houston",
+  "date": "2026-04-20",
+  "dataset": "rtt",
+  "file": "areas/waymo-houston/2026-04-20_rtt.geojson",
+  "sq_mi": 22.64,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/9c5480d",
+  "note": "RTT initial import — polygon as of import date, not an expansion date",
+  "commit": "9c5480d",
+  "rtt_slug": "waymo/houston"
+ },
+ {
+  "market": "waymo-houston",
+  "date": "2026-05-20",
+  "dataset": "rtt",
+  "file": "areas/waymo-houston/2026-05-20_rtt.geojson",
+  "sq_mi": 53.12,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/d9ae2e0",
+  "note": "RTT git commit date = date change first observed (actual expansion may be earlier)",
+  "commit": "d9ae2e0",
+  "rtt_slug": "waymo/houston"
+ },
+ {
+  "market": "waymo-houston",
+  "date": "2026-05-21",
+  "dataset": "rtt",
+  "file": "areas/waymo-houston/2026-05-21_rtt.geojson",
+  "sq_mi": 49.16,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/4e27e66",
+  "note": "RTT git commit date = date change first observed (actual expansion may be earlier)",
+  "commit": "4e27e66",
+  "rtt_slug": "waymo/houston"
+ },
+ {
+  "market": "waymo-los-angeles",
+  "date": "2024-03-13",
+  "dataset": "avmap",
+  "file": "areas/waymo-los-angeles/2024-03-13_avmap.geojson",
+  "sq_mi": 59.26,
+  "source_url": "https://waymo.com/blog/2024/03/scaling-waymo-one-safely-across-four-cities-this-year",
+  "note": "av-map-data polygon",
+  "files": [
+   "waymo-los-angeles-march-13-2024-boundary.geojson"
+  ]
+ },
+ {
+  "market": "waymo-los-angeles",
+  "date": "2024-08-06",
+  "dataset": "avmap",
+  "file": "areas/waymo-los-angeles/2024-08-06_avmap.geojson",
+  "sq_mi": 89.07,
+  "source_url": "https://waymo.com/blog/2024/08/expanding-destinations-for-san-francisco-and-los-angeles-riders",
+  "note": "av-map-data polygon",
+  "files": [
+   "waymo-los-angeles-august-6-2024-boundary.geojson"
+  ]
+ },
+ {
+  "market": "waymo-los-angeles",
+  "date": "2025-06-18",
+  "dataset": "avmap",
+  "file": "areas/waymo-los-angeles/2025-06-18_avmap.geojson",
+  "sq_mi": 124.06,
+  "source_url": "https://techcrunch.com/2025/06/17/waymo-robotaxis-are-pushing-into-even-more-california-cities/",
+  "note": "av-map-data polygon",
+  "files": [
+   "waymo-los-angeles-june-18-2025-boundary.geojson"
+  ]
+ },
+ {
+  "market": "waymo-los-angeles",
+  "date": "2026-04-20",
+  "dataset": "rtt",
+  "file": "areas/waymo-los-angeles/2026-04-20_rtt.geojson",
+  "sq_mi": 124.06,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/9c5480d",
+  "note": "RTT initial import — polygon as of import date, not an expansion date",
+  "commit": "9c5480d",
+  "rtt_slug": "waymo/los-angeles"
+ },
+ {
+  "market": "waymo-los-angeles",
+  "date": "2026-06-15",
+  "dataset": "rtt",
+  "file": "areas/waymo-los-angeles/2026-06-15_rtt.geojson",
+  "sq_mi": 130.33,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/9aa4b99",
+  "note": "RTT git commit date = date change first observed (actual expansion may be earlier)",
+  "commit": "9aa4b99",
+  "rtt_slug": "waymo/los-angeles"
+ },
+ {
+  "market": "waymo-los-angeles",
+  "date": "2026-08-13",
+  "dataset": "rtt",
+  "file": "areas/waymo-los-angeles/2026-08-13_rtt.geojson",
+  "sq_mi": 124.64,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/c87f081",
+  "note": "RTT git commit date = date change first observed (actual expansion may be earlier)",
+  "commit": "c87f081",
+  "rtt_slug": "waymo/los-angeles"
+ },
+ {
+  "market": "waymo-miami",
+  "date": "2026-01-22",
+  "dataset": "avmap",
+  "file": "areas/waymo-miami/2026-01-22_avmap.geojson",
+  "sq_mi": 90.86,
+  "source_url": "https://www.cnbc.com/2026/01/22/waymo-launches-robotaxi-service-in-miami-extending-us-lead.html",
+  "note": "av-map-data polygon",
+  "files": [
+   "waymo-miami-january-22-2026-boundary.geojson"
+  ]
+ },
+ {
+  "market": "waymo-miami",
+  "date": "2026-04-20",
+  "dataset": "rtt",
+  "file": "areas/waymo-miami/2026-04-20_rtt.geojson",
+  "sq_mi": 90.86,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/9c5480d",
+  "note": "RTT initial import — polygon as of import date, not an expansion date",
+  "commit": "9c5480d",
+  "rtt_slug": "waymo/miami"
+ },
+ {
+  "market": "waymo-miami",
+  "date": "2026-05-13",
+  "dataset": "rtt",
+  "file": "areas/waymo-miami/2026-05-13_rtt.geojson",
+  "sq_mi": 165.04,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/942d0c8",
+  "note": "RTT git commit date = date change first observed (actual expansion may be earlier)",
+  "commit": "942d0c8",
+  "rtt_slug": "waymo/miami"
+ },
+ {
+  "market": "waymo-miami",
+  "date": "2026-08-13",
+  "dataset": "rtt",
+  "file": "areas/waymo-miami/2026-08-13_rtt.geojson",
+  "sq_mi": 144.71,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/c87f081",
+  "note": "RTT git commit date = date change first observed (actual expansion may be earlier)",
+  "commit": "c87f081",
+  "rtt_slug": "waymo/miami"
+ },
+ {
+  "market": "waymo-nashville",
+  "date": "2026-04-07",
+  "dataset": "avmap",
+  "file": "areas/waymo-nashville/2026-04-07_avmap.geojson",
+  "sq_mi": 50.53,
+  "source_url": "https://techcrunch.com/2026/04/07/waymo-opens-robotaxi-service-in-nashville-partners-with-lyft/",
+  "note": "av-map-data polygon",
+  "files": [
+   "waymo-nashville-april-7-2026-boundary.geojson"
+  ]
+ },
+ {
+  "market": "waymo-nashville",
+  "date": "2026-04-20",
+  "dataset": "rtt",
+  "file": "areas/waymo-nashville/2026-04-20_rtt.geojson",
+  "sq_mi": 49.83,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/9c5480d",
+  "note": "RTT initial import — polygon as of import date, not an expansion date",
+  "commit": "9c5480d",
+  "rtt_slug": "waymo/nashville"
+ },
+ {
+  "market": "waymo-nashville",
+  "date": "2026-08-13",
+  "dataset": "rtt",
+  "file": "areas/waymo-nashville/2026-08-13_rtt.geojson",
+  "sq_mi": 50.2,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/c87f081",
+  "note": "RTT git commit date = date change first observed (actual expansion may be earlier)",
+  "commit": "c87f081",
+  "rtt_slug": "waymo/nashville"
+ },
+ {
+  "market": "waymo-orlando",
+  "date": "2026-02-24",
+  "dataset": "avmap",
+  "file": "areas/waymo-orlando/2026-02-24_avmap.geojson",
+  "sq_mi": 57.95,
+  "source_url": "https://waymo.com/blog/2026/02/dallas-houston-san-antonio-orlando",
+  "note": "av-map-data polygon",
+  "files": [
+   "waymo-orlando-february-24-2026-boundary.geojson"
+  ]
+ },
+ {
+  "market": "waymo-orlando",
+  "date": "2026-04-20",
+  "dataset": "rtt",
+  "file": "areas/waymo-orlando/2026-04-20_rtt.geojson",
+  "sq_mi": 57.95,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/9c5480d",
+  "note": "RTT initial import — polygon as of import date, not an expansion date",
+  "commit": "9c5480d",
+  "rtt_slug": "waymo/orlando"
+ },
+ {
+  "market": "waymo-orlando",
+  "date": "2026-08-13",
+  "dataset": "rtt",
+  "file": "areas/waymo-orlando/2026-08-13_rtt.geojson",
+  "sq_mi": 66.0,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/c87f081",
+  "note": "RTT git commit date = date change first observed (actual expansion may be earlier)",
+  "commit": "c87f081",
+  "rtt_slug": "waymo/orlando"
+ },
+ {
+  "market": "waymo-phoenix",
+  "date": "2017-04-25",
+  "dataset": "avmap",
+  "file": "areas/waymo-phoenix/2017-04-25_avmap.geojson",
+  "sq_mi": 70.88,
+  "source_url": "https://www.technologyreview.com/2017/04/25/152152/waymo-has-invited-the-public-to-hop-into-its-self-driving-cars/",
+  "note": "av-map-data polygon",
+  "files": [
+   "waymo-phoenix-april-25-2017-boundary.geojson"
+  ]
+ },
+ {
+  "market": "waymo-phoenix",
+  "date": "2020-10-08",
+  "dataset": "avmap",
+  "file": "areas/waymo-phoenix/2020-10-08_avmap.geojson",
+  "sq_mi": 50.13,
+  "source_url": "https://waymo.com/blog/2020/10/waymo-is-opening-its-fully-driverless-service-in-phoenix",
+  "note": "av-map-data polygon",
+  "files": [
+   "waymo-phoenix-october-8-2020-boundary.geojson"
+  ]
+ },
+ {
+  "market": "waymo-phoenix",
+  "date": "2022-11-01",
+  "dataset": "avmap",
+  "file": "areas/waymo-phoenix/2022-11-01_avmap.geojson",
+  "sq_mi": 93.3,
+  "source_url": "https://techcrunch.com/2022/11/01/waymo-launches-autonomous-rides-to-phoenix-airport/",
+  "note": "av-map-data polygon",
+  "files": [
+   "waymo-phoenix-november-1-2022-boundary.geojson"
+  ]
+ },
+ {
+  "market": "waymo-phoenix",
+  "date": "2023-05-04",
+  "dataset": "avmap",
+  "file": "areas/waymo-phoenix/2023-05-04_avmap.geojson",
+  "sq_mi": 172.75,
+  "source_url": "https://waymo.com/blog/2023/05/waymo-one-doubles-service-area-in",
+  "note": "av-map-data polygon",
+  "files": [
+   "waymo-phoenix-may-4-2023-boundary.geojson"
+  ]
+ },
+ {
+  "market": "waymo-phoenix",
+  "date": "2024-06-05",
+  "dataset": "avmap",
+  "file": "areas/waymo-phoenix/2024-06-05_avmap.geojson",
+  "sq_mi": 302.95,
+  "source_url": "https://waymo.com/blog/2024/06/largest-autonomous-ride-hail-territory-in-us-now-even-larger",
+  "note": "av-map-data polygon",
+  "files": [
+   "waymo-phoenix-june-5-2024-boundary.geojson"
+  ]
+ },
+ {
+  "market": "waymo-phoenix",
+  "date": "2026-04-20",
+  "dataset": "rtt",
+  "file": "areas/waymo-phoenix/2026-04-20_rtt.geojson",
+  "sq_mi": 302.95,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/9c5480d",
+  "note": "RTT initial import — polygon as of import date, not an expansion date",
+  "commit": "9c5480d",
+  "rtt_slug": "waymo/phoenix"
+ },
+ {
+  "market": "waymo-phoenix",
+  "date": "2026-08-13",
+  "dataset": "rtt",
+  "file": "areas/waymo-phoenix/2026-08-13_rtt.geojson",
+  "sq_mi": 355.38,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/f0de424",
+  "note": "RTT git commit date = date change first observed (actual expansion may be earlier)",
+  "commit": "f0de424",
+  "rtt_slug": "waymo/phoenix"
+ },
+ {
+  "market": "waymo-san-antonio",
+  "date": "2026-02-24",
+  "dataset": "avmap",
+  "file": "areas/waymo-san-antonio/2026-02-24_avmap.geojson",
+  "sq_mi": 53.52,
+  "source_url": "https://waymo.com/blog/2026/02/dallas-houston-san-antonio-orlando",
+  "note": "av-map-data polygon",
+  "files": [
+   "waymo-san-antonio-february-24-2026-boundary.geojson"
+  ]
+ },
+ {
+  "market": "waymo-san-antonio",
+  "date": "2026-04-20",
+  "dataset": "rtt",
+  "file": "areas/waymo-san-antonio/2026-04-20_rtt.geojson",
+  "sq_mi": 53.52,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/9c5480d",
+  "note": "RTT initial import — polygon as of import date, not an expansion date",
+  "commit": "9c5480d",
+  "rtt_slug": "waymo/san-antonio"
+ },
+ {
+  "market": "waymo-san-antonio",
+  "date": "2026-08-13",
+  "dataset": "rtt",
+  "file": "areas/waymo-san-antonio/2026-08-13_rtt.geojson",
+  "sq_mi": 59.25,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/c87f081",
+  "note": "RTT git commit date = date change first observed (actual expansion may be earlier)",
+  "commit": "c87f081",
+  "rtt_slug": "waymo/san-antonio"
+ },
+ {
+  "market": "waymo-san-diego",
+  "date": "2026-09-01",
+  "dataset": "rtt",
+  "file": "areas/waymo-san-diego/2026-09-01_rtt.geojson",
+  "sq_mi": 47.23,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/d5d1581",
+  "note": "RTT git commit date = date change first observed (actual expansion may be earlier)",
+  "commit": "d5d1581",
+  "rtt_slug": "waymo/san-diego"
+ },
+ {
+  "market": "waymo-sf-bay-area",
+  "date": "2022-12-16",
+  "dataset": "avmap",
+  "file": "areas/waymo-sf-bay-area/2022-12-16_avmap.geojson",
+  "sq_mi": 34.69,
+  "source_url": "https://waymo.com/blog/2022/12/wheels-up-for-waymo-as-we-expand",
+  "note": "av-map-data polygon",
+  "files": [
+   "waymo-san-francisco-december-16-2022-boundary.geojson"
+  ]
+ },
+ {
+  "market": "waymo-sf-bay-area",
+  "date": "2023-08-21",
+  "dataset": "avmap",
+  "file": "areas/waymo-sf-bay-area/2023-08-21_avmap.geojson",
+  "sq_mi": 44.67,
+  "source_url": "https://waymo.com/blog/2023/08/waymos-next-chapter-in-san-francisco",
+  "note": "av-map-data polygon",
+  "files": [
+   "waymo-san-francisco-august-21-2023-boundary.geojson"
+  ]
+ },
+ {
+  "market": "waymo-sf-bay-area",
+  "date": "2024-08-06",
+  "dataset": "avmap",
+  "file": "areas/waymo-sf-bay-area/2024-08-06_avmap.geojson",
+  "sq_mi": 54.01,
+  "source_url": "https://waymo.com/blog/2024/08/expanding-destinations-for-san-francisco-and-los-angeles-riders",
+  "note": "av-map-data polygon",
+  "files": [
+   "waymo-san-francisco-august-6-2024-boundary.geojson"
+  ]
+ },
+ {
+  "market": "waymo-sf-bay-area",
+  "date": "2025-03-11",
+  "dataset": "avmap",
+  "file": "areas/waymo-sf-bay-area/2025-03-11_avmap.geojson",
+  "sq_mi": 81.34,
+  "source_url": "https://www.mercurynews.com/2025/03/11/alphabets-waymo-to-offer-self-driving-rides-in-silicon-valley/",
+  "note": "av-map-data polygon (union of San Francisco, Silicon Valley)",
+  "files": [
+   "waymo-san-francisco-august-6-2024-boundary.geojson",
+   "waymo-silicon-valley-march-11-2025-boundary.geojson"
+  ]
+ },
+ {
+  "market": "waymo-sf-bay-area",
+  "date": "2025-06-17",
+  "dataset": "avmap",
+  "file": "areas/waymo-sf-bay-area/2025-06-17_avmap.geojson",
+  "sq_mi": 134.44,
+  "source_url": "https://www.theverge.com/news/688202/waymo-sf-la-service-area-expand-robotaxi",
+  "note": "av-map-data polygon (union of San Francisco, Silicon Valley)",
+  "files": [
+   "waymo-san-francisco-june-17-2025-boundary.geojson",
+   "waymo-silicon-valley-june-17-2025-boundary.geojson"
+  ]
+ },
+ {
+  "market": "waymo-sf-bay-area",
+  "date": "2025-11-12",
+  "dataset": "avmap",
+  "file": "areas/waymo-sf-bay-area/2025-11-12_avmap.geojson",
+  "sq_mi": 258.43,
+  "source_url": "https://sfstandard.com/2025/11/12/waymo-will-now-drive-bay-area-freeways-san-jos/",
+  "note": "av-map-data polygon (union of San Francisco, Silicon Valley)",
+  "files": [
+   "waymo-san-francisco-june-17-2025-boundary.geojson",
+   "waymo-silicon-valley-november-12-2025-boundary.geojson"
+  ]
+ },
+ {
+  "market": "waymo-sf-bay-area",
+  "date": "2025-12-20",
+  "dataset": "avmap",
+  "file": "areas/waymo-sf-bay-area/2025-12-20_avmap.geojson",
+  "sq_mi": 264.13,
+  "source_url": "https://www.reddit.com/r/waymo/comments/1prowr0/san_jose_service_area_expanded/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button",
+  "note": "av-map-data polygon (union of San Francisco, Silicon Valley)",
+  "files": [
+   "waymo-san-francisco-june-17-2025-boundary.geojson",
+   "waymo-silicon-valley-december-20-2025-boundary.geojson"
+  ]
+ },
+ {
+  "market": "waymo-sf-bay-area",
+  "date": "2026-04-20",
+  "dataset": "rtt",
+  "file": "areas/waymo-sf-bay-area/2026-04-20_rtt.geojson",
+  "sq_mi": 264.2,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/9c5480d",
+  "note": "RTT initial import — polygon as of import date, not an expansion date",
+  "commit": "9c5480d",
+  "rtt_slug": "waymo/bay-area-waymo"
+ },
+ {
+  "market": "waymo-sf-bay-area",
+  "date": "2026-05-20",
+  "dataset": "rtt",
+  "file": "areas/waymo-sf-bay-area/2026-05-20_rtt.geojson",
+  "sq_mi": 351.43,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/353d501",
+  "note": "RTT git commit date = date change first observed (actual expansion may be earlier)",
+  "commit": "353d501",
+  "rtt_slug": "waymo/bay-area-waymo"
+ },
+ {
+  "market": "waymo-sf-bay-area",
+  "date": "2026-07-27",
+  "dataset": "rtt",
+  "file": "areas/waymo-sf-bay-area/2026-07-27_rtt.geojson",
+  "sq_mi": 340.5,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/7e58a1b",
+  "note": "RTT git commit date = date change first observed (actual expansion may be earlier)",
+  "commit": "7e58a1b",
+  "rtt_slug": "waymo/bay-area-waymo"
+ },
+ {
+  "market": "waymo-sf-bay-area",
+  "date": "2026-08-31",
+  "dataset": "rtt",
+  "file": "areas/waymo-sf-bay-area/2026-08-31_rtt.geojson",
+  "sq_mi": 335.41,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/f6ace76",
+  "note": "RTT git commit date = date change first observed (actual expansion may be earlier)",
+  "commit": "f6ace76",
+  "rtt_slug": "waymo/bay-area-waymo"
+ },
+ {
+  "market": "waymo-tampa",
+  "date": "2026-09-01",
+  "dataset": "rtt",
+  "file": "areas/waymo-tampa/2026-09-01_rtt.geojson",
+  "sq_mi": 44.17,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/d5d1581",
+  "note": "RTT git commit date = date change first observed (actual expansion may be earlier)",
+  "commit": "d5d1581",
+  "rtt_slug": "waymo/tampa"
+ },
+ {
+  "market": "zoox-las-vegas",
+  "date": "2025-09-10",
+  "dataset": "avmap",
+  "file": "areas/zoox-las-vegas/2025-09-10_avmap.geojson",
+  "sq_mi": 12.35,
+  "source_url": "https://techcrunch.com/2025/09/10/zoox-opens-its-las-vegas-robotaxi-service-to-the-public/",
+  "note": "av-map-data polygon",
+  "files": [
+   "zoox-las-vegas-september-10-2025-boundary.geojson"
+  ]
+ },
+ {
+  "market": "zoox-las-vegas",
+  "date": "2026-04-20",
+  "dataset": "rtt",
+  "file": "areas/zoox-las-vegas/2026-04-20_rtt.geojson",
+  "sq_mi": 12.35,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/9c5480d",
+  "note": "RTT initial import — polygon as of import date, not an expansion date",
+  "commit": "9c5480d",
+  "rtt_slug": "zoox/las-vegas-zoox"
+ },
+ {
+  "market": "zoox-las-vegas",
+  "date": "2026-05-14",
+  "dataset": "rtt",
+  "file": "areas/zoox-las-vegas/2026-05-14_rtt.geojson",
+  "sq_mi": 23.61,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/bbed3c4",
+  "note": "RTT git commit date = date change first observed (actual expansion may be earlier)",
+  "commit": "bbed3c4",
+  "rtt_slug": "zoox/las-vegas-zoox"
+ },
+ {
+  "market": "zoox-san-francisco",
+  "date": "2025-09-16",
+  "dataset": "avmap",
+  "file": "areas/zoox-san-francisco/2025-09-16_avmap.geojson",
+  "sq_mi": 1.02,
+  "source_url": "https://x.com/nearcyan/status/1968122084674113773",
+  "note": "av-map-data polygon",
+  "files": [
+   "zoox-san-francisco-september-16-2025-boundary.geojson"
+  ]
+ },
+ {
+  "market": "zoox-san-francisco",
+  "date": "2025-11-18",
+  "dataset": "avmap",
+  "file": "areas/zoox-san-francisco/2025-11-18_avmap.geojson",
+  "sq_mi": 2.37,
+  "source_url": "https://sfstandard.com/2025/11/18/zoox-launches-publicly-san-francisco-kind/",
+  "note": "av-map-data polygon",
+  "files": [
+   "zoox-san-francisco-november-18-2025-boundary.geojson"
+  ]
+ },
+ {
+  "market": "zoox-san-francisco",
+  "date": "2026-04-20",
+  "dataset": "rtt",
+  "file": "areas/zoox-san-francisco/2026-04-20_rtt.geojson",
+  "sq_mi": 2.37,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/9c5480d",
+  "note": "RTT initial import — polygon as of import date, not an expansion date",
+  "commit": "9c5480d",
+  "rtt_slug": "zoox/bay-area-zoox"
+ },
+ {
+  "market": "zoox-san-francisco",
+  "date": "2026-05-11",
+  "dataset": "rtt",
+  "file": "areas/zoox-san-francisco/2026-05-11_rtt.geojson",
+  "sq_mi": 11.39,
+  "source_url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/991b504",
+  "note": "RTT git commit date = date change first observed (actual expansion may be earlier)",
+  "commit": "991b504",
+  "rtt_slug": "zoox/bay-area-zoox"
+ }
+]

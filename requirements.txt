@@ -1,0 +1,3 @@
+# Dependencies for tools/build_data.py
+shapely
+pyproj

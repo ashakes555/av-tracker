@@ -1,0 +1,227 @@
+{
+ "sl_translate": "aria_label,title1,title2,heading1,heading2,heading3,heading4,description,descriptionLine2,descriptionLine3,alt_text,badge_primary_copy,badge_secondary_copy,badge_tertiary_copy,text,mobile_text,link_tooltip,legal_copy,legalCopy,desktop_interaction_copy,mobile_interaction_copy,textValue,t_value,tableHeading,topLinePrimary,topLineSecondary,bottomLine,tabLabel,tabSubLabel,tabTertiaryLabel,header,headerSubtext,footer,eyebrow,cellLabel,cellCopy,heading,imageHeading,copy,copyForMobile,descriptionForMobile,ctaText,heading_eyebrow,heading_section_1,heading_section_2,subheading,tabs_aria_label,tab_label,label,expand_list_button_title",
+ "data": {
+  "gridCols": 12,
+  "gridRows": 1,
+  "gridColGap": 24,
+  "mobileConfigOverwrite": {
+   "gridCols": 2,
+   "gridRows": 1,
+   "gridColGap": 24
+  },
+  "scrim": "white",
+  "templateName": "section_header_group_small",
+  "containerList": [
+   {
+    "name": "content_container",
+    "position": {
+     "columnStart": 1,
+     "columnEnd": -1,
+     "rowStart": 1,
+     "rowEnd": 1
+    },
+    "desktopConfigOverwrite": {
+     "position": {
+      "columnStart": 2,
+      "columnEnd": 12,
+      "rowStart": 1,
+      "rowEnd": 1
+     }
+    },
+    "tabletConfigOverwrite": {
+     "margin": {
+      "marginInlineStart": 36,
+      "marginInlineEnd": 36
+     }
+    },
+    "mobileConfigOverwrite": {
+     "margin": {
+      "marginInlineStart": 24,
+      "marginInlineEnd": 24
+     }
+    }
+   }
+  ],
+  "componentList": [
+   {
+    "type": "textLine",
+    "name": "eyebrow",
+    "containerName": "content_container",
+    "props": {
+     "t_value": "",
+     "color": "themeForegroundLowContrast",
+     "typography": "h4",
+     "headingLevel": "body"
+    }
+   },
+   {
+    "type": "textLine",
+    "name": "header_line1",
+    "containerName": "content_container",
+    "props": {
+     "t_value": "",
+     "color": "themeForegroundHighContrast",
+     "typography": "h1Alt",
+     "mobileConfigOverwrite": {
+      "typography": "h3"
+     },
+     "headingLevel": "h2"
+    }
+   },
+   {
+    "type": "textLine",
+    "name": "subheader_line1",
+    "containerName": "content_container",
+    "props": {
+     "t_value": "",
+     "color": "themeForegroundHighContrast",
+     "typography": "h3",
+     "desktopConfigOverwrite": {
+      "typography": "h2"
+     },
+     "headingLevel": "body"
+    }
+   },
+   {
+    "type": "textLine",
+    "name": "description_line1",
+    "props": {
+     "t_value": "",
+     "color": "themeForegroundLowContrast",
+     "typography": "f20l28w400",
+     "mobileConfigOverwrite": {
+      "typography": "f17l24W400"
+     },
+     "headingLevel": "body"
+    },
+    "containerName": "content_container",
+    "margin": {
+     "marginBlockStart": 4
+    }
+   },
+   {
+    "name": "cta_group",
+    "containerName": "content_container",
+    "type": "buttonGroup",
+    "props": {
+     "fullWidth": "all",
+     "buttonList": [
+      {
+       "cta": {
+        "uri": "",
+        "show_gtm": false,
+        "display": true,
+        "text": "",
+        "type": "",
+        "color": "",
+        "mobile_text": "mobile label",
+        "link_tooltip": "",
+        "gtm_event": "",
+        "gtm_drawer": "",
+        "gtm_interaction": ""
+       },
+       "width": {
+        "type": "px",
+        "value": 200
+       }
+      },
+      {
+       "cta": {
+        "uri": "",
+        "show_gtm": false,
+        "display": true,
+        "text": "",
+        "type": "",
+        "color": "",
+        "mobile_text": "mobile label",
+        "link_tooltip": "",
+        "gtm_event": "",
+        "gtm_drawer": "",
+        "gtm_interaction": ""
+       },
+       "width": {
+        "type": "px",
+        "value": 200
+       }
+      }
+     ]
+    },
+    "margin": {
+     "marginBlockStart": 40
+    }
+   }
+  ],
+  "dynamicSection": {
+   "height": {
+    "type": "fit-content"
+   },
+   "desktopConfigOverwrite": {
+    "maxWidth": {
+     "type": "px",
+     "value": 2560
+    },
+    "padding": {
+     "paddingInlineStart": 48,
+     "paddingInlineEnd": 48
+    }
+   }
+  },
+  "contentMap": {
+   "scrim": "white",
+   "component_eyebrow": {
+    "t_value": ""
+   },
+   "component_header_line1": {
+    "t_value": "Engineered to Be the Safest in the World",
+    "headingLevel": "h2"
+   },
+   "component_subheader_line1": {
+    "t_value": ""
+   },
+   "component_description_line1": {
+    "t_value": "Our safety systems set the standard for vehicle safety worldwide. <a href=\"/safety\">Learn More</a>"
+   },
+   "component_cta_group": {
+    "buttonList": [
+     {
+      "text": "",
+      "mobile_text": "",
+      "show_gtm": 0,
+      "gtm_event": "drawer-interaction",
+      "gtm_drawer": "modely",
+      "gtm_interaction": "",
+      "link_type": "url",
+      "uri": "",
+      "link_tooltip": "",
+      "new_tab": 0,
+      "modal_id": "",
+      "size": "",
+      "type": "highContrast",
+      "hide_on_desktop": false,
+      "hide_on_mobile": 0,
+      "display": true
+     },
+     {
+      "text": "",
+      "mobile_text": "",
+      "show_gtm": 0,
+      "gtm_event": "drawer-interaction",
+      "gtm_drawer": "modely",
+      "gtm_interaction": "",
+      "link_type": "url",
+      "uri": "",
+      "link_tooltip": "",
+      "new_tab": 0,
+      "modal_id": "",
+      "size": "",
+      "type": "tertiary",
+      "hide_on_desktop": false,
+      "hide_on_mobile": 0,
+      "display": true
+     }
+    ],
+    "drupalWidget": "ctaGroup"
+   }
+  }
+ }
+}

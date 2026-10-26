@@ -1,0 +1,10 @@
+{
+  "provider": "waymo",
+  "slug": "austin-waymo",
+  "name": "Austin",
+  "centerLat": 30.27,
+  "centerLng": -97.77,
+  "defaultZoom": 11,
+  "isTestRegion": false,
+  "aliases": []
+}

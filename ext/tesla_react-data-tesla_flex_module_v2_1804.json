@@ -1,0 +1,401 @@
+{
+ "sl_translate": "aria_label,title1,title2,heading1,heading2,heading3,heading4,description,descriptionLine2,descriptionLine3,alt_text,badge_primary_copy,badge_secondary_copy,badge_tertiary_copy,text,mobile_text,link_tooltip,legal_copy,legalCopy,desktop_interaction_copy,mobile_interaction_copy,textValue,t_value,tableHeading,topLinePrimary,topLineSecondary,bottomLine,tabLabel,tabSubLabel,tabTertiaryLabel,header,headerSubtext,footer,eyebrow,cellLabel,cellCopy,heading,imageHeading,copy,copyForMobile,descriptionForMobile,ctaText,heading_eyebrow,heading_section_1,heading_section_2,subheading,tabs_aria_label,tab_label,label,expand_list_button_title",
+ "data": {
+  "gridRows": 1,
+  "gridCols": 12,
+  "gridColGap": 24,
+  "tabletConfigOverwrite": {
+   "gridCols": 8
+  },
+  "mobileConfigOverwrite": {
+   "gridCols": 2
+  },
+  "scrim": "white",
+  "templateName": "basic_section_sub_small",
+  "containerList": [
+   {
+    "name": "media_container",
+    "position": {
+     "columnStart": 2,
+     "columnEnd": 12,
+     "rowStart": 1,
+     "rowEnd": 1
+    },
+    "tabletConfigOverwrite": {
+     "position": {
+      "columnStart": 1,
+      "columnEnd": 9,
+      "rowStart": 1,
+      "rowEnd": 1
+     },
+     "padding": {
+      "paddingInlineStart": 36,
+      "paddingInlineEnd": 36
+     }
+    },
+    "mobileConfigOverwrite": {
+     "position": {
+      "columnStart": 1,
+      "columnEnd": 3,
+      "rowStart": 1,
+      "rowEnd": 1
+     },
+     "padding": {
+      "paddingInlineStart": 12,
+      "paddingInlineEnd": 12
+     }
+    }
+   },
+   {
+    "name": "content_container",
+    "position": {
+     "columnStart": 2,
+     "columnEnd": 12,
+     "rowStart": 2,
+     "rowEnd": 2
+    },
+    "padding": {
+     "paddingBlockStart": 24
+    },
+    "tabletConfigOverwrite": {
+     "position": {
+      "columnStart": 1,
+      "columnEnd": 9,
+      "rowStart": 2,
+      "rowEnd": 2
+     },
+     "padding": {
+      "paddingBlockStart": 24,
+      "paddingInlineStart": 36,
+      "paddingInlineEnd": 36
+     }
+    },
+    "mobileConfigOverwrite": {
+     "position": {
+      "columnStart": 1,
+      "columnEnd": 3,
+      "rowStart": 2,
+      "rowEnd": 2
+     },
+     "padding": {
+      "paddingBlockStart": 24,
+      "paddingInlineStart": 24,
+      "paddingInlineEnd": 24
+     }
+    }
+   }
+  ],
+  "componentList": [
+   {
+    "type": "media",
+    "media": {
+     "desktop_image": "",
+     "portrait_image": "",
+     "mobile_image": "",
+     "landscape_image": "",
+     "alt_text": "",
+     "media_type": "",
+     "portrait": "",
+     "use_mobile_for_portrait": "",
+     "use_desktop_for_mobile_landscape": "",
+     "id": "",
+     "autoplay_on_desktop": "",
+     "autoplay_on_mobile": "",
+     "desktop_poster_image": "",
+     "desktop_video": "",
+     "desktop_video_duration": "P0M",
+     "include_end_gradient": 0,
+     "mobile_poster_image": "",
+     "mobile_video": "",
+     "mobile_video_duration": "P0M",
+     "portrait_poster_image": "",
+     "portrait_video": "",
+     "portrait_video_duration": "",
+     "include_start_gradient": 0,
+     "end_gradient_color": "",
+     "end_gradient_opacity": "",
+     "end_gradient_size": "",
+     "gradient_is_horizontal": "",
+     "lazy_load": "",
+     "loop_video": "",
+     "media_anchor": 1,
+     "play_on_hover": "",
+     "rounded_corners": false,
+     "show_video_controls": "",
+     "start_gradient_color": "",
+     "start_gradient_size": "",
+     "start_gradient_opacity": "",
+     "third_party_embed_code": "",
+     "aspectRatio": "",
+     "mediaHeight": "",
+     "roundedCorners": true,
+     "ultraWideConfigOverwrite": {
+      "mediaHeight": ""
+     },
+     "desktopConfigOverwrite": {
+      "mediaHeight": ""
+     },
+     "tabletConfigOverwrite": {
+      "mediaHeight": ""
+     }
+    },
+    "name": "media",
+    "containerName": "media_container"
+   },
+   {
+    "type": "textLine",
+    "name": "header_line1",
+    "containerName": "content_container",
+    "props": {
+     "t_value": "",
+     "color": "themeForegroundHighContrast",
+     "typography": "h3",
+     "desktopConfigOverwrite": {
+      "typography": "h1Alt"
+     },
+     "headingLevel": "h2"
+    }
+   },
+   {
+    "type": "textLine",
+    "name": "description_line1",
+    "props": {
+     "t_value": "",
+     "color": "themeForegroundLowContrast",
+     "typography": "f17l24w400",
+     "desktopConfigOverwrite": {
+      "typography": "f20l28w400"
+     },
+     "headingLevel": "body"
+    },
+    "containerName": "content_container",
+    "margin": {
+     "marginBlockStart": 4
+    }
+   },
+   {
+    "name": "cta_group",
+    "containerName": "content_container",
+    "type": "buttonGroup",
+    "props": {
+     "buttonList": [
+      {
+       "cta": {
+        "uri": "",
+        "show_gtm": false,
+        "display": true,
+        "text": "",
+        "type": "",
+        "color": "",
+        "mobile_text": "mobile label",
+        "link_tooltip": "",
+        "gtm_event": "",
+        "gtm_drawer": "",
+        "gtm_interaction": ""
+       },
+       "width": {
+        "type": "px",
+        "value": 200
+       }
+      },
+      {
+       "cta": {
+        "uri": "",
+        "show_gtm": false,
+        "display": true,
+        "text": "",
+        "type": "",
+        "color": "",
+        "mobile_text": "mobile label",
+        "link_tooltip": "",
+        "gtm_event": "",
+        "gtm_drawer": "",
+        "gtm_interaction": ""
+       },
+       "width": {
+        "type": "px",
+        "value": 200
+       }
+      }
+     ]
+    },
+    "margin": {
+     "marginBlockStart": 40
+    }
+   }
+  ],
+  "dynamicSection": {
+   "classes": "tcl-button-group--full-width",
+   "height": {
+    "type": "fit-content"
+   },
+   "desktopConfigOverwrite": {
+    "maxWidth": {
+     "type": "px",
+     "value": 2560
+    },
+    "padding": {
+     "paddingInlineStart": 48,
+     "paddingInlineEnd": 48
+    }
+   }
+  },
+  "contentMap": {
+   "scrim": "white",
+   "component_media": {
+    "media_type": "image",
+    "desktop_image": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Robotaxi-Safety-360-Desktop.jpg",
+    "landscape_image": "",
+    "portrait_image": "",
+    "tablet_landscape_image": "",
+    "mobile_image": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Robotaxi-Safety-360-Mobile.jpg",
+    "alt_text": "360-degree vision",
+    "use_desktop_for_mobile_landscape": 0,
+    "use_mobile_for_portrait": 0,
+    "source_type": 1,
+    "video_alt_text": "",
+    "third_party_embed_code": "",
+    "desktop_video": "",
+    "desktop_poster_image": "",
+    "portrait_video": "",
+    "portrait_poster_image": "",
+    "tablet_landscape_video": "",
+    "tablet_landscape_poster_image": "",
+    "mobile_video": "",
+    "mobile_poster_image": "",
+    "loop_video": 0,
+    "autoplay_on_desktop": 0,
+    "autoplay_on_mobile": 0,
+    "show_video_controls": 2,
+    "lazy_load": 1,
+    "include_start_gradient": 0,
+    "start_gradient_color": "black",
+    "start_gradient_size": "short",
+    "start_gradient_opacity": 0,
+    "include_end_gradient": 0,
+    "end_gradient_color": "black",
+    "end_gradient_size": "short",
+    "end_gradient_opacity": 0,
+    "gradient_is_horizontal": 0,
+    "mediaHeight": "",
+    "drupalWidget": "media",
+    "configOverwrite_ultraWide_aspectRatio": "",
+    "configOverwrite_desktop_aspectRatio": "",
+    "configOverwrite_tablet_aspectRatio": "",
+    "configOverwrite_mobile_aspectRatio": "",
+    "configOverwrite_landscape_aspectRatio": "",
+    "mediaHeight_original": "",
+    "configOverwrite_ultraWide_mediaHeight": 850,
+    "configOverwrite_ultraWide_mediaHeight_original": "short",
+    "configOverwrite_desktop_mediaHeight": 580,
+    "configOverwrite_desktop_mediaHeight_original": "short",
+    "configOverwrite_tablet_mediaHeight": 464,
+    "configOverwrite_tablet_mediaHeight_original": 464,
+    "configOverwrite_mobile_mediaHeight": 369,
+    "configOverwrite_mobile_mediaHeight_original": 369,
+    "configOverwrite_landscape_mediaHeight": 369,
+    "configOverwrite_landscape_mediaHeight_original": 369,
+    "overwrite": {
+     "default": {
+      "configOverwrite_ultraWide_aspectRatio": "",
+      "configOverwrite_desktop_aspectRatio": "",
+      "configOverwrite_tablet_aspectRatio": "",
+      "configOverwrite_mobile_aspectRatio": "",
+      "configOverwrite_landscape_aspectRatio": "",
+      "mediaHeight_original": "",
+      "configOverwrite_ultraWide_mediaHeight_original": "short",
+      "configOverwrite_ultraWide_mediaHeight": 850,
+      "configOverwrite_desktop_mediaHeight_original": "short",
+      "configOverwrite_desktop_mediaHeight": 580,
+      "configOverwrite_tablet_mediaHeight_original": 464,
+      "configOverwrite_tablet_mediaHeight": 464,
+      "configOverwrite_mobile_mediaHeight_original": 369,
+      "configOverwrite_mobile_mediaHeight": 369,
+      "configOverwrite_landscape_mediaHeight_original": 369,
+      "configOverwrite_landscape_mediaHeight": 369
+     },
+     "data": {
+      "ultraWideConfigOverwrite": {
+       "mediaHeight": 850
+      },
+      "desktopConfigOverwrite": {
+       "mediaHeight": 580
+      },
+      "tabletConfigOverwrite": {
+       "mediaHeight": 464
+      },
+      "mobileConfigOverwrite": {
+       "mediaHeight": 369
+      },
+      "landscapeConfigOverwrite": {
+       "mediaHeight": 369
+      }
+     }
+    },
+    "desktop_video_duration": "P0M",
+    "portrait_video_duration": "P0M",
+    "mobile_video_duration": "P0M",
+    "videoControlCtaPosition": "",
+    "videoControlCtaPositionMobile": "",
+    "videoControlCtaPositionTablet": "",
+    "desktopConfigOverwrite": {
+     "videoControlPosition": ""
+    },
+    "mobileConfigOverwrite": {
+     "videoControlPosition": ""
+    },
+    "tabletConfigOverwrite": {
+     "videoControlPosition": ""
+    }
+   },
+   "component_header_line1": {
+    "t_value": "360-Degree Vision",
+    "headingLevel": "h2"
+   },
+   "component_description_line1": {
+    "t_value": "External cameras offer a 360-degree view of the environment around the vehicle. Each vehicle\u2019s neural network processes over one million pixels of anonymized visual data every millisecond so it can respond in real time to complex and highly variable driving environments."
+   },
+   "component_cta_group": {
+    "buttonList": [
+     {
+      "text": "",
+      "mobile_text": "",
+      "show_gtm": 0,
+      "gtm_event": "drawer-interaction",
+      "gtm_drawer": "modely",
+      "gtm_interaction": "",
+      "link_type": "url",
+      "uri": "",
+      "link_tooltip": "",
+      "new_tab": 0,
+      "modal_id": "",
+      "size": "",
+      "type": "highContrast",
+      "hide_on_desktop": false,
+      "hide_on_mobile": 0,
+      "display": true
+     },
+     {
+      "text": "",
+      "mobile_text": "",
+      "show_gtm": 0,
+      "gtm_event": "drawer-interaction",
+      "gtm_drawer": "modely",
+      "gtm_interaction": "",
+      "link_type": "url",
+      "uri": "",
+      "link_tooltip": "",
+      "new_tab": 0,
+      "modal_id": "",
+      "size": "",
+      "type": "tertiary",
+      "hide_on_desktop": false,
+      "hide_on_mobile": 0,
+      "display": true
+     }
+    ],
+    "drupalWidget": "ctaGroup"
+   }
+  }
+ }
+}

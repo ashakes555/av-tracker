@@ -1,0 +1,984 @@
+{
+ "datasets": [
+  {
+   "id": "av-map-data",
+   "name": "av-map-data (avmap.io)",
+   "url": "https://github.com/path-avmap/av-map-data",
+   "license": "MIT",
+   "snapshot": "3c94c4f 2026-05-14",
+   "used_for": "Market events, historical service-area polygons"
+  },
+  {
+   "id": "rtt",
+   "name": "robotaxi-service-areas (Robotaxi Tracker)",
+   "url": "https://github.com/ethanmckanna/robotaxi-service-areas",
+   "license": "CC BY 4.0",
+   "attribution": "Service areas: Robotaxi Tracker (robotaxitracker.com)",
+   "snapshot": "3857624 2026-09-10",
+   "used_for": "Service-area polygons since 2026-04-20 (git history)"
+  },
+  {
+   "id": "texasavtracker",
+   "name": "Texas AV Tracker (TxDMV registry compilation)",
+   "url": "https://texasavtracker.com/",
+   "license": "unknown — used for personal research; confirm before republishing",
+   "used_for": "Texas registered vehicle counts per operator since 2026-05-28"
+  },
+  {
+   "id": "waymo-safety-hub",
+   "name": "Waymo Safety Impact hub CSV1",
+   "url": "https://waymo.com/safety/impact/",
+   "license": "Waymo terms",
+   "used_for": "Cumulative rider-only miles by location, quarterly vintages 2024-09 → 2026-06"
+  },
+  {
+   "id": "tesla-safety",
+   "name": "Tesla Robotaxi Safety Report",
+   "url": "https://www.tesla.com/robotaxi/safety",
+   "license": "Tesla terms",
+   "used_for": "Weekly cumulative driverless miles per city since Jan 2026"
+  }
+ ],
+ "urls": [
+  {
+   "url": "https://www.tesla.com/robotaxi/safety",
+   "used_by": 179,
+   "type": "official"
+  },
+  {
+   "url": "https://texasavtracker.com/",
+   "used_by": 57,
+   "type": "third-party-tracker"
+  },
+  {
+   "url": "https://waymo.com/blog/2026/02/dallas-houston-san-antonio-orlando",
+   "used_by": 12,
+   "type": "official"
+  },
+  {
+   "url": "https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q3-2026-Update.pdf",
+   "used_by": 7,
+   "type": "official"
+  },
+  {
+   "url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202503-2022benchmark.csv",
+   "used_by": 6,
+   "type": "official"
+  },
+  {
+   "url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202603-2022benchmark.csv",
+   "used_by": 6,
+   "type": "official"
+  },
+  {
+   "url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202606-2022benchmark.csv",
+   "used_by": 6,
+   "type": "official"
+  },
+  {
+   "url": "https://www.therobotreport.com/zoox-begins-testing-purpose-built-robotaxis-phoenix-and-dallas/",
+   "used_by": 6,
+   "type": "press"
+  },
+  {
+   "url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/9c5480d",
+   "used_by": 5,
+   "type": "press"
+  },
+  {
+   "url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/c87f081",
+   "used_by": 5,
+   "type": "press"
+  },
+  {
+   "url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202409-2022benchmark.csv",
+   "used_by": 5,
+   "type": "official"
+  },
+  {
+   "url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202412-2022benchmark.csv",
+   "used_by": 5,
+   "type": "official"
+  },
+  {
+   "url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202506-2022benchmark.csv",
+   "used_by": 5,
+   "type": "official"
+  },
+  {
+   "url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202509-2022benchmark.csv",
+   "used_by": 5,
+   "type": "official"
+  },
+  {
+   "url": "https://storage.googleapis.com/waymo-uploads/files/documents/safety/safety-impact-data/CSV1%20-%20RO%20Miles%20per%20Location%20202009-202512-2022benchmark.csv",
+   "used_by": 5,
+   "type": "official"
+  },
+  {
+   "url": "https://techcrunch.com/2026/09/01/waymo-accelerates-robotaxi-expansion-with-launches-in-denver-san-diego-and-tampa/",
+   "used_by": 5,
+   "type": "press"
+  },
+  {
+   "url": "https://teslanorth.com/2026/10/23/tesla-robotaxi-austin-1am-cota/",
+   "used_by": 5,
+   "type": "press"
+  },
+  {
+   "url": "https://waymo.com/blog/2020/10/waymo-is-opening-its-fully-driverless-service-in-phoenix",
+   "used_by": 5,
+   "type": "official"
+  },
+  {
+   "url": "https://waymo.com/blog/shorts/growing-to-1400-sqm/",
+   "used_by": 5,
+   "type": "official"
+  },
+  {
+   "url": "https://fox5sandiego.com/news/local-news/san-diego/waymo-san-diego-las-vegas-detroit/",
+   "used_by": 4,
+   "type": "press"
+  },
+  {
+   "url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/a75b193",
+   "used_by": 4,
+   "type": "press"
+  },
+  {
+   "url": "https://techcrunch.com/2024/06/05/zoox-to-test-self-driving-cars-in-austin-and-miami/",
+   "used_by": 4,
+   "type": "press"
+  },
+  {
+   "url": "https://techcrunch.com/2026/04/07/waymo-opens-robotaxi-service-in-nashville-partners-with-lyft/",
+   "used_by": 4,
+   "type": "press"
+  },
+  {
+   "url": "https://techcrunch.com/2026/04/18/tesla-brings-its-robotaxi-service-to-dallas-and-houston/",
+   "used_by": 4,
+   "type": "press"
+  },
+  {
+   "url": "https://waymo.com/blog/2023/08/waymos-next-chapter-in-san-francisco",
+   "used_by": 4,
+   "type": "official"
+  },
+  {
+   "url": "https://waymo.com/blog/2024/08/expanding-destinations-for-san-francisco-and-los-angeles-riders",
+   "used_by": 4,
+   "type": "official"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/09/01/waymo-and-zoox-expand-into-more-us-markets-as-robotaxi-race-heats-up.html",
+   "used_by": 4,
+   "type": "press"
+  },
+  {
+   "url": "https://www.prnewswire.com/news-releases/may-mobility-announces-on-demand-autonomous-service-in-grand-rapids-michigan-301351595.html",
+   "used_by": 4,
+   "type": "press"
+  },
+  {
+   "url": "https://zoox.com/journal/atlanta-expansion-2025/",
+   "used_by": 4,
+   "type": "official"
+  },
+  {
+   "url": "https://electrek.co/2026/04/30/tesla-robotaxi-unsupervised-finally-signs-ramping-up/",
+   "used_by": 3,
+   "type": "press"
+  },
+  {
+   "url": "https://eletric-vehicles.com/waymo/waymo-hits-500000-weekly-rides-and-over-4-million-miles-co-ceo-says/",
+   "used_by": 3,
+   "type": "press"
+  },
+  {
+   "url": "https://fortune.com/2022/02/01/cruise-robotaxi-self-driving-car-san-francisco/",
+   "used_by": 3,
+   "type": "press"
+  },
+  {
+   "url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/d5d1581",
+   "used_by": 3,
+   "type": "press"
+  },
+  {
+   "url": "https://maymobility.com/locations/arlington-tx/",
+   "used_by": 3,
+   "type": "official"
+  },
+  {
+   "url": "https://maymobility.com/posts/a2go-autonomous-shuttle-service-launches-in-ann-arbor-on-october-11/",
+   "used_by": 3,
+   "type": "official"
+  },
+  {
+   "url": "https://maymobility.com/posts/lyft-and-may-mobility-deploy-their-first-autonomous-vehicle-fleet-in-atlanta/",
+   "used_by": 3,
+   "type": "official"
+  },
+  {
+   "url": "https://maymobility.com/posts/may-mobility-and-via-launch-first-rural-transit-program-to-use-wheelchair-accessible-ada-compliant-autonomous-vehicless/",
+   "used_by": 3,
+   "type": "official"
+  },
+  {
+   "url": "https://maymobility.com/posts/peachtree-corners-launch-autonomous-vehicle-may-mobility-t-mobile/",
+   "used_by": 3,
+   "type": "official"
+  },
+  {
+   "url": "https://sfstandard.com/2025/11/18/zoox-launches-publicly-san-francisco-kind/",
+   "used_by": 3,
+   "type": "press"
+  },
+  {
+   "url": "https://techcrunch.com/2023/06/27/zoox-begins-testing-robotaxis-on-public-roads-in-las-vegas/",
+   "used_by": 3,
+   "type": "press"
+  },
+  {
+   "url": "https://techcrunch.com/2025/09/10/zoox-opens-its-las-vegas-robotaxi-service-to-the-public/",
+   "used_by": 3,
+   "type": "press"
+  },
+  {
+   "url": "https://techcrunch.com/2025/12/03/uber-and-avride-launch-robotaxi-service-in-dallas/",
+   "used_by": 3,
+   "type": "press"
+  },
+  {
+   "url": "https://techcrunch.com/2026/09/14/waymo-opens-robotaxi-service-in-las-vegas/",
+   "used_by": 3,
+   "type": "press"
+  },
+  {
+   "url": "https://waymo.com/blog/2022/12/wheels-up-for-waymo-as-we-expand",
+   "used_by": 3,
+   "type": "official"
+  },
+  {
+   "url": "https://waymo.com/blog/2024/03/scaling-waymo-one-safely-across-four-cities-this-year",
+   "used_by": 3,
+   "type": "official"
+  },
+  {
+   "url": "https://waymo.com/blog/2025/11/safe-routine-ready-autonomous-driving-in-new-cities",
+   "used_by": 3,
+   "type": "official"
+  },
+  {
+   "url": "https://waymo.com/blog/2026/02/charlotte-expansion",
+   "used_by": 3,
+   "type": "official"
+  },
+  {
+   "url": "https://waymo.com/blog/2026/02/chicago-expansion",
+   "used_by": 3,
+   "type": "official"
+  },
+  {
+   "url": "https://www.businessinsider.com/teslas-ride-hailing-service-live-in-san-francisco-musk-says-2025-7",
+   "used_by": 3,
+   "type": "press"
+  },
+  {
+   "url": "https://www.cnbc.com/2025/03/04/waymo-uber-begin-offering-robotaxi-rides-in-austin-ahead-of-sxsw.html",
+   "used_by": 3,
+   "type": "press"
+  },
+  {
+   "url": "https://www.cnbc.com/2025/06/20/tesla-robotaxi-launch-austin.html",
+   "used_by": 3,
+   "type": "press"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/01/22/waymo-launches-robotaxi-service-in-miami-extending-us-lead.html",
+   "used_by": 3,
+   "type": "press"
+  },
+  {
+   "url": "https://www.eetimes.com/waymos-robotaxi-program-progress-and-potential/",
+   "used_by": 3,
+   "type": "press"
+  },
+  {
+   "url": "https://www.kron4.com/news/bay-area/zoox-robotaxis-to-begin-testing-on-streets-of-san-francisco/",
+   "used_by": 3,
+   "type": "press"
+  },
+  {
+   "url": "https://www.technologyreview.com/2017/04/25/152152/waymo-has-invited-the-public-to-hop-into-its-self-driving-cars/",
+   "used_by": 3,
+   "type": "press"
+  },
+  {
+   "url": "https://www.theverge.com/news/688202/waymo-sf-la-service-area-expand-robotaxi",
+   "used_by": 3,
+   "type": "press"
+  },
+  {
+   "url": "https://www.uber.com/newsroom/waymo-on-uber-atl/",
+   "used_by": 3,
+   "type": "official"
+  },
+  {
+   "url": "https://bizneworleans.com/waymo-to-test-driverless-vehicles-in-new-orleans-during-mardi-gras/",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://ccta.net/news/contra-costa-transportation-authority-and-may-mobility-launch-autonomous-vehicle-service-in-martinez-california/",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://electrek.co/2025/08/27/tesla-announces-50-increase-in-austin-robotaxi-but-50-from-what/",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://electrek.co/2026/02/12/waymo-begins-fully-autonomous-ops-with-6th-gen-driver-targets-1m-weekly-rides/",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/a88ba8a",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/e14da6b",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/f6ace76",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://investor.uber.com/news-events/news/press-release-details/2025/Volkswagen-and-Uber-Launch-Long-Term-Strategic-Partnership-to-Deploy-Autonomous-ID--Buzz-Vehicles-on-the-Uber-Platform/default.aspx",
+   "used_by": 2,
+   "type": "official"
+  },
+  {
+   "url": "https://news3lv.com/news/local/waymo-to-begin-testing-self-driving-vehicles-in-las-vegas",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://sfstandard.com/2022/11/01/self-driving-cruise-cars-are-expanding-to-most-of-sf-says-ceo/",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://sfstandard.com/2025/11/12/waymo-will-now-drive-bay-area-freeways-san-jos/",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://techcrunch.com/2019/10/03/self-driving-vehicle-startup-zoox-has-expanded-to-las-vegas/",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://techcrunch.com/2022/11/01/waymo-launches-autonomous-rides-to-phoenix-airport/",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://techcrunch.com/2023/07/06/volkswagen-to-start-testing-self-driving-id-buzz-vans-in-austin/",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://techcrunch.com/2025/02/12/may-mobility-launches-its-first-driverless-commercial-ride-hail-service/",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://techcrunch.com/2025/06/17/waymo-robotaxis-are-pushing-into-even-more-california-cities/",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://techcrunch.com/2025/08/22/waymo-approved-to-start-autonomous-vehicle-testing-in-new-york-city/",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://techcrunch.com/2025/10/29/uber-to-launch-a-premium-robotaxi-service-in-waymos-turf-of-san-francisco/",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://techcrunch.com/2025/11/18/tesla-receives-ride-hailing-permit-in-arizona-in-last-required-step-to-launch-robotaxi-service/",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://techcrunch.com/2026/03/24/zoox-brings-its-robotaxis-to-austin-and-miami/",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://techcrunch.com/2026/04/08/volkswagen-moia-uber-los-angeles-testing-self-driving-microbuses-id-buzz/",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://techcrunch.com/2026/04/13/uber-nuro-san-francisco-testing-premium-robotaxi-service/",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://techcrunch.com/2026/08/05/zoox-to-start-charging-for-robotaxi-rides-in-las-vegas/",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://thenextweb.com/news/uber-relaunches-motional-robotaxis-in-las-vegas",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://waymo.com/blog/2017/10/michigan-is-waymos-winter-wonderland",
+   "used_by": 2,
+   "type": "official"
+  },
+  {
+   "url": "https://waymo.com/blog/2017/11/waymos-fully-self-driving-vehicles-are-here",
+   "used_by": 2,
+   "type": "official"
+  },
+  {
+   "url": "https://waymo.com/blog/2023/05/waymo-one-doubles-service-area-in",
+   "used_by": 2,
+   "type": "official"
+  },
+  {
+   "url": "https://waymo.com/blog/2024/06/largest-autonomous-ride-hail-territory-in-us-now-even-larger",
+   "used_by": 2,
+   "type": "official"
+  },
+  {
+   "url": "https://waymo.com/blog/2025/07/our-next-city-dallas",
+   "used_by": 2,
+   "type": "official"
+  },
+  {
+   "url": "https://waymo.com/blog/2026/02/waymo-is-headed-to-sacramento/",
+   "used_by": 2,
+   "type": "official"
+  },
+  {
+   "url": "https://waymo.com/blog/2026/04/floridas-new-way-to-ride/",
+   "used_by": 2,
+   "type": "official"
+  },
+  {
+   "url": "https://waymo.com/blog/2026/10/waymo-in-toronto/",
+   "used_by": 2,
+   "type": "official"
+  },
+  {
+   "url": "https://waymo.com/blog/?modal=short-entering-st-louis",
+   "used_by": 2,
+   "type": "official"
+  },
+  {
+   "url": "https://waymo.com/blog/?modal=short-get-ready-tampa-were-laying-the-groundwork-to-serve-you-in-the-future-in-the",
+   "used_by": 2,
+   "type": "official"
+  },
+  {
+   "url": "https://waymo.com/blog/?modal=short-waymo-coming-to-pittsburgh",
+   "used_by": 2,
+   "type": "official"
+  },
+  {
+   "url": "https://waymo.com/blog/?modal=short-waymo-is-heading-to-baltimore",
+   "used_by": 2,
+   "type": "official"
+  },
+  {
+   "url": "https://waymo.com/blog/?modal=short-were-lacing-up-our-skates-and-laying-the-early-groundwork-for-our-fully",
+   "used_by": 2,
+   "type": "official"
+  },
+  {
+   "url": "https://www.axios.com/local/austin/2025/07/17/waymo-expands-austin-service-area",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://www.axios.com/local/houston/2025/05/28/waymo-houston-cars-test-driverless",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://www.axios.com/local/san-antonio/2025/05/27/waymo-san-antonio-cars-test-drive-downtown",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://www.azcentral.com/story/news/local/surprise/2023/05/07/sun-city-self-driving-taxi-service-may-mobility-launches/70171913007/",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://www.businessinsider.com/tesla-new-robotaxi-geofence-austin-shape-elon-musk-bigger-waymo-2025-7",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://www.cambridgema.gov/Departments/transportation/News/2025/05/waymotesting",
+   "used_by": 2,
+   "type": "regulator"
+  },
+  {
+   "url": "https://www.cbs8.com/article/news/local/waymo-comes-to-san-diego/509-c9ba8f17-bada-457a-add3-d671e09b23c4",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://www.cbsnews.com/colorado/news/waymo-self-driving-cars-denver-colorado-governors-safer-roads/",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://www.cbsnews.com/miami/news/waymos-self-driving-cars-on-miami-streets-as-company-tests-its-technology/",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://www.claimsjournal.com/news/west/2017/11/30/281801.htm",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://www.cnbc.com/2025/07/07/waymo-to-begin-testing-in-philadelphia-with-drivers-behind-the-wheel.html",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://www.engadget.com/amazon-zoox-autonomous-vehicle-test-seattle-103516733.html",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://www.facebook.com/ContraCostaTransportationAuthority/photos/1152329803651028/",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://www.geekwire.com/2025/waymo-to-start-testing-and-laying-groundwork-for-driverless-taxi-service-in-seattle-area/",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://www.grandrapidsmi.gov/Government/Departments/Mobile-GR/Grand-Rapids-Autonomous-Vehicle-Initiative",
+   "used_by": 2,
+   "type": "regulator"
+  },
+  {
+   "url": "https://www.iotworldtoday.com/transportation-logistics/may-mobility-launches-first-commercial-driverless-car-service",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://www.kaxe.org/local-news/2025-08-11/grand-rapids-autonomous-transit-expanding-to-nearby-cities-tribal-stops",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://www.kvue.com/article/news/local/avride-self-driving-vehicles-austin-testing-driverless-cars-autonomous-currently/269-bc74bd81-9cdb-4264-b446-d8a8d20d77b1",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://www.mercurynews.com/2025/03/11/alphabets-waymo-to-offer-self-driving-rides-in-silicon-valley/",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://www.michiganbusiness.org/press-releases/2019/07/public-private-partners-launch-grand-rapids-autonomous-vehicle-initiative-avgr/",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://www.pcmag.com/news/teslas-robotaxi-coverage-expands-four-times-the-size-of-initial-austin",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://www.prnewswire.com/news-releases/moia-america-to-expand-into-new-us-markets-through-strategic-partnership-with-beep-starting-in-orlando-302752223.html",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://www.reddit.com/r/waymo/comments/1prowr0/san_jose_service_area_expanded/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://www.reuters.com/business/autos-transportation/alphabets-waymo-robotaxi-unit-doubles-its-paid-rides-three-months-2024-08-20/",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://www.reuters.com/business/autos-transportation/autonomous-technology-startup-avride-ramp-up-testing-part-uber-robotaxi-rollout-2025-09-04/",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://www.reuters.com/business/autos-transportation/waymo-goes-fully-autonomous-nashville-2026-02-09/",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://www.reuters.com/technology/alphabets-waymo-aims-2026-self-driving-ride-hailing-launch-washington-dc-2025-03-25/",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://www.therobotreport.com/zoox-tests-self-driving-service-in-washington-d-c/",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://www.wired.com/story/cruise-robotaxi-self-driving-permit-revoked-california/",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://www.wkbw.com/news/local-news/inside-the-self-driving-cars-youve-been-seeing-around-buffalo",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://www.wkrn.com/news/local-news/nashville/waymo-to-begin-testing-autonomous-vehicles-in-nashville/",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://x.com/SawyerMerritt/status/1983287391315214570/photo/1",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://x.com/nearcyan/status/1968122084674113773",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://x.com/reed/status/2011133349486871008?s=20",
+   "used_by": 2,
+   "type": "press"
+  },
+  {
+   "url": "https://carboncredits.com/tesla-robotaxi-secures-permit-in-texas-fuels-tsla-stock-surge-and-market-buzz/",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://ccta.net/news/contra-costa-transportation-authority-and-may-mobility-launch-autonomous-vehicle-service/",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://flacenter.com/teslas-cybercab-milestone-and-what-it-means-for-future-evs/",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/353d501",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/4e27e66",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/7e58a1b",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/942d0c8",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/991b504",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/9aa4b99",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/bbed3c4",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/be25073",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/cf9a658",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/d9ae2e0",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://github.com/ethanmckanna/robotaxi-service-areas/commit/f0de424",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Zoox-and-Uber-Announce-Strategic-Partnership/default.aspx",
+   "used_by": 1,
+   "type": "official"
+  },
+  {
+   "url": "https://mashable.com/article/tesla-robotaxi-human-safety-monitor-drivers-seat",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://newsroom.hertz.com/press-releases/press-release-details/hertz-and-uber-partner-to-power-autonomous-robotaxi-and-driver-led-fleet-operations/",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://support.google.com/waymo/announcements/12766613?hl=en",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://techcrunch.com/2019/06/17/waymos-self-driving-jaguar-i-pace-vehicles-are-now-testing-on-public-roads/",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://techcrunch.com/2023/03/30/waymo-retires-its-self-driving-chrysler-pacifica-minivan/",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://techcrunch.com/2025/02/27/waymo-has-doubled-its-weekly-robotaxi-rides-in-less-than-a-year/",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://techcrunch.com/2026/05/05/nuro-receives-driverless-testing-permit-ahead-of-uber-robotaxi-service-launch/",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://techcrunch.com/2026/09/24/waymo-is-scaling-fast-heres-what-the-fleet-data-shows/",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://waymo.com/blog/2023/10/the-waymo-driver-now-available-on-uber-in-phoenix",
+   "used_by": 1,
+   "type": "official"
+  },
+  {
+   "url": "https://waymo.com/blog/2024/06/waymo-one-is-now-open-to-everyone-in-san-francisco",
+   "used_by": 1,
+   "type": "official"
+  },
+  {
+   "url": "https://waymo.com/blog/2024/11/waymo-one-open-to-all-in-los-angeles",
+   "used_by": 1,
+   "type": "official"
+  },
+  {
+   "url": "https://waymo.com/blog/2025/05/scaling-our-fleet-through-us-manufacturing",
+   "used_by": 1,
+   "type": "official"
+  },
+  {
+   "url": "https://waymo.com/blog/2025/09/waymo-is-coming-to-nashville-in-partnership-with-lyft",
+   "used_by": 1,
+   "type": "official"
+  },
+  {
+   "url": "https://waymo.com/blog/2026/02/waymo-is-returning-to-boston/",
+   "used_by": 1,
+   "type": "official"
+  },
+  {
+   "url": "https://waymo.com/blog/?modal=short-back-to-boston",
+   "used_by": 1,
+   "type": "official"
+  },
+  {
+   "url": "https://waymo.com/blog/?modal=short-bringing-our-service-to-philadelphia",
+   "used_by": 1,
+   "type": "official"
+  },
+  {
+   "url": "https://waymo.com/blog/?modal=short-laissez-les-bons-temps-rouler-waymo-is-bringing-its-fully-autonomous-ride",
+   "used_by": 1,
+   "type": "official"
+  },
+  {
+   "url": "https://waymo.com/blog/?modal=short-waymo-is-headed-to-sacramento",
+   "used_by": 1,
+   "type": "official"
+  },
+  {
+   "url": "https://waymo.com/blog/shorts/las-airport/",
+   "used_by": 1,
+   "type": "official"
+  },
+  {
+   "url": "https://www.autoblog.com/electric/tesla-builds-first-production-cybercab",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://www.axios.com/local/houston/2026/05/13/waymo-houston-expansion-world-cup-nrg-stadium",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://www.basenor.com/blogs/news/tesla-austin-robotaxi-fleet-hits-10-unsupervised-model-ys",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://www.basenor.com/blogs/news/tesla-robotaxi-expansion-60-model-ys-spotted-in-phoenix",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://www.cnbc.com/2025/04/24/waymo-reports-250000-paid-robotaxi-rides-per-week-in-us.html",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://www.engadget.com/waymo-says-its-robotaxis-are-now-making-50000-paid-trips-every-week-130005096.html",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://www.investing.com/news/stock-market-news/waymo-plans-to-quintuple-fleet-to-20000-semafor-reports-4958528",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://www.miamiherald.com/news/local/community/miami-dade/article297065439.html",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://www.michiganbusiness.org/press-releases/2019/07/public-private-partners-launch-grand-rapids-autonomous-vehicle-initiative/",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://www.nbcnews.com/tech/innovation/waymo-will-launch-paid-robotaxi-service-los-angeles-rcna146986",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://www.nbcnews.com/tech/innovation/waymo-will-launch-paid-robotaxi-service-los-angeles-wednesday-rcna147101",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://www.notateslaapp.com/news/3869/tesla-lowers-minimum-age-to-ride-a-robotaxi",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://www.prnewswire.com/news-releases/moove-partners-with-waymo-to-redefine-the-future-of-urban-mobility-302324144.html",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://www.techbuzz.ai/articles/tesla-goes-fully-driverless-in-austin-robotaxi-rollout",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://www.teslarati.com/tesla-cybercabs-take-over-austins-f1-weekend/",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://www.theverge.com/transportation/899323/zoox-robotaxi-las-vegas-san-francisco-austin-miami",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://www.webanditnews.com/2026/03/12/zoox-robotaxis-are-coming-to-uber-in-las-vegas-and-los-angeles-heres-what-it-means/",
+   "used_by": 1,
+   "type": "press"
+  },
+  {
+   "url": "https://x.com/Waymo/status/1927396004606701883",
+   "used_by": 1,
+   "type": "official"
+  },
+  {
+   "url": "https://x.com/Waymo/status/1927396004606701883?s=20",
+   "used_by": 1,
+   "type": "official"
+  },
+  {
+   "url": "https://x.com/Waymo/status/1990806862015705559",
+   "used_by": 1,
+   "type": "official"
+  },
+  {
+   "url": "https://x.com/Waymo/status/1995976302864580611",
+   "used_by": 1,
+   "type": "official"
+  },
+  {
+   "url": "https://x.com/Waymo/status/1996595348207231085",
+   "used_by": 1,
+   "type": "official"
+  },
+  {
+   "url": "https://x.com/Waymo/status/1998875372163600672",
+   "used_by": 1,
+   "type": "official"
+  },
+  {
+   "url": "https://x.com/Waymo/status/1998875372163600672?s=20",
+   "used_by": 1,
+   "type": "official"
+  },
+  {
+   "url": "https://x.com/Waymo/status/1999237761434345487",
+   "used_by": 1,
+   "type": "official"
+  },
+  {
+   "url": "https://x.com/Waymo/status/1999237761434345487?s=20",
+   "used_by": 1,
+   "type": "official"
+  }
+ ]
+}

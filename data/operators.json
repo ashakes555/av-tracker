@@ -1,0 +1,57 @@
+[
+ {
+  "id": "waymo",
+  "name": "Waymo",
+  "parent": "Alphabet",
+  "website": "https://waymo.com"
+ },
+ {
+  "id": "tesla",
+  "name": "Tesla Robotaxi",
+  "parent": "Tesla",
+  "website": "https://www.tesla.com/robotaxi"
+ },
+ {
+  "id": "zoox",
+  "name": "Zoox",
+  "parent": "Amazon",
+  "website": "https://zoox.com"
+ },
+ {
+  "id": "cruise",
+  "name": "Cruise",
+  "parent": "GM",
+  "website": "https://getcruise.com",
+  "notes": "Robotaxi program ended (permits suspended Oct 2023; GM exit Dec 2024)."
+ },
+ {
+  "id": "may-mobility",
+  "name": "May Mobility",
+  "parent": null,
+  "website": "https://maymobility.com"
+ },
+ {
+  "id": "avride",
+  "name": "Avride",
+  "parent": "Nebius",
+  "website": "https://avride.ai"
+ },
+ {
+  "id": "motional",
+  "name": "Motional",
+  "parent": "Hyundai",
+  "website": "https://motional.com"
+ },
+ {
+  "id": "nuro",
+  "name": "Nuro (Uber/Lucid)",
+  "parent": null,
+  "website": "https://nuro.ai"
+ },
+ {
+  "id": "moia",
+  "name": "MOIA America / VW ADMT",
+  "parent": "Volkswagen",
+  "website": "https://www.moia.io"
+ }
+]
